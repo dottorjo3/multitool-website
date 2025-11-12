@@ -1,0 +1,42 @@
+{
+  "$id": "ai-prompt-interview-designer.schema.json",
+  "type": "object",
+  "properties": {
+    "role": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Specifica il ruolo."
+    },
+    "scenario": {
+      "type": "string",
+      "minLength": 15,
+      "errorMessage": "Descrivi lo scenario dell'intervista."
+    },
+    "focus": {
+      "type": "string",
+      "enum": [
+        "competenze tecniche",
+        "soft skill",
+        "leadership",
+        "problem solving"
+      ],
+      "default": "competenze tecniche"
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "professionale ma accogliente",
+        "sfidante",
+        "analitico",
+        "creativo"
+      ],
+      "default": "professionale ma accogliente"
+    }
+  },
+  "required": [
+    "role",
+    "scenario",
+    "focus"
+  ],
+  "additionalProperties": false
+}

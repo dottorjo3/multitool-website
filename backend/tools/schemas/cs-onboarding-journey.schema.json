@@ -1,0 +1,38 @@
+{
+  "$id": "cs-onboarding-journey.schema.json",
+  "type": "object",
+  "properties": {
+    "planLengthWeeks": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 24,
+      "default": 8
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "primaryGoal": {
+      "type": "string",
+      "enum": [
+        "time-to-value",
+        "product-adoption",
+        "expansion",
+        "retention"
+      ],
+      "default": "time-to-value"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

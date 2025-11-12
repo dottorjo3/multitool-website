@@ -1,0 +1,26 @@
+{
+  "$id": "csv-to-json.schema.json",
+  "type": "object",
+  "properties": {
+    "csv": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Incolla il contenuto CSV da convertire"
+    },
+    "delimiter": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1,
+      "default": ","
+    },
+    "pretty": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    }
+  },
+  "required": ["csv"],
+  "additionalProperties": false
+}
+
+

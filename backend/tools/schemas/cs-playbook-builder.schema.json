@@ -1,0 +1,40 @@
+{
+  "$id": "cs-playbook-builder.schema.json",
+  "type": "object",
+  "properties": {
+    "motionTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "tooling": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "reviewCycle": {
+      "type": "string",
+      "enum": [
+        "monthly",
+        "quarterly",
+        "biannual"
+      ],
+      "default": "quarterly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

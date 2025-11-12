@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PdfToHtmlSchema",
+  "type": "object",
+  "properties": {
+    "zoom": {
+      "type": "number",
+      "minimum": 10,
+      "maximum": 500,
+      "default": 100,
+      "description": "Percentuale di zoom (default 100)"
+    },
+    "firstPage": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Prima pagina da convertire"
+    },
+    "lastPage": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Ultima pagina da convertire"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

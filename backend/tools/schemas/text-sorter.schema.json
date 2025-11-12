@@ -1,0 +1,34 @@
+{
+  "$id": "text-sorter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da ordinare"
+    },
+    "order": {
+      "type": "string",
+      "enum": ["asc", "desc"],
+      "default": "asc"
+    },
+    "caseSensitive": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    },
+    "unique": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    },
+    "removeEmpty": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

@@ -1,0 +1,47 @@
+{
+  "$id": "dev-security-scan-plan.schema.json",
+  "type": "object",
+  "properties": {
+    "repositories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "cadence": {
+      "type": "string",
+      "enum": [
+        "daily",
+        "weekly",
+        "biweekly",
+        "monthly"
+      ],
+      "default": "weekly"
+    },
+    "compliance": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "default": [
+        "OWASP Top 10"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

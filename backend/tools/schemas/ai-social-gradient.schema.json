@@ -1,0 +1,36 @@
+{
+  "$id": "ai-social-gradient.schema.json",
+  "type": "object",
+  "properties": {
+    "baseTopic": {
+      "type": "string",
+      "minLength": 3,
+      "default": "product launch"
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "linkedin",
+          "twitter",
+          "instagram",
+          "facebook",
+          "tiktok"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

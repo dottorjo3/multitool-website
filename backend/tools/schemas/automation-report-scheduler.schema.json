@@ -1,0 +1,53 @@
+{
+  "$id": "automation-report-scheduler.schema.json",
+  "type": "object",
+  "properties": {
+    "frequency": {
+      "type": "string",
+      "enum": [
+        "daily",
+        "weekly",
+        "monthly"
+      ],
+      "default": "weekly"
+    },
+    "formats": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "pdf",
+          "csv",
+          "xlsx",
+          "json"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "deliveryChannels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "email",
+          "slack",
+          "teams",
+          "webhook"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

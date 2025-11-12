@@ -1,0 +1,42 @@
+{
+  "$id": "data-dashboard-brief.schema.json",
+  "type": "object",
+  "properties": {
+    "audience": {
+      "type": "string",
+      "enum": [
+        "leadership",
+        "product",
+        "marketing",
+        "finance",
+        "operations"
+      ],
+      "default": "leadership"
+    },
+    "kpiTargets": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "refresh": {
+      "type": "string",
+      "enum": [
+        "hourly",
+        "daily",
+        "weekly"
+      ],
+      "default": "daily"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+{
+  "$id": "ai-prompt-guardrail-linter.schema.json",
+  "type": "object",
+  "properties": {
+    "policySet": {
+      "type": "string",
+      "minLength": 2,
+      "default": "default"
+    },
+    "maxTokens": {
+      "type": "integer",
+      "minimum": 500,
+      "maximum": 16000,
+      "default": 4000
+    },
+    "requiredSections": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

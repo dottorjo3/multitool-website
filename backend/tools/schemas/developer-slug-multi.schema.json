@@ -1,0 +1,30 @@
+{
+  "$id": "developer-slug-multi.schema.json",
+  "type": "object",
+  "properties": {
+    "lines": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci almeno una riga"
+    },
+    "separator": {
+      "type": "string",
+      "maxLength": 3,
+      "default": "-"
+    },
+    "lowercase": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "keepAccents": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["lines"],
+  "additionalProperties": false
+}
+
+

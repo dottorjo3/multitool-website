@@ -1,0 +1,43 @@
+{
+  "$id": "dev-observability-map.schema.json",
+  "type": "object",
+  "properties": {
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "reviewCadence": {
+      "type": "string",
+      "enum": [
+        "monthly",
+        "quarterly",
+        "biannual"
+      ],
+      "default": "quarterly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

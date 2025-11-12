@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PdfKeepPagesSchema",
+  "type": "object",
+  "properties": {
+    "pages": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Elenco pagine da mantenere (es: 1,3-6)"
+    }
+  },
+  "required": ["pages"],
+  "additionalProperties": false
+}
+
+

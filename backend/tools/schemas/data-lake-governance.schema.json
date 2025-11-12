@@ -1,0 +1,39 @@
+{
+  "$id": "data-lake-governance.schema.json",
+  "type": "object",
+  "properties": {
+    "zones": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 2,
+      "uniqueItems": true
+    },
+    "catalogTool": {
+      "type": "string",
+      "minLength": 2,
+      "default": "Data Catalog"
+    },
+    "compliance": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "default": [
+        "GDPR"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+{
+  "$id": "hr-talent-pipeline.schema.json",
+  "type": "object",
+  "properties": {
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hiringHorizonMonths": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 18,
+      "default": 6
+    },
+    "atsPlatform": {
+      "type": "string",
+      "enum": [
+        "Greenhouse",
+        "Lever",
+        "Workable",
+        "Ashby",
+        "Custom"
+      ],
+      "default": "Greenhouse"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

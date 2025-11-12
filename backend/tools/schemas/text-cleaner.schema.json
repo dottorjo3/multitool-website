@@ -1,0 +1,29 @@
+{
+  "$id": "text-cleaner.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da pulire"
+    },
+    "trimLines": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "collapseSpaces": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "removeEmptyLines": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

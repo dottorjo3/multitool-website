@@ -1,0 +1,40 @@
+{
+  "$id": "dev-multi-tenant-checklist.schema.json",
+  "type": "object",
+  "properties": {
+    "isolationModel": {
+      "type": "string",
+      "enum": [
+        "shared-schema",
+        "schema-per-tenant",
+        "database-per-tenant"
+      ],
+      "default": "shared-schema"
+    },
+    "tenantsTarget": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10000,
+      "default": 50
+    },
+    "compliance": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

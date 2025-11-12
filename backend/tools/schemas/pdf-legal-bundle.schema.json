@@ -1,0 +1,34 @@
+{
+  "$id": "pdf-legal-bundle.schema.json",
+  "type": "object",
+  "properties": {
+    "bundleType": {
+      "type": "string",
+      "enum": [
+        "litigation",
+        "due-diligence",
+        "compliance"
+      ],
+      "default": "litigation"
+    },
+    "includeBookmarks": {
+      "type": "boolean",
+      "default": true
+    },
+    "numberingStyle": {
+      "type": "string",
+      "minLength": 1,
+      "default": "A-001"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+{
+  "$id": "image-blur.schema.json",
+  "type": "object",
+  "properties": {
+    "sigma": {
+      "type": ["integer", "number", "string"],
+      "pattern": "^[0-9]+(\\.[0-9]+)?$",
+      "default": "5",
+      "errorMessage": "Il valore di blur deve essere compreso tra 0.3 e 1000"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

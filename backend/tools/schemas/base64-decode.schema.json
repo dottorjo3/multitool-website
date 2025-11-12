@@ -1,0 +1,20 @@
+{
+  "$id": "base64-decode.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci la stringa Base64 da decodificare"
+    },
+    "urlSafe": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

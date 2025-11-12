@@ -1,0 +1,28 @@
+{
+  "$id": "image-sharpen.schema.json",
+  "type": "object",
+  "properties": {
+    "sigma": {
+      "type": ["number", "string"],
+      "pattern": "^(10|\\d(\\.\\d+)?)$",
+      "default": "1",
+      "errorMessage": "Sigma deve essere tra 0 e 10"
+    },
+    "flat": {
+      "type": ["number", "string"],
+      "pattern": "^(10|\\d(\\.\\d+)?)$",
+      "default": "1",
+      "errorMessage": "Flat deve essere tra 0 e 10"
+    },
+    "jagged": {
+      "type": ["number", "string"],
+      "pattern": "^(10|\\d(\\.\\d+)?)$",
+      "default": "2",
+      "errorMessage": "Jagged deve essere tra 0 e 10"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

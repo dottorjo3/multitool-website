@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PdfMetadataSchema",
+  "type": "object",
+  "properties": {
+    "mode": {
+      "type": "string",
+      "enum": ["view", "clean"],
+      "default": "view"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

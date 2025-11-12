@@ -1,0 +1,15 @@
+{
+  "$id": "developer-http-status.schema.json",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{3}$",
+      "errorMessage": "Inserisci un codice HTTP a tre cifre"
+    }
+  },
+  "required": ["code"],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,29 @@
+{
+  "$id": "text-anonymizer.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 5,
+      "errorMessage": "Incolla un testo da anonimizzare"
+    },
+    "maskEmail": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "maskPhone": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "maskNumbers": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+

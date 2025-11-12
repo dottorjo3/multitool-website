@@ -1,0 +1,8 @@
+{
+  "$id": "video-metadata.schema.json",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
+
+

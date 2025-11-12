@@ -1,0 +1,44 @@
+{
+  "$id": "marketing-ab-test-scheduler.schema.json",
+  "type": "object",
+  "properties": {
+    "testType": {
+      "type": "string",
+      "enum": [
+        "landing",
+        "email",
+        "pricing",
+        "ad"
+      ],
+      "default": "landing"
+    },
+    "confidence": {
+      "type": "integer",
+      "minimum": 80,
+      "maximum": 99,
+      "default": 95
+    },
+    "liftTarget": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50,
+      "default": 10
+    },
+    "audience": {
+      "type": "integer",
+      "minimum": 1000,
+      "maximum": 5000000,
+      "default": 50000
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

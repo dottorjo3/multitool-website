@@ -1,0 +1,8 @@
+{
+  "$id": "image-grayscale.schema.json",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,40 @@
+{
+  "$id": "marketing-pr-calendar.schema.json",
+  "type": "object",
+  "properties": {
+    "horizonMonths": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12,
+      "default": 6
+    },
+    "launchTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "mediaTiers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+{
+  "$id": "dev-feature-toggle-planner.schema.json",
+  "type": "object",
+  "properties": {
+    "flagType": {
+      "type": "string",
+      "enum": [
+        "release",
+        "experiment",
+        "ops"
+      ],
+      "default": "release"
+    },
+    "targeting": {
+      "type": "string",
+      "enum": [
+        "percentage",
+        "segment",
+        "manual"
+      ],
+      "default": "percentage"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

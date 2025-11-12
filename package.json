@@ -1,0 +1,18 @@
+{
+  "name": "bibble-recovery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bibble 2.0 - Piattaforma multitool mondiale",
+  "scripts": {
+    "bootstrap": "npm --prefix backend install && npm --prefix frontend install",
+    "start:backend": "node backend/server.js",
+    "start:frontend": "npm --prefix frontend start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "tool:factory": "node scripts/tool-factory.js"
+  },
+  "keywords": ["tools", "multitool", "pdf", "image", "converter"],
+  "author": "",
+  "license": "ISC"
+}
+

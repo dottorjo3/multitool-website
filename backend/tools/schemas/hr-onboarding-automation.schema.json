@@ -1,0 +1,37 @@
+{
+  "$id": "hr-onboarding-automation.schema.json",
+  "type": "object",
+  "properties": {
+    "departments": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "automationTools": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "onboardingLengthDays": {
+      "type": "integer",
+      "minimum": 7,
+      "maximum": 120,
+      "default": 30
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

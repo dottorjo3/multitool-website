@@ -1,0 +1,57 @@
+{
+  "$id": "audio-loudness-equalizer.schema.json",
+  "type": "object",
+  "properties": {
+    "targetLufs": {
+      "type": "number",
+      "minimum": -30,
+      "maximum": -8,
+      "default": -16
+    },
+    "peakDbfs": {
+      "type": "number",
+      "minimum": -10,
+      "maximum": 0,
+      "default": -1
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "podcast",
+        "broadcast",
+        "streaming"
+      ],
+      "default": "podcast"
+    }
+  },
+  "additionalProperties": false
+}
+{
+  "$id": "audio-loudness-equalizer.schema.json",
+  "type": "object",
+  "properties": {
+    "targetLufs": {
+      "type": "number",
+      "minimum": -30,
+      "maximum": -5,
+      "default": -16
+    },
+    "toleranceDb": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 3,
+      "default": 1
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "podcast",
+        "broadcast",
+        "streaming"
+      ],
+      "default": "podcast"
+    }
+  },
+  "additionalProperties": false
+}
+

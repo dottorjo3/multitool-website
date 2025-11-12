@@ -1,0 +1,16 @@
+{
+  "$id": "image-rounded-corners.schema.json",
+  "type": "object",
+  "properties": {
+    "radius": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,4}$",
+      "default": "32",
+      "errorMessage": "Il raggio deve essere compreso tra 1 e 2000"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

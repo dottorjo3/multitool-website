@@ -1,0 +1,24 @@
+{
+  "$id": "ai-summarizer.schema.json",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string",
+      "minLength": 40,
+      "errorMessage": "Incolla un testo sufficientemente lungo da riassumere"
+    },
+    "length": {
+      "type": "string",
+      "enum": ["short", "medium", "long"],
+      "default": "medium"
+    },
+    "focus": {
+      "type": "string",
+      "maxLength": 120,
+      "default": ""
+    }
+  },
+  "required": ["content"],
+  "additionalProperties": false
+}
+

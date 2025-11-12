@@ -1,0 +1,27 @@
+{
+  "$id": "marketing-competitor-scan.schema.json",
+  "type": "object",
+  "properties": {
+    "competitors": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Inserisci almeno un competitor."
+    },
+    "value": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Descrivi il tuo valore differenziante."
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Specifica il pubblico target."
+    }
+  },
+  "required": [
+    "competitors",
+    "value",
+    "audience"
+  ],
+  "additionalProperties": false
+}

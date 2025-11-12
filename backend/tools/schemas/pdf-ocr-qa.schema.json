@@ -1,0 +1,36 @@
+{
+  "$id": "pdf-ocr-qa.schema.json",
+  "type": "object",
+  "properties": {
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 5
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "accuracyTarget": {
+      "type": "integer",
+      "minimum": 50,
+      "maximum": 100,
+      "default": 95
+    },
+    "includeLayout": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

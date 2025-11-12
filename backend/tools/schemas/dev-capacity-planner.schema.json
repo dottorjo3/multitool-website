@@ -1,0 +1,40 @@
+{
+  "$id": "dev-capacity-planner.schema.json",
+  "type": "object",
+  "properties": {
+    "horizonMonths": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 36,
+      "default": 6
+    },
+    "workloads": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "scalingStrategy": {
+      "type": "string",
+      "enum": [
+        "auto-scaling",
+        "manual-scaling",
+        "scheduled-scaling"
+      ],
+      "default": "auto-scaling"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

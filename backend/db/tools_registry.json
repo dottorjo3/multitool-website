@@ -1,0 +1,3277 @@
+[
+  {
+    "id": "ai-paraphraser",
+    "name": "AI Paraphraser",
+    "category": "ai",
+    "free": false,
+    "description": "Rewrite paragraphs preserving meaning and tone",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "ai-summarizer",
+    "name": "AI Summarizer",
+    "category": "ai",
+    "free": true,
+    "description": "Summarize long content into concise overviews",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "ai-writer",
+    "name": "AI Writer",
+    "category": "ai",
+    "free": false,
+    "description": "Generate structured articles from a topic prompt",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-base-converter",
+    "name": "Base Converter",
+    "category": "developer",
+    "free": true,
+    "description": "Convert numbers between bases 2 and 36",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json",
+    "marketingMeta": {
+      "copyReady": 92,
+      "funnelStage": "Awareness → Consideration",
+      "template": "marketing-campaign-brief.md"
+    }
+  },
+  {
+    "id": "base64-decode",
+    "name": "Base64 Decode",
+    "category": "developer",
+    "free": true,
+    "description": "Decode Base64 to text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "base64-encode",
+    "name": "Base64 Encode",
+    "category": "developer",
+    "free": true,
+    "description": "Encode text to Base64",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-color-converter",
+    "name": "Color Converter",
+    "category": "developer",
+    "free": true,
+    "description": "Convert colors between HEX, RGB and HSL",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-css-color-parser",
+    "name": "CSS Color Parser",
+    "category": "developer",
+    "free": true,
+    "description": "Parse HEX/RGB/HSL colors and generate palettes",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "csv-to-json",
+    "name": "CSV to JSON",
+    "category": "developer",
+    "free": true,
+    "description": "Convert CSV data to JSON format",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-hmac-generator",
+    "name": "HMAC Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Compute HMAC signatures with custom secrets",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json",
+    "marketingMeta": {
+      "copyReady": 88,
+      "funnelStage": "Positioning",
+      "template": "marketing-value-prop.md"
+    }
+  },
+  {
+    "id": "html-decode",
+    "name": "HTML Decode",
+    "category": "developer",
+    "free": true,
+    "description": "Decode HTML entities to text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "html-encode",
+    "name": "HTML Encode",
+    "category": "developer",
+    "free": true,
+    "description": "Encode text to HTML entities",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-http-status",
+    "name": "HTTP Status Lookup",
+    "category": "developer",
+    "free": true,
+    "description": "Lookup category, phrase and description for HTTP codes",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json",
+    "marketingMeta": {
+      "copyReady": 85,
+      "funnelStage": "Retention & Community",
+      "template": "marketing-social-calendar.md"
+    }
+  },
+  {
+    "id": "developer-json-diff",
+    "name": "JSON Diff",
+    "category": "developer",
+    "free": true,
+    "description": "Compare two JSON documents and highlight differences",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json",
+    "marketingMeta": {
+      "copyReady": 90,
+      "funnelStage": "Nurturing",
+      "template": "marketing-email-sequence.md"
+    }
+  },
+  {
+    "id": "json-formatter",
+    "name": "JSON Formatter",
+    "category": "developer",
+    "free": true,
+    "description": "Format and beautify JSON code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-json-minify",
+    "name": "JSON Minifier",
+    "category": "developer",
+    "free": true,
+    "description": "Minify JSON by removing whitespace and new lines",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-json-pretty",
+    "name": "JSON Pretty Printer",
+    "category": "developer",
+    "free": true,
+    "description": "Format JSON with custom indentation",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "json-to-csv",
+    "name": "JSON to CSV",
+    "category": "developer",
+    "free": true,
+    "description": "Convert JSON data to CSV format",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-jwt-decoder",
+    "name": "JWT Decoder",
+    "category": "developer",
+    "free": true,
+    "description": "Decode JWT tokens without validating signatures",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "md5-hash",
+    "name": "MD5 Hash Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate MD5 hash from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-password-generator",
+    "name": "Password Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate secure random passwords with custom sets",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json",
+    "marketingMeta": {
+      "copyReady": 84,
+      "funnelStage": "Positioning Audit",
+      "template": "marketing-competitor-scan.md"
+    }
+  },
+  {
+    "id": "developer-querystring-builder",
+    "name": "Querystring Builder",
+    "category": "developer",
+    "free": true,
+    "description": "Build URL query strings from key/value pairs",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-random-bytes",
+    "name": "Random Bytes Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Produce cryptographically secure random bytes",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-regex-tester",
+    "name": "Regex Tester",
+    "category": "developer",
+    "free": true,
+    "description": "Test regular expressions and view match details",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-semver-parser",
+    "name": "SemVer Parser",
+    "category": "developer",
+    "free": true,
+    "description": "Parse semantic version strings into components",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "sha1-hash",
+    "name": "SHA1 Hash Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate SHA1 hash from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "sha256-hash",
+    "name": "SHA256 Hash Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate SHA256 hash from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "sha384-hash",
+    "name": "SHA384 Hash Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate SHA384 hash from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "sha512-hash",
+    "name": "SHA512 Hash Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate SHA512 hash from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-slug-generator",
+    "name": "Slug Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Convert strings into URL-friendly slugs",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-slug-multi",
+    "name": "Slugify Lines",
+    "category": "developer",
+    "free": true,
+    "description": "Convert multiple lines into URL slugs",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-timestamp-converter",
+    "name": "Timestamp Converter",
+    "category": "developer",
+    "free": true,
+    "description": "Convert Unix timestamps to ISO8601 and vice versa",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "url-decode",
+    "name": "URL Decode",
+    "category": "developer",
+    "free": true,
+    "description": "Decode URL encoded text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "url-encode",
+    "name": "URL Encode",
+    "category": "developer",
+    "free": true,
+    "description": "Encode text to URL format",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-url-parser",
+    "name": "URL Parser",
+    "category": "developer",
+    "free": true,
+    "description": "Parse URLs into components and query parameters",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-uuid-generator",
+    "name": "UUID Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate multiple UUID v4 values",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-uuid-v1",
+    "name": "UUID v1 Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate time-based UUID v1 identifiers",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-uuid-v3",
+    "name": "UUID v3 Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate namespace-based UUID v3 identifiers",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-uuid-v5",
+    "name": "UUID v5 Generator",
+    "category": "developer",
+    "free": true,
+    "description": "Generate namespace-based UUID v5 identifiers",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "image-add-border",
+    "name": "Image Add Border",
+    "category": "image",
+    "free": true,
+    "description": "Add uniform borders around images with custom color",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-background-remover",
+    "name": "Image Background Remover",
+    "category": "image",
+    "free": true,
+    "description": "Remove solid backgrounds by color tolerance",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-batch-convert",
+    "name": "Image Batch Convert",
+    "category": "image",
+    "free": true,
+    "description": "Convert multiple images at once and download as ZIP",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "archive"
+  },
+  {
+    "id": "image-batch-resize",
+    "name": "Image Batch Resize",
+    "category": "image",
+    "free": true,
+    "description": "Resize multiple images simultaneously with presets and ZIP output",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "archive"
+  },
+  {
+    "id": "image-blur",
+    "name": "Image Blur",
+    "category": "image",
+    "free": true,
+    "description": "Apply gaussian blur with adjustable intensity",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-brightness",
+    "name": "Image Brightness",
+    "category": "image",
+    "free": true,
+    "description": "Adjust image brightness with Sharp modulate",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-color-palette",
+    "name": "Image Color Palette",
+    "category": "image",
+    "free": true,
+    "description": "Extract dominant colors from images for palettes",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "json"
+  },
+  {
+    "id": "image-compress",
+    "name": "Image Compress",
+    "category": "image",
+    "free": true,
+    "description": "Compress images with adjustable quality",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-contrast",
+    "name": "Image Contrast",
+    "category": "image",
+    "free": true,
+    "description": "Adjust image contrast using linear transforms",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-convert",
+    "name": "Image Convert",
+    "category": "image",
+    "free": true,
+    "description": "Convert images to JPEG, PNG, WebP, AVIF or TIFF",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-crop",
+    "name": "Image Crop",
+    "category": "image",
+    "free": true,
+    "description": "Crop a region of the image by coordinates",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-shadow",
+    "name": "Image Drop Shadow",
+    "category": "image",
+    "free": true,
+    "description": "Add a soft drop shadow with offset and blur",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-duotone",
+    "name": "Image Duotone",
+    "category": "image",
+    "free": true,
+    "description": "Apply duotone effect between two colors",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-grayscale",
+    "name": "Image Grayscale",
+    "category": "image",
+    "free": true,
+    "description": "Convert images to grayscale preserving details",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-invert",
+    "name": "Image Invert Colors",
+    "category": "image",
+    "free": true,
+    "description": "Invert image colors for creative effects",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-metadata",
+    "name": "Image Metadata Cleaner",
+    "category": "image",
+    "free": true,
+    "description": "Inspect and remove EXIF/ICC metadata",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "json"
+  },
+  {
+    "id": "image-pixelate",
+    "name": "Image Pixelate",
+    "category": "image",
+    "free": true,
+    "description": "Create pixel art effect with adjustable block size",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-resize",
+    "name": "Image Resize",
+    "category": "image",
+    "free": true,
+    "description": "Resize images with custom sizes or social presets",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-rotate-flip",
+    "name": "Image Rotate & Flip",
+    "category": "image",
+    "free": true,
+    "description": "Rotate or flip images with custom degrees and export format",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-rounded-corners",
+    "name": "Image Rounded Corners",
+    "category": "image",
+    "free": true,
+    "description": "Apply rounded corner mask with configurable radius",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-sepia",
+    "name": "Image Sepia",
+    "category": "image",
+    "free": true,
+    "description": "Add vintage sepia effect with custom intensity",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-sharpen",
+    "name": "Image Sharpen",
+    "category": "image",
+    "free": true,
+    "description": "Enhance image sharpness with fine tuning",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-overlay-solid",
+    "name": "Image Solid Overlay",
+    "category": "image",
+    "free": true,
+    "description": "Overlay a solid color with custom opacity",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-overlay-text",
+    "name": "Image Text Overlay",
+    "category": "image",
+    "free": true,
+    "description": "Add custom text overlay with position, color and opacity",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-tint",
+    "name": "Image Tint",
+    "category": "image",
+    "free": true,
+    "description": "Apply a colored tint over the image",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-watermark",
+    "name": "Image Watermark",
+    "category": "image",
+    "free": true,
+    "description": "Add text watermark with position, opacity and angle",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "qr-generator",
+    "name": "QR Code Generator",
+    "category": "other",
+    "free": true,
+    "description": "Generate QR codes for text or URLs",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "image"
+  },
+  {
+    "id": "pdf-compress",
+    "name": "PDF Compress",
+    "category": "pdf",
+    "free": true,
+    "description": "Reduce PDF size by rebuilding the document",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-delete-pages",
+    "name": "PDF Delete Pages",
+    "category": "pdf",
+    "free": true,
+    "description": "Remove selected pages from a PDF document",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-extract-images",
+    "name": "PDF Extract Images",
+    "category": "pdf",
+    "free": false,
+    "description": "Extract embedded images from a PDF document",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-extract-text",
+    "name": "PDF Extract Text",
+    "category": "pdf",
+    "free": true,
+    "description": "Extract plain text content from a PDF file",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "text"
+  },
+  {
+    "id": "pdf-header-footer",
+    "name": "PDF Header & Footer",
+    "category": "pdf",
+    "free": true,
+    "description": "Insert header and footer text across the document",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-keep-pages",
+    "name": "PDF Keep Pages",
+    "category": "pdf",
+    "free": true,
+    "description": "Keep only the specified pages from a PDF",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-merge",
+    "name": "PDF Merge",
+    "category": "pdf",
+    "free": true,
+    "description": "Merge multiple PDF files into one",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-metadata",
+    "name": "PDF Metadata",
+    "category": "pdf",
+    "free": true,
+    "description": "View or remove document metadata",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-remove-metadata",
+    "name": "PDF Metadata Cleaner",
+    "category": "pdf",
+    "free": true,
+    "description": "Remove author, title and metadata from PDF",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-page-number",
+    "name": "PDF Page Number",
+    "category": "pdf",
+    "free": true,
+    "description": "Add custom page numbers with position, prefix and style",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-protect",
+    "name": "PDF Protect",
+    "category": "pdf",
+    "free": false,
+    "description": "Add password protection to a PDF file",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-reorder-pages",
+    "name": "PDF Reorder Pages",
+    "category": "pdf",
+    "free": true,
+    "description": "Change page order using a custom sequence",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-rotate",
+    "name": "PDF Rotate",
+    "category": "pdf",
+    "free": true,
+    "description": "Rotate all pages of a PDF by 90/180/270 degrees",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-split",
+    "name": "PDF Split",
+    "category": "pdf",
+    "free": true,
+    "description": "Split PDF into multiple files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-to-excel",
+    "name": "PDF to Excel",
+    "category": "pdf",
+    "free": false,
+    "description": "Convert PDF tables to Excel spreadsheets (LibreOffice headless)",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-to-html",
+    "name": "PDF to HTML",
+    "category": "pdf",
+    "free": false,
+    "description": "Convert PDF pages to a single HTML file",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-to-text",
+    "name": "PDF to Text (Advanced)",
+    "category": "pdf",
+    "free": false,
+    "description": "Extract text with layout or raw mode",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "text"
+  },
+  {
+    "id": "pdf-to-word",
+    "name": "PDF to Word",
+    "category": "pdf",
+    "free": false,
+    "description": "Convert PDF documents to DOCX using LibreOffice headless",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-unlock",
+    "name": "PDF Unlock",
+    "category": "pdf",
+    "free": false,
+    "description": "Remove password protection from a PDF file",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-watermark",
+    "name": "PDF Watermark",
+    "category": "pdf",
+    "free": true,
+    "description": "Add a diagonal text watermark to each page",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-bulk-compressor",
+    "name": "PDF Bulk Compressor",
+    "category": "pdf",
+    "free": false,
+    "description": "Compress large batches of PDFs with presets, automation and QA plan.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-metadata-audit",
+    "name": "PDF Metadata Audit",
+    "category": "pdf",
+    "free": true,
+    "description": "Audit and clean PDF metadata, security settings and history trail.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-forms-validator",
+    "name": "PDF Forms Validator",
+    "category": "pdf",
+    "free": true,
+    "description": "Define validation rules, QA and automation for interactive PDF forms.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-flowchart-exporter",
+    "name": "PDF Flowchart Exporter",
+    "category": "pdf",
+    "free": false,
+    "description": "Convert procedures from PDF into flowcharts with mapping and export tips.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-rotate-scheduler",
+    "name": "PDF Rotate Scheduler",
+    "category": "pdf",
+    "free": true,
+    "description": "Plan recurring rotation jobs with detection, commands and audits.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-translation-brief",
+    "name": "PDF Translation Brief",
+    "category": "pdf",
+    "free": false,
+    "description": "Create translation briefs with assets, timeline and QC checklists.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "document-summary-blueprint",
+    "name": "Document Summary Blueprint",
+    "category": "document",
+    "free": true,
+    "description": "Blueprint to summarise long documents with structure and guidelines.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "document-compliance-check",
+    "name": "Document Compliance Check",
+    "category": "document",
+    "free": false,
+    "description": "Assess documents against compliance frameworks with evidence tracking.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "contract-version-diff",
+    "name": "Contract Version Diff",
+    "category": "document",
+    "free": true,
+    "description": "Compare contract versions, highlight changes and prepare reports.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "docx-brand-template-builder",
+    "name": "DOCX Brand Template Builder",
+    "category": "document",
+    "free": true,
+    "description": "Design branded DOCX templates with styles, components and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "text-keyword-density",
+    "name": "Keyword Density",
+    "category": "text",
+    "free": true,
+    "description": "Calculate keyword frequency and density without stopwords",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-letter-frequency",
+    "name": "Letter Frequency",
+    "category": "text",
+    "free": true,
+    "description": "Count the frequency of letters A-Z with percentages",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "lorem-ipsum",
+    "name": "Lorem Ipsum Generator",
+    "category": "text",
+    "free": true,
+    "description": "Generate placeholder text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "text"
+  },
+  {
+    "id": "text-ngram",
+    "name": "N-gram Generator",
+    "category": "text",
+    "free": true,
+    "description": "Extract n-gram frequencies for keyword research",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-palindrome",
+    "name": "Palindrome Checker",
+    "category": "text",
+    "free": true,
+    "description": "Check if phrases are palindromes with customizable options",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-paragraph-counter",
+    "name": "Paragraph Counter",
+    "category": "text",
+    "free": true,
+    "description": "Analyze paragraphs and show words and characters per block",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-random-line",
+    "name": "Random Line Picker",
+    "category": "text",
+    "free": true,
+    "description": "Pick random lines from text with uniqueness and filters",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-readability",
+    "name": "Readability Analyzer",
+    "category": "text",
+    "free": true,
+    "description": "Compute readability indexes such as Flesch and grade level",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-reading-time",
+    "name": "Reading Time Estimator",
+    "category": "text",
+    "free": true,
+    "description": "Estimate reading time based on words per minute",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-duplicate-remover",
+    "name": "Remove Duplicates",
+    "category": "text",
+    "free": true,
+    "description": "Remove duplicate lines or words from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-remove-punctuation",
+    "name": "Remove Punctuation",
+    "category": "text",
+    "free": true,
+    "description": "Strip punctuation characters and normalize spacing",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-uppercase-first",
+    "name": "Sentence Capitalizer",
+    "category": "text",
+    "free": true,
+    "description": "Uppercase the first letter of each sentence",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-sentence-counter",
+    "name": "Sentence Counter",
+    "category": "text",
+    "free": true,
+    "description": "Count sentences and words with per-sentence stats",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-sentence-extractor",
+    "name": "Sentence Extractor",
+    "category": "text",
+    "free": true,
+    "description": "Extract sentences with positions and lengths",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-sentiment",
+    "name": "Sentiment Analyzer",
+    "category": "text",
+    "free": true,
+    "description": "Estimate sentiment using positive/negative dictionaries",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-speaking-time",
+    "name": "Speaking Time Estimator",
+    "category": "text",
+    "free": true,
+    "description": "Estimate presentation time for spoken text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-anonymizer",
+    "name": "Text Anonymizer",
+    "category": "text",
+    "free": true,
+    "description": "Mask emails, phone numbers and numeric sequences",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-case-converter",
+    "name": "Text Case Converter",
+    "category": "text",
+    "free": true,
+    "description": "Convert text to uppercase, lowercase, title case or sentence case",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-cleaner",
+    "name": "Text Cleaner",
+    "category": "text",
+    "free": true,
+    "description": "Clean text by trimming lines, collapsing spaces and removing empty lines",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-line-number",
+    "name": "Text Line Numbering",
+    "category": "text",
+    "free": true,
+    "description": "Add line numbers with custom start, padding and separators",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-prefix-suffix",
+    "name": "Text Prefix & Suffix",
+    "category": "text",
+    "free": true,
+    "description": "Add custom prefixes and suffixes to every line of text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-shuffle",
+    "name": "Text Shuffle",
+    "category": "text",
+    "free": true,
+    "description": "Shuffle text lines randomly with filters and limits",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-sorter",
+    "name": "Text Sorter",
+    "category": "text",
+    "free": true,
+    "description": "Sort text lines with options for order, uniqueness and case sensitivity",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-trim-lines",
+    "name": "Trim Lines",
+    "category": "text",
+    "free": true,
+    "description": "Trim leading and trailing spaces from each line",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-vowel-consonant",
+    "name": "Vowel & Consonant Counter",
+    "category": "text",
+    "free": true,
+    "description": "Count vowels, consonants, digits, spaces and symbols in text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "whitespace-remover",
+    "name": "Whitespace Remover",
+    "category": "text",
+    "free": true,
+    "description": "Remove or clean whitespace from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-counter",
+    "name": "Word & Character Counter",
+    "category": "text",
+    "free": true,
+    "description": "Count words, characters, lines and paragraphs in text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "object"
+  },
+  {
+    "id": "text-word-frequency",
+    "name": "Word Frequency Counter",
+    "category": "text",
+    "free": true,
+    "description": "Count word occurrences and list the most frequent terms",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "example-tool",
+    "name": "Example Echo Tool",
+    "category": "utility",
+    "free": true,
+    "description": "Esempio per testare il nuovo gateway",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "video-extract-audio",
+    "name": "Extract Audio",
+    "category": "video",
+    "free": false,
+    "description": "Extract MP3, WAV, AAC or FLAC from any video",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-compress",
+    "name": "Video Compressor",
+    "category": "video",
+    "free": false,
+    "description": "Reduce video size by controlling bitrate and resolution",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-convert",
+    "name": "Video Converter",
+    "category": "video",
+    "free": false,
+    "description": "Convert videos to MP4, WebM, MKV or AVI",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-metadata",
+    "name": "Video Metadata",
+    "category": "video",
+    "free": true,
+    "description": "Inspect container/stream metadata using FFprobe",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "json"
+  },
+  {
+    "id": "video-thumbnail",
+    "name": "Video Thumbnail Extractor",
+    "category": "video",
+    "free": true,
+    "description": "Capture a video frame at a specific timestamp",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "image"
+  },
+  {
+    "id": "video-to-gif",
+    "name": "Video to GIF",
+    "category": "video",
+    "free": true,
+    "description": "Create GIF animations from video clips",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "image"
+  },
+  {
+    "id": "video-trim",
+    "name": "Video Trimmer",
+    "category": "video",
+    "free": true,
+    "description": "Cut clips by start time and duration without re-encoding",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "ai-prompt-idea-expander",
+    "name": "Prompt Idea Expander",
+    "category": "ai-prompt",
+    "free": true,
+    "description": "Trasforma un'idea grezza in un prompt strutturato per modelli generativi.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-prompt-persona-mentor",
+    "name": "AI Persona Mentor Builder",
+    "category": "ai-prompt",
+    "free": true,
+    "description": "Costruisci un prompt per un mentore AI che accompagna utenti in un percorso guidato.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-prompt-interview-designer",
+    "name": "Interview Prompt Designer",
+    "category": "ai-prompt",
+    "free": true,
+    "description": "Genera prompt per creare interviste e domande mirate su ruoli specifici.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-prompt-research-brief",
+    "name": "Research Prompt Brief",
+    "category": "ai-prompt",
+    "free": true,
+    "description": "Genera un prompt di ricerca strutturato per raccogliere insight e benchmark.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-prompt-feedback-refiner",
+    "name": "Feedback Prompt Refiner",
+    "category": "ai-prompt",
+    "free": true,
+    "description": "Crea un prompt per far rivedere feedback o testi critici con tono controllato.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-campaign-brief",
+    "name": "Marketing Campaign Brief",
+    "category": "marketing",
+    "free": true,
+    "description": "Genera un brief operativo per campagne marketing multicanale.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-value-prop",
+    "name": "Value Proposition Builder",
+    "category": "marketing",
+    "free": true,
+    "description": "Crea una value proposition e messaggi di posizionamento per un'offerta.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-social-calendar",
+    "name": "Social Content Calendar",
+    "category": "marketing",
+    "free": true,
+    "description": "Crea un mini piano editoriale social con temi, formati e CTA.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-email-sequence",
+    "name": "Email Sequence Planner",
+    "category": "marketing",
+    "free": true,
+    "description": "Progetta una sequenza email con obiettivi, messaggi e KPI.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-competitor-scan",
+    "name": "Competitor Messaging Scan",
+    "category": "marketing",
+    "free": true,
+    "description": "Analizza i competitor e genera un confronto di messaggi e value proposition.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-bulk-compressor",
+    "name": "PDF Bulk Compressor",
+    "category": "pdf",
+    "free": false,
+    "description": "Compress large batches of PDFs with presets, automation and QA plan.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-metadata-audit",
+    "name": "PDF Metadata Audit",
+    "category": "pdf",
+    "free": true,
+    "description": "Audit and clean PDF metadata, security settings and history trail.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-forms-validator",
+    "name": "PDF Forms Validator",
+    "category": "pdf",
+    "free": true,
+    "description": "Define validation rules, QA and automation for interactive PDF forms.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-flowchart-exporter",
+    "name": "PDF Flowchart Exporter",
+    "category": "pdf",
+    "free": false,
+    "description": "Convert procedures from PDF into flowcharts with mapping and export tips.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-rotate-scheduler",
+    "name": "PDF Rotate Scheduler",
+    "category": "pdf",
+    "free": true,
+    "description": "Plan recurring rotation jobs with detection, commands and audits.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-translation-brief",
+    "name": "PDF Translation Brief",
+    "category": "pdf",
+    "free": false,
+    "description": "Create translation briefs with assets, timeline and QC checklists.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "document-summary-blueprint",
+    "name": "Document Summary Blueprint",
+    "category": "document",
+    "free": true,
+    "description": "Blueprint to summarise long documents with structure and guidelines.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "document-compliance-check",
+    "name": "Document Compliance Check",
+    "category": "document",
+    "free": false,
+    "description": "Assess documents against compliance frameworks with evidence tracking.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "contract-version-diff",
+    "name": "Contract Version Diff",
+    "category": "document",
+    "free": true,
+    "description": "Compare contract versions, highlight changes and prepare reports.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "docx-brand-template-builder",
+    "name": "DOCX Brand Template Builder",
+    "category": "document",
+    "free": true,
+    "description": "Design branded DOCX templates with styles, components and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-prompt-campaign-orchestrator",
+    "name": "AI Campaign Orchestrator",
+    "category": "ai-prompt",
+    "free": false,
+    "description": "Build prompt sequences for multi-stage marketing campaigns with automation tips.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-prompt-sentiment-guard",
+    "name": "AI Sentiment Guard",
+    "category": "ai-prompt",
+    "free": true,
+    "description": "Define sentiment guardrails, monitoring and corrective actions for AI copy.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-storyboard-designer",
+    "name": "AI Storyboard Designer",
+    "category": "ai",
+    "free": true,
+    "description": "Generate storyboard prompts with scene breakdowns, visuals and narration cues.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-faq-generator",
+    "name": "AI FAQ Generator",
+    "category": "ai",
+    "free": true,
+    "description": "Create structured FAQ prompts from product information with publishing tips.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-meeting-notes-drafter",
+    "name": "Meeting Notes Drafter",
+    "category": "ai",
+    "free": true,
+    "description": "Plan AI-assisted meeting notes with templates, pipelines and distribution.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-persona-tester",
+    "name": "AI Persona Tester",
+    "category": "ai-prompt",
+    "free": false,
+    "description": "Evaluate AI persona prompts across scenarios with scoring and guardrails.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-transcript-polisher",
+    "name": "AI Transcript Polisher",
+    "category": "ai",
+    "free": true,
+    "description": "Clean and adapt transcripts for publishing with automated pipelines.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-copy-length-analyzer",
+    "name": "Copy Length Analyzer",
+    "category": "ai",
+    "free": true,
+    "description": "Check copy length per channel with recommendations and automation ideas.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-social-gradient",
+    "name": "Social Gradient Generator",
+    "category": "ai",
+    "free": false,
+    "description": "Generate multi-length social posts across platforms with prompts matrix.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-tone-calibrator",
+    "name": "AI Tone Calibrator",
+    "category": "ai-prompt",
+    "free": true,
+    "description": "Calibrate tone instructions with before/after samples and guardrails.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "video-silence-detector",
+    "name": "Video Silence Detector",
+    "category": "video",
+    "free": true,
+    "description": "Detect silent segments with thresholds, automation and QA checklist.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "video-b-roll-planner",
+    "name": "B-Roll Planner",
+    "category": "video",
+    "free": true,
+    "description": "Plan supporting B-roll shots by segment with timing and notes.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "video-caption-translator",
+    "name": "Caption Translator",
+    "category": "video",
+    "free": false,
+    "description": "Translate and QA subtitles between languages with automation tips.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "video-livestream-checklist",
+    "name": "Livestream Checklist",
+    "category": "video",
+    "free": true,
+    "description": "Technical and content checklist for livestream events with timeline.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "audio-podcast-showrunner",
+    "name": "Podcast Showrunner",
+    "category": "audio",
+    "free": true,
+    "description": "Plan podcast production roles, timeline, QA and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "audio-loudness-equalizer",
+    "name": "Audio Loudness Equalizer",
+    "category": "audio",
+    "free": true,
+    "description": "Normalize audio loudness with pipelines, commands and QA.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-persona-expander",
+    "name": "Persona Expander",
+    "category": "marketing",
+    "free": true,
+    "description": "Expand base personas with messaging, objections and channels.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-retargeting-map",
+    "name": "Retargeting Map",
+    "category": "marketing",
+    "free": true,
+    "description": "Design retargeting stages with windows, content and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-ab-test-scheduler",
+    "name": "A/B Test Scheduler",
+    "category": "marketing",
+    "free": false,
+    "description": "Plan A/B test roadmap with sample size, reporting and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "automation-workflow-simulator",
+    "name": "Workflow Simulator",
+    "category": "automation",
+    "free": true,
+    "description": "Simulate automation workflows with concurrency, failures and metrics.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "automation-cron-dashboard",
+    "name": "Cron Dashboard Planner",
+    "category": "automation",
+    "free": true,
+    "description": "Design a cron monitoring dashboard with metrics and alerts.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "automation-db-backup-plan",
+    "name": "DB Backup Plan",
+    "category": "automation",
+    "free": true,
+    "description": "Plan automated database backups with retention, security and testing.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "automation-notification-router",
+    "name": "Notification Router",
+    "category": "automation",
+    "free": false,
+    "description": "Route notifications across channels with priority rules and escalation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "automation-report-scheduler",
+    "name": "Report Scheduler",
+    "category": "automation",
+    "free": true,
+    "description": "Schedule automated reports with multi-format export and delivery.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-api-playground",
+    "name": "API Playground Planner",
+    "category": "developer",
+    "free": true,
+    "description": "Design an interactive API playground with auth, examples and mock server.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-schema-migrator",
+    "name": "Schema Migrator Plan",
+    "category": "developer",
+    "free": true,
+    "description": "Plan database schema migrations with rollout and rollback strategy.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-feature-toggle-planner",
+    "name": "Feature Toggle Planner",
+    "category": "developer",
+    "free": true,
+    "description": "Plan feature flag lifecycle, targeting and governance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-performance-audit",
+    "name": "Performance Audit Plan",
+    "category": "developer",
+    "free": true,
+    "description": "Create performance audit workflows with metrics and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-version-control",
+    "name": "PDF Version Control",
+    "category": "pdf",
+    "free": false,
+    "description": "Manage PDF versions with diff, approvals and audit trail.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-watermark-batch",
+    "name": "PDF Watermark Batch",
+    "category": "pdf",
+    "free": true,
+    "description": "Apply multiple watermarks with dynamic fields, roles and logs.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-legal-bundle",
+    "name": "PDF Legal Bundle",
+    "category": "pdf",
+    "free": false,
+    "description": "Compose legal bundles with index, bookmarks and pagination.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-table-extractor",
+    "name": "PDF Table Extractor",
+    "category": "pdf",
+    "free": true,
+    "description": "Extract tables with column mapping, validation and export.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-ocr-qa",
+    "name": "PDF OCR QA",
+    "category": "pdf",
+    "free": true,
+    "description": "Quality assurance checklist for OCR accuracy and layout.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-redaction-verifier",
+    "name": "PDF Redaction Verifier",
+    "category": "pdf",
+    "free": false,
+    "description": "Verify redacted PDFs with text, image and metadata checks.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "document-quality-gate",
+    "name": "Document Quality Gate",
+    "category": "document",
+    "free": true,
+    "description": "Implement a document intake gate for format, naming and security.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "document-merge-workflow",
+    "name": "Document Merge Workflow",
+    "category": "document",
+    "free": true,
+    "description": "Merge documents into bundles with cover, TOC and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "docx-rich-snippets",
+    "name": "DOCX Rich Snippets",
+    "category": "document",
+    "free": true,
+    "description": "Library of reusable DOCX snippets with placeholders and auto-fill.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "document-digital-signature-plan",
+    "name": "Digital Signature Plan",
+    "category": "document",
+    "free": false,
+    "description": "Plan digital signature workflows, certificates and retention.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-knowledge-indexer",
+    "name": "Knowledge Indexer",
+    "category": "ai",
+    "free": false,
+    "description": "Index knowledge bases for LLM retrieval with embeddings and governance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-prompt-guardrail-linter",
+    "name": "Prompt Guardrail Linter",
+    "category": "ai-prompt",
+    "free": true,
+    "description": "Lint prompts for policy compliance, structure and variable usage.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-dataset-governance",
+    "name": "Dataset Governance Planner",
+    "category": "ai",
+    "free": false,
+    "description": "Define governance for AI datasets (catalog, access, lineage, compliance).",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-eval-benchmark",
+    "name": "Eval Benchmark Orchestrator",
+    "category": "ai",
+    "free": true,
+    "description": "Run automated model benchmarks across tasks and metrics.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-response-rater",
+    "name": "AI Response Rater",
+    "category": "ai",
+    "free": true,
+    "description": "Rate AI responses using rubrics, logging and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-topic-cluster",
+    "name": "AI Topic Cluster Planner",
+    "category": "ai",
+    "free": true,
+    "description": "Cluster content into topics with summaries and internal linking.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-changelog-writer",
+    "name": "AI Changelog Writer",
+    "category": "ai",
+    "free": true,
+    "description": "Draft changelogs from commits and tickets with tone control.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-customer-journey",
+    "name": "AI Customer Journey Designer",
+    "category": "ai",
+    "free": true,
+    "description": "Map customer journeys with AI prompts, data sources and actions.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-seo-snippet-optimizer",
+    "name": "SEO Snippet Optimizer",
+    "category": "ai",
+    "free": true,
+    "description": "Optimize titles, meta descriptions and FAQ rich snippets for SEO.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-style-consistency",
+    "name": "Style Consistency Checker",
+    "category": "ai",
+    "free": false,
+    "description": "Check AI outputs against brand style guides and terminology.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-budget-allocator",
+    "name": "Budget Allocator",
+    "category": "marketing",
+    "free": true,
+    "description": "Allocate marketing budget across channels with weights, KPIs and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-webinar-runbook",
+    "name": "Webinar Runbook",
+    "category": "marketing",
+    "free": true,
+    "description": "End-to-end webinar runbook with timeline, assets and KPIs.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-influencer-brief",
+    "name": "Influencer Brief",
+    "category": "marketing",
+    "free": true,
+    "description": "Detailed influencer collaboration brief with messaging and compliance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-co-marketing-plan",
+    "name": "Co-Marketing Plan",
+    "category": "marketing",
+    "free": true,
+    "description": "Plan partnerships with shared initiatives, timeline and governance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-pr-calendar",
+    "name": "PR Calendar Planner",
+    "category": "marketing",
+    "free": true,
+    "description": "Build a PR calendar with launch dates, media tiers and follow-up.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-revenue-dash",
+    "name": "Revenue Dashboard Blueprint",
+    "category": "marketing",
+    "free": true,
+    "description": "Design marketing revenue dashboards with metrics, segments and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-product-launch",
+    "name": "Product Launch Planner",
+    "category": "marketing",
+    "free": true,
+    "description": "Cross-functional launch roadmap with milestones and team alignment.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-lead-nurture",
+    "name": "Lead Nurture Blueprint",
+    "category": "marketing",
+    "free": true,
+    "description": "Design multi-channel nurture flows with scoring and automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-churn-preventer",
+    "name": "Churn Preventer",
+    "category": "marketing",
+    "free": false,
+    "description": "Prevent churn with signal detection, campaigns and offers.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "marketing-workflow-audit",
+    "name": "Workflow Audit",
+    "category": "marketing",
+    "free": true,
+    "description": "Audit marketing automations for accuracy, privacy and performance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-ci-pipeline-review",
+    "name": "CI Pipeline Review",
+    "category": "developer",
+    "free": true,
+    "description": "Create un piano di review per pipeline CI con caching, sicurezza e analisi flaky test.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-codebase-onboarding",
+    "name": "Codebase Onboarding Guide",
+    "category": "developer",
+    "free": true,
+    "description": "Genera una guida di onboarding per nuove persone nel team con setup, architettura e standard.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-incident-playbook",
+    "name": "Incident Playbook Builder",
+    "category": "developer",
+    "free": true,
+    "description": "Costruisci un playbook per incident con ruoli, comunicazione, runbook e RCA.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-observability-map",
+    "name": "Observability Map",
+    "category": "developer",
+    "free": true,
+    "description": "Mappa stack di osservabilità con metriche, log, tracing e ownership.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-capacity-planner",
+    "name": "Capacity Planner",
+    "category": "developer",
+    "free": true,
+    "description": "Pianifica capacità infrastrutturale con proiezioni, costi e strategie di scaling.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-refactor-roadmap",
+    "name": "Refactor Roadmap",
+    "category": "developer",
+    "free": true,
+    "description": "Crea una roadmap di refactor con priorità, milestone e governance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-security-scan-plan",
+    "name": "Security Scan Plan",
+    "category": "developer",
+    "free": true,
+    "description": "Definisci un piano per SAST, DAST e scansioni dipendenze con cadenze e compliance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-performance-regression-guard",
+    "name": "Performance Regression Guard",
+    "category": "developer",
+    "free": true,
+    "description": "Imposta guardrail per regressioni performance con baseline, budget e alert.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-multi-tenant-checklist",
+    "name": "Multi-tenant Checklist",
+    "category": "developer",
+    "free": true,
+    "description": "Checklist per readiness multi-tenant: isolamento, billing, scaling e compliance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "dev-release-train-planner",
+    "name": "Release Train Planner",
+    "category": "developer",
+    "free": true,
+    "description": "Pianifica release train con cadenza, freeze window, checkpoint e comunicazioni.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-quality-audit",
+    "name": "Data Quality Audit",
+    "category": "analytics",
+    "free": true,
+    "description": "Pianifica audit qualità dati con metriche, controlli e remediation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-pipeline-blueprint",
+    "name": "Data Pipeline Blueprint",
+    "category": "analytics",
+    "free": true,
+    "description": "Disegna blueprint pipeline dati con orchestrazione, SLA e monitoraggio.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-lake-governance",
+    "name": "Data Lake Governance",
+    "category": "analytics",
+    "free": true,
+    "description": "Definisci governance del data lake con zone, accessi e compliance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-dashboard-brief",
+    "name": "Dashboard Brief",
+    "category": "analytics",
+    "free": true,
+    "description": "Crea il brief di un dashboard con KPI, audience e layout.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-retention-planner",
+    "name": "Data Retention Planner",
+    "category": "analytics",
+    "free": true,
+    "description": "Imposta policy di retention, storage tier e processi di deletion.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-sandbox-setup",
+    "name": "Data Sandbox Setup",
+    "category": "analytics",
+    "free": true,
+    "description": "Definisci sandbox analitiche con masking, provisioning e guardrail.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-source-catalog",
+    "name": "Data Source Catalog",
+    "category": "analytics",
+    "free": true,
+    "description": "Pianifica catalogo sorgenti con metadata, ownership e stewardship.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "etl-migration-checklist",
+    "name": "ETL Migration Checklist",
+    "category": "analytics",
+    "free": true,
+    "description": "Checklist per migrare job ETL/ELT verso nuove piattaforme.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "sql-performance-playbook",
+    "name": "SQL Performance Playbook",
+    "category": "analytics",
+    "free": true,
+    "description": "Playbook per ottimizzare workload SQL con monitoraggio e tuning.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "analytics-experiment-planner",
+    "name": "Experiment Planner",
+    "category": "analytics",
+    "free": true,
+    "description": "Progetta esperimenti analitici con ipotesi, metriche e roll-out.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "cs-onboarding-journey",
+    "name": "CS Onboarding Journey",
+    "category": "customer-success",
+    "free": true,
+    "description": "Disegna il percorso di onboarding CS con milestone, comunicazioni e metriche.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "cs-playbook-builder",
+    "name": "CS Playbook Builder",
+    "category": "customer-success",
+    "free": true,
+    "description": "Genera playbook CS per onboarding, adozione, rinnovo ed espansione.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "cs-health-score-planner",
+    "name": "Health Score Planner",
+    "category": "customer-success",
+    "free": true,
+    "description": "Crea un modello di health score con pesi, segnali e alert.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "support-escalation-map",
+    "name": "Support Escalation Map",
+    "category": "support",
+    "free": true,
+    "description": "Definisce workflow di escalation supporto con SLA, ruoli e runbook.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "support-kb-curator",
+    "name": "KB Curator",
+    "category": "support",
+    "free": true,
+    "description": "Pianifica la gestione della knowledge base con taxonomy, review e gap analysis.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "support-sla-monitor",
+    "name": "SLA Monitor",
+    "category": "support",
+    "free": true,
+    "description": "Configura monitoraggio SLA supporto con dashboard, alert e reporting.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "cs-renewal-cadence",
+    "name": "Renewal Cadence Planner",
+    "category": "customer-success",
+    "free": true,
+    "description": "Pianifica la cadenza rinnovi con touchpoint, playbook e forecast.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "support-bot-training-plan",
+    "name": "Support Bot Training Plan",
+    "category": "support",
+    "free": true,
+    "description": "Disegna il piano di training per bot di supporto con dataset, intent e valutazione.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "cs-qbr-template",
+    "name": "CS QBR Template",
+    "category": "customer-success",
+    "free": true,
+    "description": "Genera il template per QBR con sezioni, metriche e azioni.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "support-feedback-loop",
+    "name": "Support Feedback Loop",
+    "category": "support",
+    "free": true,
+    "description": "Configura loop di feedback supporto con priorità, routing e misurazione.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "hr-talent-pipeline",
+    "name": "Talent Pipeline Planner",
+    "category": "hr",
+    "free": true,
+    "description": "Pianifica pipeline di recruiting con fasi, metriche e automazioni.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "hr-interview-scorecard",
+    "name": "Interview Scorecard Builder",
+    "category": "hr",
+    "free": true,
+    "description": "Genera scorecard strutturate per colloqui con competenze e rating.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "hr-onboarding-automation",
+    "name": "Onboarding Automation",
+    "category": "hr",
+    "free": true,
+    "description": "Disegna workflow di onboarding automatizzati con task e reminder.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "hr-performance-review-kit",
+    "name": "Performance Review Kit",
+    "category": "hr",
+    "free": true,
+    "description": "Crea un programma di performance review con cicli, template e calibrations.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ops-procurement-workflow",
+    "name": "Procurement Workflow",
+    "category": "operations",
+    "free": true,
+    "description": "Mappa workflow di procurement con soglie spesa, approvazioni e automation.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ops-risk-register",
+    "name": "Risk Register Builder",
+    "category": "operations",
+    "free": true,
+    "description": "Imposta un registro rischi con domini, scoring e mitigazioni.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ops-continuity-plan",
+    "name": "Continuity Plan Designer",
+    "category": "operations",
+    "free": true,
+    "description": "Prepara un piano di continuità operativa con scenari, RTO/RPO e comunicazioni.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "hr-benefits-comms",
+    "name": "Benefits Communication Planner",
+    "category": "hr",
+    "free": true,
+    "description": "Pianifica la comunicazione dei benefit con segmenti, canali e timeline.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ops-facility-checklist",
+    "name": "Facility Checklist",
+    "category": "operations",
+    "free": true,
+    "description": "Genera checklist per sedi con sicurezza, manutenzione e compliance.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ops-travel-policy-planner",
+    "name": "Travel Policy Planner",
+    "category": "operations",
+    "free": true,
+    "description": "Definisce policy viaggi con allowances, approvazioni e duty of care.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "$id": "pdf-table-extractor.schema.json",
+  "type": "object",
+  "properties": {
+    "tableTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "outputFormat": {
+      "type": "string",
+      "enum": [
+        "csv",
+        "xlsx",
+        "json"
+      ],
+      "default": "csv"
+    },
+    "includeValidation": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

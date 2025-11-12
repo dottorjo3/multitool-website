@@ -1,0 +1,39 @@
+{
+  "$id": "data-source-catalog.schema.json",
+  "type": "object",
+  "properties": {
+    "sourceCount": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 200,
+      "default": 15
+    },
+    "catalogPlatform": {
+      "type": "string",
+      "enum": [
+        "Collibra",
+        "Alation",
+        "Atlan",
+        "DataHub",
+        "Custom"
+      ],
+      "default": "Collibra"
+    },
+    "stewardshipModel": {
+      "type": "string",
+      "enum": [
+        "centralized",
+        "federated",
+        "hybrid"
+      ],
+      "default": "federated"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

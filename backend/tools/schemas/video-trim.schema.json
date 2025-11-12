@@ -1,0 +1,20 @@
+{
+  "$id": "video-trim.schema.json",
+  "type": "object",
+  "properties": {
+    "start": {
+      "type": "string",
+      "default": ""
+    },
+    "duration": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "anyOf": [
+    { "required": ["start"] },
+    { "required": ["duration"] }
+  ],
+  "additionalProperties": false
+}
+

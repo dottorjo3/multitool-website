@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PdfCompressSchema",
+  "type": "object",
+  "properties": {
+    "quality": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100,
+      "default": 75
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+

@@ -1,0 +1,42 @@
+{
+  "$id": "marketing-campaign-brief.schema.json",
+  "type": "object",
+  "properties": {
+    "product": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Descrivi il prodotto o servizio."
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Specifica il pubblico."
+    },
+    "goal": {
+      "type": "string",
+      "enum": [
+        "brand awareness",
+        "lead generation",
+        "retention clienti",
+        "lancio prodotto"
+      ],
+      "default": "lead generation"
+    },
+    "channel": {
+      "type": "string",
+      "enum": [
+        "email marketing",
+        "paid social",
+        "content marketing",
+        "eventi/webinar"
+      ],
+      "default": "email marketing"
+    }
+  },
+  "required": [
+    "product",
+    "audience",
+    "goal"
+  ],
+  "additionalProperties": false
+}

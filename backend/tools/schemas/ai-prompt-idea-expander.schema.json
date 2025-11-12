@@ -1,0 +1,42 @@
+{
+  "$id": "ai-prompt-idea-expander.schema.json",
+  "type": "object",
+  "properties": {
+    "idea": {
+      "type": "string",
+      "minLength": 20,
+      "errorMessage": "Descrivi meglio l'idea (min 20 caratteri)."
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Specifica il pubblico di riferimento."
+    },
+    "goal": {
+      "type": "string",
+      "enum": [
+        "lancio prodotto",
+        "generazione lead",
+        "educazione",
+        "storytelling"
+      ],
+      "default": "lancio prodotto"
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "visionario",
+        "professionale",
+        "convincente",
+        "amichevole"
+      ],
+      "default": "visionario"
+    }
+  },
+  "required": [
+    "idea",
+    "audience",
+    "goal"
+  ],
+  "additionalProperties": false
+}

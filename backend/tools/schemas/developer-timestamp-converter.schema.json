@@ -1,0 +1,20 @@
+{
+  "$id": "developer-timestamp-converter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci un valore da convertire"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["unix-to-iso", "iso-to-unix"],
+      "default": "unix-to-iso"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,15 @@
+{
+  "$id": "developer-jwt-decoder.schema.json",
+  "type": "object",
+  "properties": {
+    "token": {
+      "type": "string",
+      "minLength": 10,
+      "errorMessage": "Inserisci un token JWT valido"
+    }
+  },
+  "required": ["token"],
+  "additionalProperties": false
+}
+
+

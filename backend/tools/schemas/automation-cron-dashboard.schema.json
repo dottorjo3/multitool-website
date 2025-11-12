@@ -1,0 +1,41 @@
+{
+  "$id": "automation-cron-dashboard.schema.json",
+  "type": "object",
+  "properties": {
+    "cronJobs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "provider": {
+      "type": "string",
+      "enum": [
+        "node-cron",
+        "temporal",
+        "airflow",
+        "cronicle"
+      ],
+      "default": "node-cron"
+    },
+    "retentionDays": {
+      "type": "integer",
+      "minimum": 7,
+      "maximum": 365,
+      "default": 30
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

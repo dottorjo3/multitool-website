@@ -1,0 +1,30 @@
+{
+  "$id": "ai-persona-tester.schema.json",
+  "type": "object",
+  "properties": {
+    "personaName": {
+      "type": "string",
+      "minLength": 3,
+      "default": "Growth Mentor"
+    },
+    "scenarios": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

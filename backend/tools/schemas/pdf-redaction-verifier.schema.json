@@ -1,0 +1,33 @@
+{
+  "$id": "pdf-redaction-verifier.schema.json",
+  "type": "object",
+  "properties": {
+    "detectionMethods": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "text-search",
+          "image-analysis",
+          "ocr-fallback"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "includePixelScan": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

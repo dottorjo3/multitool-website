@@ -1,0 +1,22 @@
+{
+  "$id": "image-add-border.schema.json",
+  "type": "object",
+  "properties": {
+    "border": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,3}$",
+      "default": "20",
+      "errorMessage": "Lo spessore del bordo deve essere tra 1 e 500 pixel"
+    },
+    "color": {
+      "type": "string",
+      "pattern": "^#?([0-9a-fA-F]{6}|[0-9a-fA-F]{3})$",
+      "default": "#000000",
+      "errorMessage": "Inserisci un colore HEX valido"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

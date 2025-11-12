@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PdfDeletePagesSchema",
+  "type": "object",
+  "properties": {
+    "pages": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Elenco pagine da eliminare (es: 2,5,8-10)"
+    }
+  },
+  "required": ["pages"],
+  "additionalProperties": false
+}
+
+

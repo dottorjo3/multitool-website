@@ -1,0 +1,15 @@
+{
+  "$id": "developer-json-minify.schema.json",
+  "type": "object",
+  "properties": {
+    "json": {
+      "type": "string",
+      "minLength": 2,
+      "errorMessage": "Inserisci il JSON da minificare"
+    }
+  },
+  "required": ["json"],
+  "additionalProperties": false
+}
+
+

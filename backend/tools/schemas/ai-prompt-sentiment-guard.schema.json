@@ -1,0 +1,40 @@
+{
+  "$id": "ai-prompt-sentiment-guard.schema.json",
+  "type": "object",
+  "properties": {
+    "targetSentiment": {
+      "type": "string",
+      "enum": [
+        "positive",
+        "neutral",
+        "negative"
+      ],
+      "default": "positive"
+    },
+    "toneDeviation": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 0.5,
+      "default": 0.15
+    },
+    "escalationChannel": {
+      "type": "string",
+      "enum": [
+        "slack",
+        "email",
+        "pagerduty"
+      ],
+      "default": "slack"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

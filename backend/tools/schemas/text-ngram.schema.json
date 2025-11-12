@@ -1,0 +1,31 @@
+{
+  "$id": "text-ngram.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 10,
+      "errorMessage": "Incolla un testo da analizzare"
+    },
+    "n": {
+      "type": ["integer", "string"],
+      "pattern": "^[1-5]$",
+      "default": "2",
+      "errorMessage": "Il valore di N deve essere tra 1 e 5"
+    },
+    "top": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,3}$",
+      "default": "20"
+    },
+    "caseSensitive": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,15 @@
+{
+  "$id": "text-paragraph-counter.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 2,
+      "errorMessage": "Inserisci il testo da analizzare"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

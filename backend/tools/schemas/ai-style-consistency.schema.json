@@ -1,0 +1,40 @@
+{
+  "$id": "ai-style-consistency.schema.json",
+  "type": "object",
+  "properties": {
+    "referenceDocs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "tolerance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0.15
+    },
+    "correctiveMode": {
+      "type": "string",
+      "enum": [
+        "rewrite",
+        "highlight",
+        "manual-review"
+      ],
+      "default": "rewrite"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

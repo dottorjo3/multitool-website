@@ -1,0 +1,39 @@
+{
+  "$id": "support-bot-training-plan.schema.json",
+  "type": "object",
+  "properties": {
+    "botPlatform": {
+      "type": "string",
+      "enum": [
+        "Intercom",
+        "Zendesk",
+        "Freshdesk",
+        "Drift",
+        "Custom"
+      ],
+      "default": "Intercom"
+    },
+    "intentCount": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 120
+    },
+    "evaluationCadence": {
+      "type": "string",
+      "enum": [
+        "weekly",
+        "biweekly",
+        "monthly"
+      ],
+      "default": "monthly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+{
+  "$id": "ai-tone-calibrator.schema.json",
+  "type": "object",
+  "properties": {
+    "currentTone": {
+      "type": "string",
+      "minLength": 3,
+      "default": "generic"
+    },
+    "desiredTone": {
+      "type": "string",
+      "minLength": 3,
+      "default": "authoritative"
+    },
+    "sampleCount": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 15,
+      "default": 5
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

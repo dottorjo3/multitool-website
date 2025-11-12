@@ -1,0 +1,61 @@
+{
+  "$id": "video-caption-translator.schema.json",
+  "type": "object",
+  "properties": {
+    "sourceLang": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 5,
+      "default": "en"
+    },
+    "targetLang": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 5,
+      "default": "it"
+    },
+    "captionFormat": {
+      "type": "string",
+      "enum": [
+        "srt",
+        "vtt",
+        "ass"
+      ],
+      "default": "srt"
+    }
+  },
+  "additionalProperties": false
+}
+{
+  "$id": "video-caption-translator.schema.json",
+  "type": "object",
+  "properties": {
+    "sourceLang": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 5,
+      "default": "en"
+    },
+    "targetLang": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 5,
+      "default": "it"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "srt",
+        "vtt",
+        "ass"
+      ],
+      "default": "srt"
+    },
+    "includeQC": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+

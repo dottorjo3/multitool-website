@@ -1,0 +1,29 @@
+{
+  "$id": "ops-continuity-plan.schema.json",
+  "type": "object",
+  "properties": {
+    "scenarios": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "rtoHours": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 72,
+      "default": 4
+    },
+    "rpoMinutes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1440,
+      "default": 30
+    }
+  },
+  "additionalProperties": false
+}
+

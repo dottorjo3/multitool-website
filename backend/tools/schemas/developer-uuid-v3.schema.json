@@ -1,0 +1,25 @@
+{
+  "$id": "developer-uuid-v3.schema.json",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il valore su cui calcolare l'UUID"
+    },
+    "namespace": {
+      "type": "string",
+      "enum": ["dns", "url", "custom"],
+      "default": "dns"
+    },
+    "customNamespace": {
+      "type": "string",
+      "minLength": 36,
+      "maxLength": 36
+    }
+  },
+  "required": ["name"],
+  "additionalProperties": false
+}
+
+

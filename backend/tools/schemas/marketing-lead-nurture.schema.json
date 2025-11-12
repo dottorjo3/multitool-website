@@ -1,0 +1,43 @@
+{
+  "$id": "marketing-lead-nurture.schema.json",
+  "type": "object",
+  "properties": {
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "scoringModel": {
+      "type": "string",
+      "enum": [
+        "BANT",
+        "LeadScoring",
+        "Custom"
+      ],
+      "default": "BANT"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

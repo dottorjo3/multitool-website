@@ -1,0 +1,8 @@
+{
+  "$id": "image-invert.schema.json",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
+
+

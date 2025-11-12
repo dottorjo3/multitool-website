@@ -1,0 +1,43 @@
+{
+  "$id": "docx-brand-template-builder.schema.json",
+  "type": "object",
+  "properties": {
+    "brandPalette": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^#([A-Fa-f0-9]{6})$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "fonts": {
+      "type": "string",
+      "minLength": 3,
+      "default": "Inter / Calibri"
+    },
+    "templateTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "automation": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

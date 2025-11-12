@@ -1,0 +1,41 @@
+{
+  "$id": "ai-storyboard-designer.schema.json",
+  "type": "object",
+  "properties": {
+    "format": {
+      "type": "string",
+      "enum": [
+        "video",
+        "presentation",
+        "animation"
+      ],
+      "default": "video"
+    },
+    "sceneCount": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 30,
+      "default": 8
+    },
+    "aspectRatio": {
+      "type": "string",
+      "pattern": "^[0-9]{1,2}:[0-9]{1,2}$",
+      "default": "16:9"
+    },
+    "voiceTone": {
+      "type": "string",
+      "minLength": 3,
+      "default": "friendly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

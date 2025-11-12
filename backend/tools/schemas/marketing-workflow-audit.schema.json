@@ -1,0 +1,38 @@
+{
+  "$id": "marketing-workflow-audit.schema.json",
+  "type": "object",
+  "properties": {
+    "systems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "auditFrequency": {
+      "type": "string",
+      "enum": [
+        "monthly",
+        "quarterly",
+        "biannual"
+      ],
+      "default": "quarterly"
+    },
+    "privacyCompliance": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

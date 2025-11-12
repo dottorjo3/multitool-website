@@ -1,0 +1,38 @@
+{
+  "$id": "support-kb-curator.schema.json",
+  "type": "object",
+  "properties": {
+    "articleCount": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 2000,
+      "default": 250
+    },
+    "reviewCadence": {
+      "type": "string",
+      "enum": [
+        "weekly",
+        "biweekly",
+        "monthly",
+        "quarterly"
+      ],
+      "default": "monthly"
+    },
+    "localization": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

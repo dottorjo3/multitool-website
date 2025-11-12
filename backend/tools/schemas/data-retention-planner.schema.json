@@ -1,0 +1,49 @@
+{
+  "$id": "data-retention-planner.schema.json",
+  "type": "object",
+  "properties": {
+    "dataCategories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "retentionYears": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "default": 3
+    },
+    "storageTiers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "hot",
+          "warm",
+          "cold",
+          "archive",
+          "glacier"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "default": [
+        "hot",
+        "warm",
+        "cold",
+        "archive"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

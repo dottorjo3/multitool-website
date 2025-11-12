@@ -1,0 +1,41 @@
+{
+  "$id": "automation-db-backup-plan.schema.json",
+  "type": "object",
+  "properties": {
+    "dbType": {
+      "type": "string",
+      "enum": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "SQLServer"
+      ],
+      "default": "PostgreSQL"
+    },
+    "backupFrequency": {
+      "type": "string",
+      "enum": [
+        "hourly",
+        "daily",
+        "weekly"
+      ],
+      "default": "daily"
+    },
+    "retentionCount": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 90,
+      "default": 7
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

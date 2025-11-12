@@ -1,0 +1,39 @@
+{
+  "$id": "ai-customer-journey.schema.json",
+  "type": "object",
+  "properties": {
+    "persona": {
+      "type": "string",
+      "minLength": 3,
+      "default": "Marketing Manager"
+    },
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "dataSources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

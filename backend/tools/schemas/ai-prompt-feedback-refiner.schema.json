@@ -1,0 +1,42 @@
+{
+  "$id": "ai-prompt-feedback-refiner.schema.json",
+  "type": "object",
+  "properties": {
+    "draft": {
+      "type": "string",
+      "minLength": 20,
+      "errorMessage": "Inserisci il feedback da migliorare (min 20 caratteri)."
+    },
+    "objective": {
+      "type": "string",
+      "enum": [
+        "migliorare chiarezza",
+        "rendere più assertivo",
+        "aumentare empatia",
+        "stimolare azione"
+      ],
+      "default": "migliorare chiarezza"
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "costruttivo",
+        "diretto ma gentile",
+        "formale",
+        "motivante"
+      ],
+      "default": "costruttivo"
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Indica il destinatario del feedback."
+    }
+  },
+  "required": [
+    "draft",
+    "objective",
+    "audience"
+  ],
+  "additionalProperties": false
+}

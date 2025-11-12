@@ -1,0 +1,56 @@
+{
+  "$id": "video-silence-detector.schema.json",
+  "type": "object",
+  "properties": {
+    "minSilenceMs": {
+      "type": "integer",
+      "minimum": 200,
+      "maximum": 10000,
+      "default": 1500
+    },
+    "thresholdDb": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": -10,
+      "default": -35
+    },
+    "outputFormat": {
+      "type": "string",
+      "enum": [
+        "json",
+        "csv",
+        "markers"
+      ],
+      "default": "json"
+    },
+    "autoTrim": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "additionalProperties": false
+}
+{
+  "$id": "video-silence-detector.schema.json",
+  "type": "object",
+  "properties": {
+    "thresholdDb": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 0,
+      "default": -35
+    },
+    "minSilenceSeconds": {
+      "type": "number",
+      "minimum": 0.2,
+      "maximum": 10,
+      "default": 2
+    },
+    "includeReport": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+

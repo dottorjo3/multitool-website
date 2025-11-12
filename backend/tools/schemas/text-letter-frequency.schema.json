@@ -1,0 +1,15 @@
+{
+  "$id": "text-letter-frequency.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il testo da analizzare"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

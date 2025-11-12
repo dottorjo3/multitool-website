@@ -1,0 +1,25 @@
+{
+  "$id": "text-duplicate-remover.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Incolla il testo da ripulire"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["lines", "words"],
+      "default": "lines"
+    },
+    "caseSensitive": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

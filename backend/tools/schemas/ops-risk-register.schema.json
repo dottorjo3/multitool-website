@@ -1,0 +1,40 @@
+{
+  "$id": "ops-risk-register.schema.json",
+  "type": "object",
+  "properties": {
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "scoringModel": {
+      "type": "string",
+      "enum": [
+        "likelihood-impact",
+        "risk-score",
+        "qualitative"
+      ],
+      "default": "likelihood-impact"
+    },
+    "reviewCadence": {
+      "type": "string",
+      "enum": [
+        "monthly",
+        "quarterly",
+        "biannual"
+      ],
+      "default": "monthly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

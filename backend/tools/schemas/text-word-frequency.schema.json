@@ -1,0 +1,26 @@
+{
+  "$id": "text-word-frequency.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 5,
+      "errorMessage": "Incolla un testo da analizzare"
+    },
+    "top": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,3}$",
+      "default": "",
+      "errorMessage": "Inserisci un numero tra 1 e 200"
+    },
+    "caseSensitive": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,19 @@
+{
+  "$id": "lorem-ipsum.schema.json",
+  "type": "object",
+  "properties": {
+    "paragraphs": {
+      "type": ["integer", "string"],
+      "pattern": "^[1-9]$|^10$",
+      "default": "3"
+    },
+    "sentences": {
+      "type": ["integer", "string"],
+      "pattern": "^[1-5]$",
+      "default": "3"
+    }
+  },
+  "additionalProperties": false
+}
+
+

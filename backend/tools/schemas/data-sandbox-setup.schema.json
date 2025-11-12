@@ -1,0 +1,40 @@
+{
+  "$id": "data-sandbox-setup.schema.json",
+  "type": "object",
+  "properties": {
+    "sandboxTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "maskingLevel": {
+      "type": "string",
+      "enum": [
+        "tokenization",
+        "pseudonymization",
+        "anonymization"
+      ],
+      "default": "pseudonymization"
+    },
+    "provisioningCadence": {
+      "type": "string",
+      "enum": [
+        "scheduled",
+        "on-demand",
+        "hybrid"
+      ],
+      "default": "on-demand"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

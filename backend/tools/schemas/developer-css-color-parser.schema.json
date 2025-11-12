@@ -1,0 +1,15 @@
+{
+  "$id": "developer-css-color-parser.schema.json",
+  "type": "object",
+  "properties": {
+    "color": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Inserisci un colore in formato HEX, RGB o HSL"
+    }
+  },
+  "required": ["color"],
+  "additionalProperties": false
+}
+
+

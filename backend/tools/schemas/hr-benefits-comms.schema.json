@@ -1,0 +1,32 @@
+{
+  "$id": "hr-benefits-comms.schema.json",
+  "type": "object",
+  "properties": {
+    "benefitsPrograms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "employeeSegments": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "campaignLengthWeeks": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 24,
+      "default": 6
+    }
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,40 @@
+{
+  "$id": "hr-performance-review-kit.schema.json",
+  "type": "object",
+  "properties": {
+    "reviewCadence": {
+      "type": "string",
+      "enum": [
+        "quarterly",
+        "biannual",
+        "annual"
+      ],
+      "default": "biannual"
+    },
+    "frameworks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

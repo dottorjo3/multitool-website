@@ -1,0 +1,30 @@
+{
+  "$id": "text-shuffle.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da mescolare"
+    },
+    "limit": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{0,4}$",
+      "default": "",
+      "errorMessage": "Il limite deve essere un numero positivo (max 9999)"
+    },
+    "unique": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    },
+    "removeEmpty": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

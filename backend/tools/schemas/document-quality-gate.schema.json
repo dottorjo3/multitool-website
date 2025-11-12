@@ -1,0 +1,39 @@
+{
+  "$id": "document-quality-gate.schema.json",
+  "type": "object",
+  "properties": {
+    "requiredFormats": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "pdf",
+          "docx",
+          "pptx",
+          "xlsx"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "namingConvention": {
+      "type": "string",
+      "minLength": 3,
+      "default": "PROJECT_CLIENT_DATE"
+    },
+    "securityChecks": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+{
+  "$id": "dev-performance-regression-guard.schema.json",
+  "type": "object",
+  "properties": {
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "environments": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "baselineWindow": {
+      "type": "string",
+      "enum": [
+        "last_7_days",
+        "last_14_days",
+        "last_30_days"
+      ],
+      "default": "last_30_days"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

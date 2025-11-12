@@ -1,0 +1,35 @@
+{
+  "$id": "pdf-watermark-batch.schema.json",
+  "type": "object",
+  "properties": {
+    "watermarkTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "batchSize": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 100
+    },
+    "includeDynamicFields": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

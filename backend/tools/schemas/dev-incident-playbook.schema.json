@@ -1,0 +1,39 @@
+{
+  "$id": "dev-incident-playbook.schema.json",
+  "type": "object",
+  "properties": {
+    "severityLevels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "communicationChannels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "onCallRotation": {
+      "type": "string",
+      "minLength": 2,
+      "default": "weekly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

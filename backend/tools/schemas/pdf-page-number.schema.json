@@ -1,0 +1,38 @@
+{
+  "$id": "pdf-page-number.schema.json",
+  "type": "object",
+  "properties": {
+    "startNumber": {
+      "type": ["integer", "string"],
+      "pattern": "^-?[0-9]{1,6}$",
+      "default": "1",
+      "errorMessage": "Inserisci un numero iniziale valido"
+    },
+    "prefix": {
+      "type": "string",
+      "maxLength": 20,
+      "default": ""
+    },
+    "position": {
+      "type": "string",
+      "enum": ["bottom-left", "bottom-center", "bottom-right", "top-left", "top-center", "top-right"],
+      "default": "bottom-center"
+    },
+    "fontSize": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,2}$",
+      "default": "12",
+      "errorMessage": "La dimensione del font deve essere un numero positivo"
+    },
+    "margin": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,3}$",
+      "default": "24",
+      "errorMessage": "Il margine deve essere un numero positivo"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,39 @@
+{
+  "$id": "ai-transcript-polisher.schema.json",
+  "type": "object",
+  "properties": {
+    "sourceFormat": {
+      "type": "string",
+      "enum": [
+        "zoom",
+        "teams",
+        "meet",
+        "audio"
+      ],
+      "default": "zoom"
+    },
+    "targetFormat": {
+      "type": "string",
+      "enum": [
+        "blog",
+        "newsletter",
+        "internal-notes"
+      ],
+      "default": "blog"
+    },
+    "removeFiller": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

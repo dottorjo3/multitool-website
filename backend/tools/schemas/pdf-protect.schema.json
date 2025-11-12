@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PdfProtectSchema",
+  "type": "object",
+  "properties": {
+    "userPassword": {
+      "type": "string",
+      "minLength": 4,
+      "description": "Password che verrà richiesta per aprire il PDF"
+    },
+    "ownerPassword": {
+      "type": "string",
+      "minLength": 4,
+      "description": "Password proprietario (opzionale, default = password utente)"
+    }
+  },
+  "required": ["userPassword"],
+  "additionalProperties": false
+}
+
+

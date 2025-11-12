@@ -1,0 +1,30 @@
+{
+  "$id": "developer-slug-generator.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci un testo da convertire in slug"
+    },
+    "separator": {
+      "type": "string",
+      "maxLength": 3,
+      "default": "-"
+    },
+    "lowercase": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "keepAccents": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

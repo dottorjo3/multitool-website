@@ -1,0 +1,39 @@
+{
+  "$id": "marketing-influencer-brief.schema.json",
+  "type": "object",
+  "properties": {
+    "campaignGoal": {
+      "type": "string",
+      "minLength": 3,
+      "default": "brand awareness"
+    },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "compensationModel": {
+      "type": "string",
+      "enum": [
+        "fixed-fee",
+        "affiliate",
+        "hybrid"
+      ],
+      "default": "fixed-fee"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

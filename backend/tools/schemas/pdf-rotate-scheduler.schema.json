@@ -1,0 +1,42 @@
+{
+  "$id": "pdf-rotate-scheduler.schema.json",
+  "type": "object",
+  "properties": {
+    "recurrence": {
+      "type": "string",
+      "enum": [
+        "daily",
+        "weekly",
+        "monthly"
+      ],
+      "default": "weekly"
+    },
+    "defaultAngle": {
+      "type": "integer",
+      "enum": [
+        90,
+        180,
+        270
+      ],
+      "default": 90
+    },
+    "detectionMode": {
+      "type": "string",
+      "enum": [
+        "auto",
+        "fixed"
+      ],
+      "default": "auto"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

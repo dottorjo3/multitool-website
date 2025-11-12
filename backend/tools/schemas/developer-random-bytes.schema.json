@@ -1,0 +1,21 @@
+{
+  "$id": "developer-random-bytes.schema.json",
+  "type": "object",
+  "properties": {
+    "length": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,4}$",
+      "default": "32",
+      "errorMessage": "La lunghezza deve essere compresa tra 1 e 1024 byte"
+    },
+    "encoding": {
+      "type": "string",
+      "enum": ["hex", "base64"],
+      "default": "hex"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

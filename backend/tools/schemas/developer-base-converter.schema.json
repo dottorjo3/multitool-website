@@ -1,0 +1,24 @@
+{
+  "$id": "developer-base-converter.schema.json",
+  "type": "object",
+  "properties": {
+    "value": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci un numero da convertire"
+    },
+    "fromBase": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,2}$",
+      "default": "10"
+    },
+    "toBase": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,2}$",
+      "default": "16"
+    }
+  },
+  "required": ["value"],
+  "additionalProperties": false
+}
+

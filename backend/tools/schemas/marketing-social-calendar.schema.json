@@ -1,0 +1,42 @@
+{
+  "$id": "marketing-social-calendar.schema.json",
+  "type": "object",
+  "properties": {
+    "brand": {
+      "type": "string",
+      "minLength": 2,
+      "errorMessage": "Specifica il brand."
+    },
+    "theme": {
+      "type": "string",
+      "minLength": 4,
+      "errorMessage": "Indica il tema principale."
+    },
+    "frequency": {
+      "type": "string",
+      "enum": [
+        "3 post/settimana",
+        "5 post/settimana",
+        "daily",
+        "mix organico + sponsored"
+      ],
+      "default": "3 post/settimana"
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "energico",
+        "educativo",
+        "ironico",
+        "minimal"
+      ],
+      "default": "energico"
+    }
+  },
+  "required": [
+    "brand",
+    "theme",
+    "frequency"
+  ],
+  "additionalProperties": false
+}

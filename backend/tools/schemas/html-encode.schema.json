@@ -1,0 +1,15 @@
+{
+  "$id": "html-encode.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il testo da convertire in entità HTML"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

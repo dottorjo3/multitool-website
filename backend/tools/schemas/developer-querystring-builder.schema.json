@@ -1,0 +1,29 @@
+{
+  "$id": "developer-querystring-builder.schema.json",
+  "type": "object",
+  "properties": {
+    "lines": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci almeno una coppia chiave/valore"
+    },
+    "delimiter": {
+      "type": "string",
+      "maxLength": 3,
+      "default": "="
+    },
+    "encode": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "baseUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "required": ["lines"],
+  "additionalProperties": false
+}
+
+

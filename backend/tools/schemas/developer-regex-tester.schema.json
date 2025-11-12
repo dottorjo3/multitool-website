@@ -1,0 +1,23 @@
+{
+  "$id": "developer-regex-tester.schema.json",
+  "type": "object",
+  "properties": {
+    "pattern": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci una regex"
+    },
+    "flags": {
+      "type": "string",
+      "pattern": "^[gimsuy]*$",
+      "default": "g"
+    },
+    "text": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "required": ["pattern", "text"],
+  "additionalProperties": false
+}
+

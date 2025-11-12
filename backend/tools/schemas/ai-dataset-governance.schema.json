@@ -1,0 +1,44 @@
+{
+  "$id": "ai-dataset-governance.schema.json",
+  "type": "object",
+  "properties": {
+    "datasetType": {
+      "type": "string",
+      "enum": [
+        "training",
+        "validation",
+        "inference",
+        "feedback"
+      ],
+      "default": "training"
+    },
+    "classificationLevels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "reviewFrequency": {
+      "type": "string",
+      "enum": [
+        "monthly",
+        "quarterly",
+        "annually"
+      ],
+      "default": "quarterly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

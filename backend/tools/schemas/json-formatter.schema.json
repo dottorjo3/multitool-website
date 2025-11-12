@@ -1,0 +1,26 @@
+{
+  "$id": "json-formatter.schema.json",
+  "type": "object",
+  "properties": {
+    "json": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci un JSON valido da formattare"
+    },
+    "spaces": {
+      "type": ["integer", "string"],
+      "pattern": "^([0-9]|1[0-6])$",
+      "default": "2",
+      "errorMessage": "Il numero di spazi deve essere compreso tra 0 e 16"
+    },
+    "minify": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["json"],
+  "additionalProperties": false
+}
+
+

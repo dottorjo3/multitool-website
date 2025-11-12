@@ -1,0 +1,41 @@
+{
+  "$id": "document-merge-workflow.schema.json",
+  "type": "object",
+  "properties": {
+    "mergeFormats": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "pdf",
+          "docx",
+          "pptx"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "includeCover": {
+      "type": "boolean",
+      "default": true
+    },
+    "tocStyle": {
+      "type": "string",
+      "enum": [
+        "hierarchical",
+        "flat"
+      ],
+      "default": "hierarchical"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

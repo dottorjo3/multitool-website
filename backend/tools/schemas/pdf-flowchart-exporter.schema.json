@@ -1,0 +1,44 @@
+{
+  "$id": "pdf-flowchart-exporter.schema.json",
+  "type": "object",
+  "properties": {
+    "sourceType": {
+      "type": "string",
+      "enum": [
+        "procedure",
+        "policy",
+        "manual"
+      ],
+      "default": "procedure"
+    },
+    "targetTool": {
+      "type": "string",
+      "enum": [
+        "drawio",
+        "lucidchart",
+        "visio"
+      ],
+      "default": "drawio"
+    },
+    "includeSwimlanes": {
+      "type": "boolean",
+      "default": false
+    },
+    "stepsLimit": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 200,
+      "default": 40
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

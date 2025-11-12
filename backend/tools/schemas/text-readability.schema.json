@@ -1,0 +1,15 @@
+{
+  "$id": "text-readability.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 50,
+      "errorMessage": "Incolla un testo di almeno 50 caratteri"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

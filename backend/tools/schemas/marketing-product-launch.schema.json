@@ -1,0 +1,40 @@
+{
+  "$id": "marketing-product-launch.schema.json",
+  "type": "object",
+  "properties": {
+    "launchType": {
+      "type": "string",
+      "enum": [
+        "minor",
+        "major",
+        "beta"
+      ],
+      "default": "major"
+    },
+    "weeksToLaunch": {
+      "type": "integer",
+      "minimum": 4,
+      "maximum": 24,
+      "default": 10
+    },
+    "teamsInvolved": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

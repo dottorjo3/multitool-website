@@ -1,0 +1,20 @@
+{
+  "$id": "whitespace-remover.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il testo da pulire"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["trim", "collapse", "remove-all", "trim-lines"],
+      "default": "trim"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

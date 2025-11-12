@@ -1,0 +1,45 @@
+{
+  "$id": "dev-performance-audit.schema.json",
+  "type": "object",
+  "properties": {
+    "stack": {
+      "type": "string",
+      "minLength": 2,
+      "default": "Node.js"
+    },
+    "focus": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "api_latency",
+          "error_rate",
+          "db_queries",
+          "memory_usage",
+          "external_services"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "frequency": {
+      "type": "string",
+      "enum": [
+        "weekly",
+        "monthly",
+        "quarterly"
+      ],
+      "default": "monthly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

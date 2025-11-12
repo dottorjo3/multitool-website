@@ -1,0 +1,38 @@
+{
+  "$id": "dev-api-playground.schema.json",
+  "type": "object",
+  "properties": {
+    "authMethod": {
+      "type": "string",
+      "enum": [
+        "apiKey",
+        "oauth",
+        "jwt"
+      ],
+      "default": "apiKey"
+    },
+    "specFormat": {
+      "type": "string",
+      "enum": [
+        "OpenAPI",
+        "GraphQL",
+        "gRPC"
+      ],
+      "default": "OpenAPI"
+    },
+    "includeMockServer": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

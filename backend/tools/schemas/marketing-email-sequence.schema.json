@@ -1,0 +1,37 @@
+{
+  "$id": "marketing-email-sequence.schema.json",
+  "type": "object",
+  "properties": {
+    "product": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Specifica il prodotto."
+    },
+    "offer": {
+      "type": "string",
+      "minLength": 5,
+      "errorMessage": "Descrivi l'offerta in modo chiaro."
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Indica il pubblico."
+    },
+    "length": {
+      "type": "string",
+      "enum": [
+        "3 email",
+        "4 email",
+        "5 email",
+        "nurturing continuo"
+      ],
+      "default": "4 email"
+    }
+  },
+  "required": [
+    "product",
+    "offer",
+    "audience"
+  ],
+  "additionalProperties": false
+}

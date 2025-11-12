@@ -1,0 +1,39 @@
+{
+  "$id": "document-compliance-check.schema.json",
+  "type": "object",
+  "properties": {
+    "framework": {
+      "type": "string",
+      "enum": [
+        "gdpr",
+        "iso27001",
+        "hipaa"
+      ],
+      "default": "gdpr"
+    },
+    "docCategory": {
+      "type": "string",
+      "minLength": 3,
+      "default": "policy"
+    },
+    "reviewers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

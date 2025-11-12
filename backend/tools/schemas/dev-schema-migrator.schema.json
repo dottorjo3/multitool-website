@@ -1,0 +1,44 @@
+{
+  "$id": "dev-schema-migrator.schema.json",
+  "type": "object",
+  "properties": {
+    "toolchain": {
+      "type": "string",
+      "enum": [
+        "prisma",
+        "knex",
+        "typeorm",
+        "flyway"
+      ],
+      "default": "prisma"
+    },
+    "environments": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "rollbackStrategy": {
+      "type": "string",
+      "enum": [
+        "down-migrations",
+        "snapshots",
+        "feature-flags"
+      ],
+      "default": "down-migrations"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

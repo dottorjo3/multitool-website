@@ -1,0 +1,37 @@
+{
+  "$id": "marketing-webinar-runbook.schema.json",
+  "type": "object",
+  "properties": {
+    "leadGoal": {
+      "type": "integer",
+      "minimum": 50,
+      "maximum": 10000,
+      "default": 300
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "prepTimelineWeeks": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 12,
+      "default": 6
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

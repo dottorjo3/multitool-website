@@ -1,0 +1,15 @@
+{
+  "$id": "html-decode.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il testo con entità HTML da decodificare"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

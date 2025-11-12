@@ -1,0 +1,50 @@
+{
+  "$id": "pdf-translation-brief.schema.json",
+  "type": "object",
+  "properties": {
+    "sourceLanguage": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 5,
+      "default": "it"
+    },
+    "targetLanguages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 5
+      },
+      "minItems": 1,
+      "default": [
+        "en"
+      ],
+      "uniqueItems": true
+    },
+    "pageCount": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 500,
+      "default": 30
+    },
+    "layoutComplexity": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "default": "medium"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

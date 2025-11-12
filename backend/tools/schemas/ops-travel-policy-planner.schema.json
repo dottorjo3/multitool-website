@@ -1,0 +1,37 @@
+{
+  "$id": "ops-travel-policy-planner.schema.json",
+  "type": "object",
+  "properties": {
+    "travelRegions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "approvalMatrix": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": false
+    },
+    "expensePlatform": {
+      "type": "string",
+      "enum": [
+        "Navan",
+        "Concur",
+        "Ramp",
+        "Expensify",
+        "Custom"
+      ],
+      "default": "Navan"
+    }
+  },
+  "additionalProperties": false
+}
+

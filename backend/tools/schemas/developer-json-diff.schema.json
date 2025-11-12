@@ -1,0 +1,19 @@
+{
+  "$id": "developer-json-diff.schema.json",
+  "type": "object",
+  "properties": {
+    "jsonA": {
+      "type": "string",
+      "minLength": 2,
+      "errorMessage": "Inserisci il primo JSON"
+    },
+    "jsonB": {
+      "type": "string",
+      "minLength": 2,
+      "errorMessage": "Inserisci il secondo JSON"
+    }
+  },
+  "required": ["jsonA", "jsonB"],
+  "additionalProperties": false
+}
+

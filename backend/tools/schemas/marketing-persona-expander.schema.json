@@ -1,0 +1,52 @@
+{
+  "$id": "marketing-persona-expander.schema.json",
+  "type": "object",
+  "properties": {
+    "personaName": {
+      "type": "string",
+      "minLength": 3,
+      "default": "Marketing Manager"
+    },
+    "industry": {
+      "type": "string",
+      "minLength": 2,
+      "default": "SaaS"
+    },
+    "detailLevel": {
+      "type": "string",
+      "enum": [
+        "light",
+        "full"
+      ],
+      "default": "full"
+    }
+  },
+  "additionalProperties": false
+}
+{
+  "$id": "marketing-persona-expander.schema.json",
+  "type": "object",
+  "properties": {
+    "basePersona": {
+      "type": "string",
+      "minLength": 3,
+      "default": "Growth Manager"
+    },
+    "newSegments": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "focusArea": {
+      "type": "string",
+      "minLength": 3,
+      "default": "adoption"
+    }
+  },
+  "additionalProperties": false
+}
+

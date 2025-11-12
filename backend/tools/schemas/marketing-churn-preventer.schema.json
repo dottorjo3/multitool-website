@@ -1,0 +1,43 @@
+{
+  "$id": "marketing-churn-preventer.schema.json",
+  "type": "object",
+  "properties": {
+    "warningSignals": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "offerTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "monitoringCadence": {
+      "type": "string",
+      "enum": [
+        "weekly",
+        "monthly",
+        "real-time"
+      ],
+      "default": "weekly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

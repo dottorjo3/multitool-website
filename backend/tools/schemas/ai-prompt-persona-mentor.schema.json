@@ -1,0 +1,42 @@
+{
+  "$id": "ai-prompt-persona-mentor.schema.json",
+  "type": "object",
+  "properties": {
+    "persona": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Descrivi la persona target."
+    },
+    "challenge": {
+      "type": "string",
+      "minLength": 15,
+      "errorMessage": "Specifica la sfida o il problema da affrontare."
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "sessione singola",
+        "percorso 4 settimane",
+        "roadmap trimestrale",
+        "supporto on-demand"
+      ],
+      "default": "percorso 4 settimane"
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "empatico",
+        "sfidante",
+        "pragmatico",
+        "visionario"
+      ],
+      "default": "empatico"
+    }
+  },
+  "required": [
+    "persona",
+    "challenge",
+    "format"
+  ],
+  "additionalProperties": false
+}

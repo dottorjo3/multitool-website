@@ -1,0 +1,16 @@
+{
+  "$id": "image-pixelate.schema.json",
+  "type": "object",
+  "properties": {
+    "blockSize": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,3}$",
+      "default": "16",
+      "errorMessage": "La dimensione dei blocchi deve essere tra 2 e 200"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

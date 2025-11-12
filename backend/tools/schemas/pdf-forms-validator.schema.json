@@ -1,0 +1,42 @@
+{
+  "$id": "pdf-forms-validator.schema.json",
+  "type": "object",
+  "properties": {
+    "formType": {
+      "type": "string",
+      "minLength": 3,
+      "default": "onboarding"
+    },
+    "validationMode": {
+      "type": "string",
+      "enum": [
+        "basic",
+        "strict"
+      ],
+      "default": "strict"
+    },
+    "localization": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 5
+      },
+      "minItems": 1,
+      "default": [
+        "it"
+      ],
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

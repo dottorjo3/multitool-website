@@ -1,0 +1,35 @@
+{
+  "$id": "contract-version-diff.schema.json",
+  "type": "object",
+  "properties": {
+    "baselineVersion": {
+      "type": "string",
+      "minLength": 1,
+      "default": "v1.0"
+    },
+    "newVersion": {
+      "type": "string",
+      "minLength": 1,
+      "default": "v2.0"
+    },
+    "focusAreas": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

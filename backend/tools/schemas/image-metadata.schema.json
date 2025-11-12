@@ -1,0 +1,14 @@
+{
+  "$id": "image-metadata.schema.json",
+  "type": "object",
+  "properties": {
+    "clean": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "additionalProperties": false
+}
+
+

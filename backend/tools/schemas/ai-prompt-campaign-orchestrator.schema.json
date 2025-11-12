@@ -1,0 +1,45 @@
+{
+  "$id": "ai-prompt-campaign-orchestrator.schema.json",
+  "type": "object",
+  "properties": {
+    "industry": {
+      "type": "string",
+      "minLength": 2,
+      "default": "SaaS"
+    },
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "awareness",
+          "consideration",
+          "decision",
+          "retention"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "primaryGoal": {
+      "type": "string",
+      "minLength": 3,
+      "default": "lead generation"
+    },
+    "model": {
+      "type": "string",
+      "minLength": 2,
+      "default": "gpt-4o"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

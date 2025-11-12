@@ -1,0 +1,30 @@
+{
+  "$id": "pdf-metadata-audit.schema.json",
+  "type": "object",
+  "properties": {
+    "includeSecurity": {
+      "type": "boolean",
+      "default": true
+    },
+    "includeHistory": {
+      "type": "boolean",
+      "default": false
+    },
+    "retentionPolicyDays": {
+      "type": "integer",
+      "minimum": 30,
+      "maximum": 1825,
+      "default": 365
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

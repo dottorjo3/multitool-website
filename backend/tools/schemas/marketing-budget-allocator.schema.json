@@ -1,0 +1,44 @@
+{
+  "$id": "marketing-budget-allocator.schema.json",
+  "type": "object",
+  "properties": {
+    "totalBudget": {
+      "type": "number",
+      "minimum": 1000,
+      "maximum": 10000000,
+      "default": 50000
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "weightingFactors": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "default": {
+        "roi": 0.4,
+        "audienceFit": 0.3,
+        "strategicPriority": 0.3
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

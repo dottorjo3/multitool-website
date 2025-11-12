@@ -1,0 +1,51 @@
+{
+  "$id": "video-b-roll-planner.schema.json",
+  "type": "object",
+  "properties": {
+    "durationMinutes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 120,
+      "default": 5
+    },
+    "scriptSegments": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20,
+      "default": 6
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "professional",
+        "informal",
+        "energetic"
+      ],
+      "default": "professional"
+    }
+  },
+  "additionalProperties": false
+}
+{
+  "$id": "video-b-roll-planner.schema.json",
+  "type": "object",
+  "properties": {
+    "primaryTheme": {
+      "type": "string",
+      "minLength": 3,
+      "default": "product demo"
+    },
+    "durationMinutes": {
+      "type": "number",
+      "minimum": 0.5,
+      "maximum": 120,
+      "default": 5
+    },
+    "includeShotList": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+

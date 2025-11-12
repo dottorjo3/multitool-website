@@ -1,0 +1,45 @@
+{
+  "$id": "pdf-bulk-compressor.schema.json",
+  "type": "object",
+  "properties": {
+    "batchSize": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 500,
+      "default": 50
+    },
+    "targetPerFileMb": {
+      "type": "number",
+      "minimum": 0.5,
+      "maximum": 50,
+      "default": 2
+    },
+    "qualityProfile": {
+      "type": "string",
+      "enum": [
+        "balanced",
+        "archive",
+        "high"
+      ],
+      "default": "balanced"
+    },
+    "delivery": {
+      "type": "string",
+      "enum": [
+        "zip",
+        "cloud"
+      ],
+      "default": "zip"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+{
+  "$id": "ai-faq-generator.schema.json",
+  "type": "object",
+  "properties": {
+    "productName": {
+      "type": "string",
+      "minLength": 2,
+      "default": "Prodotto"
+    },
+    "faqCount": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 30,
+      "default": 8
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "helpful",
+        "friendly",
+        "formal"
+      ],
+      "default": "helpful"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

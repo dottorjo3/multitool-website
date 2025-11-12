@@ -1,0 +1,34 @@
+{
+  "$id": "analytics-experiment-planner.schema.json",
+  "type": "object",
+  "properties": {
+    "experimentType": {
+      "type": "string",
+      "enum": [
+        "A/B test",
+        "multivariate",
+        "feature flag",
+        "bandit"
+      ],
+      "default": "A/B test"
+    },
+    "primaryMetric": {
+      "type": "string",
+      "minLength": 3,
+      "default": "conversion_rate"
+    },
+    "significanceLevel": {
+      "type": "number",
+      "minimum": 0.001,
+      "maximum": 0.2,
+      "default": 0.05
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

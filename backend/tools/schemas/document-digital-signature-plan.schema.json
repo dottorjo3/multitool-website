@@ -1,0 +1,41 @@
+{
+  "$id": "document-digital-signature-plan.schema.json",
+  "type": "object",
+  "properties": {
+    "signatureProvider": {
+      "type": "string",
+      "enum": [
+        "DocuSign",
+        "AdobeSign",
+        "HelloSign",
+        "IntesiGroup"
+      ],
+      "default": "DocuSign"
+    },
+    "certificateType": {
+      "type": "string",
+      "enum": [
+        "simple",
+        "advanced",
+        "qualified"
+      ],
+      "default": "qualified"
+    },
+    "retentionYears": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 30,
+      "default": 10
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+{
+  "$id": "sql-performance-playbook.schema.json",
+  "type": "object",
+  "properties": {
+    "warehouse": {
+      "type": "string",
+      "enum": [
+        "Snowflake",
+        "BigQuery",
+        "Redshift",
+        "Synapse",
+        "Databricks SQL"
+      ],
+      "default": "Snowflake"
+    },
+    "workloadTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "reviewCadence": {
+      "type": "string",
+      "enum": [
+        "biweekly",
+        "monthly",
+        "quarterly"
+      ],
+      "default": "monthly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+{
+  "$id": "ai-changelog-writer.schema.json",
+  "type": "object",
+  "properties": {
+    "sourceSystems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "friendly",
+        "formal",
+        "technical"
+      ],
+      "default": "friendly"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

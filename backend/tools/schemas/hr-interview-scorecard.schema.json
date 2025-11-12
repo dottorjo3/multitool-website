@@ -1,0 +1,41 @@
+{
+  "$id": "hr-interview-scorecard.schema.json",
+  "type": "object",
+  "properties": {
+    "competencies": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "ratingScale": {
+      "type": "string",
+      "enum": [
+        "1-5",
+        "1-4",
+        "1-7",
+        "traffic-light"
+      ],
+      "default": "1-5"
+    },
+    "interviewTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

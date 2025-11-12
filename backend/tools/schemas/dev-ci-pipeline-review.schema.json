@@ -1,0 +1,39 @@
+{
+  "$id": "dev-ci-pipeline-review.schema.json",
+  "type": "object",
+  "properties": {
+    "ciProvider": {
+      "type": "string",
+      "minLength": 2,
+      "default": "GitHub Actions"
+    },
+    "runtimes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "reviewFrequency": {
+      "type": "string",
+      "enum": [
+        "weekly",
+        "monthly",
+        "quarterly"
+      ],
+      "default": "monthly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

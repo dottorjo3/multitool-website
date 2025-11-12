@@ -1,0 +1,16 @@
+{
+  "$id": "image-sepia.schema.json",
+  "type": "object",
+  "properties": {
+    "intensity": {
+      "type": ["number", "string"],
+      "pattern": "^(0(\\.\\d+)?|1(\\.0+)?)$",
+      "default": "0.8",
+      "errorMessage": "L’intensità deve essere tra 0 e 1"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

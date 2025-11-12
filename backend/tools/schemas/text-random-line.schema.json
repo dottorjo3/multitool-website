@@ -1,0 +1,30 @@
+{
+  "$id": "text-random-line.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da cui estrarre le righe"
+    },
+    "count": {
+      "type": ["integer", "string"],
+      "pattern": "^[0-9]{1,3}$",
+      "default": "1",
+      "errorMessage": "Inserisci un numero tra 1 e 999"
+    },
+    "unique": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    },
+    "removeEmpty": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

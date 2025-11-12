@@ -1,0 +1,56 @@
+{
+  "$id": "video-livestream-checklist.schema.json",
+  "type": "object",
+  "properties": {
+    "eventLengthMinutes": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 480,
+      "default": 60
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "rehearsal": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}
+{
+  "$id": "video-livestream-checklist.schema.json",
+  "type": "object",
+  "properties": {
+    "platform": {
+      "type": "string",
+      "enum": [
+        "YouTube",
+        "Twitch",
+        "LinkedIn",
+        "Facebook"
+      ],
+      "default": "YouTube"
+    },
+    "durationMinutes": {
+      "type": "integer",
+      "minimum": 15,
+      "maximum": 480,
+      "default": 60
+    },
+    "teamSize": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "default": 4
+    }
+  },
+  "additionalProperties": false
+}
+

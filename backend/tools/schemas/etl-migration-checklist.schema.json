@@ -1,0 +1,29 @@
+{
+  "$id": "etl-migration-checklist.schema.json",
+  "type": "object",
+  "properties": {
+    "currentPlatform": {
+      "type": "string",
+      "minLength": 2,
+      "default": "Legacy ETL"
+    },
+    "targetPlatform": {
+      "type": "string",
+      "minLength": 2,
+      "default": "Modern ELT"
+    },
+    "migrationWindowWeeks": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 52,
+      "default": 8
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+{
+  "$id": "document-summary-blueprint.schema.json",
+  "type": "object",
+  "properties": {
+    "documentType": {
+      "type": "string",
+      "minLength": 3,
+      "default": "report"
+    },
+    "pages": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 25
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 3,
+      "default": "executive"
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "neutral",
+        "formal",
+        "friendly",
+        "urgent"
+      ],
+      "default": "neutral"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

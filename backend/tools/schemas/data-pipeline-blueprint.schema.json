@@ -1,0 +1,42 @@
+{
+  "$id": "data-pipeline-blueprint.schema.json",
+  "type": "object",
+  "properties": {
+    "sourceTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "orchestration": {
+      "type": "string",
+      "enum": [
+        "Airflow",
+        "Dagster",
+        "Prefect",
+        "Luigi",
+        "Mage"
+      ],
+      "default": "Airflow"
+    },
+    "refreshCadence": {
+      "type": "string",
+      "enum": [
+        "hourly",
+        "daily",
+        "weekly"
+      ],
+      "default": "daily"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

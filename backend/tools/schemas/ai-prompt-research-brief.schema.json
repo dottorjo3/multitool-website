@@ -1,0 +1,42 @@
+{
+  "$id": "ai-prompt-research-brief.schema.json",
+  "type": "object",
+  "properties": {
+    "topic": {
+      "type": "string",
+      "minLength": 5,
+      "errorMessage": "Specifica un tema chiaro."
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Indica i destinatari."
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "rapida (30 minuti)",
+        "standard (60 minuti)",
+        "approfondita (2-3 ore)",
+        "full benchmark (mezza giornata)"
+      ],
+      "default": "approfondita (2-3 ore)"
+    },
+    "deliverable": {
+      "type": "string",
+      "enum": [
+        "report strutturato",
+        "scheda bullet",
+        "tabella comparativa",
+        "executive memo"
+      ],
+      "default": "report strutturato"
+    }
+  },
+  "required": [
+    "topic",
+    "audience",
+    "scope"
+  ],
+  "additionalProperties": false
+}

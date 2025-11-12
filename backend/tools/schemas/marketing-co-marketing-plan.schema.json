@@ -1,0 +1,36 @@
+{
+  "$id": "marketing-co-marketing-plan.schema.json",
+  "type": "object",
+  "properties": {
+    "partnerName": {
+      "type": "string",
+      "minLength": 2,
+      "default": "PartnerX"
+    },
+    "initiativeTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "timelineWeeks": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 24,
+      "default": 8
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
+
+
+

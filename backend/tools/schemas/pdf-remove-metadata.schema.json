@@ -1,0 +1,8 @@
+{
+  "$id": "pdf-remove-metadata.schema.json",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
+
+

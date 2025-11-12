@@ -1,0 +1,20 @@
+{
+  "$id": "developer-color-converter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Inserisci un colore in formato HEX, RGB o HSL"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["auto", "hex", "rgb", "hsl"],
+      "default": "auto"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

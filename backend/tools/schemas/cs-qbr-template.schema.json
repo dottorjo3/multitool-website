@@ -1,0 +1,41 @@
+{
+  "$id": "cs-qbr-template.schema.json",
+  "type": "object",
+  "properties": {
+    "focusAreas": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "presentationFormat": {
+      "type": "string",
+      "enum": [
+        "deck",
+        "notion",
+        "pdf",
+        "interactive"
+      ],
+      "default": "deck"
+    },
+    "contributors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

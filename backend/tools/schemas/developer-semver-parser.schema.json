@@ -1,0 +1,15 @@
+{
+  "$id": "developer-semver-parser.schema.json",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci una versione SemVer (es. 1.2.3-beta+build)"
+    }
+  },
+  "required": ["version"],
+  "additionalProperties": false
+}
+
+

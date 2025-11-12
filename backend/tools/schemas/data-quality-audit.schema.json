@@ -1,0 +1,53 @@
+{
+  "$id": "data-quality-audit.schema.json",
+  "type": "object",
+  "properties": {
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "accuracy",
+          "completeness",
+          "timeliness",
+          "consistency",
+          "uniqueness",
+          "validity"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "default": [
+        "accuracy",
+        "completeness",
+        "timeliness",
+        "consistency"
+      ]
+    },
+    "auditCadence": {
+      "type": "string",
+      "enum": [
+        "monthly",
+        "quarterly",
+        "biannual"
+      ],
+      "default": "quarterly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+{
+  "$id": "developer-hmac-generator.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il testo"
+    },
+    "secret": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci la chiave segreta"
+    },
+    "algorithm": {
+      "type": "string",
+      "enum": ["sha1", "sha256", "sha384", "sha512", "md5"],
+      "default": "sha256"
+    },
+    "encoding": {
+      "type": "string",
+      "enum": ["hex", "base64"],
+      "default": "hex"
+    }
+  },
+  "required": ["text", "secret"],
+  "additionalProperties": false
+}
+
+

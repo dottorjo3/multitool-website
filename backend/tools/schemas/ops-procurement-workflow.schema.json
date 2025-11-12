@@ -1,0 +1,63 @@
+{
+  "$id": "ops-procurement-workflow.schema.json",
+  "type": "object",
+  "properties": {
+    "spendThresholds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tier": {
+            "type": "string",
+            "minLength": 2
+          },
+          "amount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "approvals": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 2
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "tier",
+          "amount",
+          "approvals"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "systems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "reviewFrequency": {
+      "type": "string",
+      "enum": [
+        "monthly",
+        "quarterly",
+        "biannual"
+      ],
+      "default": "quarterly"
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+

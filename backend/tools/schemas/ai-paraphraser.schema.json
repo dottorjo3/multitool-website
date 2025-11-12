@@ -1,0 +1,29 @@
+{
+  "$id": "ai-paraphraser.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 20,
+      "errorMessage": "Incolla un testo da parafrasare (minimo 20 caratteri)"
+    },
+    "tone": {
+      "type": "string",
+      "enum": ["neutral", "friendly", "professional"],
+      "default": "neutral"
+    },
+    "language": {
+      "type": "string",
+      "default": "it"
+    },
+    "temperature": {
+      "type": ["number", "string"],
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0.4
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
