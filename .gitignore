@@ -69,7 +69,8 @@ var/
 # 🚫 LARGE / BINARY FILES
 # ===========================
 # Evita di caricare file troppo grandi o compilati su GitHub
-vendor/
+/vendor/ffmpeg/
+/vendor/libreoffice/
 *.exe
 *.dll
 *.zip
@@ -93,3 +94,11 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# ===========================
+# 🧩 CURSOR / LOCAL DEV
+# ===========================
+.cursor/
+.history/
+.local/
+cache/
