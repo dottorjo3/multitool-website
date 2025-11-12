@@ -1,0 +1,36 @@
+[
+  {
+    "id": "workflow_social_clip",
+    "title": "Clip social ottimizzata",
+    "tools": ["video-trim", "video-compress", "video-to-gif"],
+    "steps": [
+      "Taglia la clip al momento più coinvolgente con Video Trimmer.",
+      "Comprimi sotto i 15 MB mantenendo un bitrate equilibrato.",
+      "Converti in GIF o WebM a seconda del canale social."
+    ],
+    "duration": "≈ 4 minuti"
+  },
+  {
+    "id": "workflow_metadata_cleanup",
+    "title": "Pulizia metadata per consegna professionale",
+    "tools": ["video-metadata", "video-extract-audio", "video-compress"],
+    "steps": [
+      "Analizza container e stream con Video Metadata.",
+      "Estrai l'audio master in FLAC.",
+      "Ricodifica con preset broadcast mantenendo timecode."
+    ],
+    "duration": "≈ 6 minuti"
+  },
+  {
+    "id": "workflow_tutorial_pack",
+    "title": "Pacchetto tutorial completo",
+    "tools": ["video-extract-audio", "video-thumbnail", "video-convert"],
+    "steps": [
+      "Genera l'MP3 commentato per podcast.",
+      "Crea thumbnail a timestamp chiave.",
+      "Esporta in MP4, WebM e MOV per tutti i player."
+    ],
+    "duration": "≈ 8 minuti"
+  }
+]
+

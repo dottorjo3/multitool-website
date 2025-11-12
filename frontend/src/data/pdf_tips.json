@@ -1,0 +1,23 @@
+{
+  "pdf-merge": [
+    "Ordina i file prima di unirli per evitare passi extra in fase di riordino.",
+    "Comprimi i documenti più pesanti prima di caricarli se superano i 100 MB."
+  ],
+  "pdf-split": [
+    "Specificare i range separati da virgole (es. 1-3,7,9-12).",
+    "Attiva 'mantieni segnalibri' per manualistica o documenti tecnici."
+  ],
+  "pdf-protect": [
+    "Usa password diverse per apertura e modifica quando condividi il file.",
+    "Combina con watermark per una sicurezza a più livelli."
+  ],
+  "pdf-unlock": [
+    "Verifica di avere i diritti di modifica prima di rimuovere le protezioni.",
+    "Salva sempre una copia sbloccata invece di sovrascrivere l'originale."
+  ],
+  "pdf-watermark": [
+    "Mantieni l'opacità tra 10% e 25% per non compromettere la leggibilità.",
+    "Per contratti usa la modalità diagonale e font bold."
+  ]
+}
+

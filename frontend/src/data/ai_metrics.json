@@ -1,0 +1,11 @@
+{
+  "ai-paraphraser": { "avgDuration": "6s", "recommendedModel": "GPT-4 Turbo" },
+  "ai-summarizer": { "avgDuration": "9s", "recommendedModel": "Claude 3.5" },
+  "ai-writer": { "avgDuration": "11s", "recommendedModel": "GPT-4o" },
+  "ai-prompt-idea-expander": { "avgDuration": "5s", "recommendedModel": "GPT-4o mini" },
+  "ai-prompt-persona-mentor": { "avgDuration": "7s", "recommendedModel": "Llama 3 70B" },
+  "ai-prompt-interview-designer": { "avgDuration": "8s", "recommendedModel": "GPT-4 Turbo" },
+  "ai-prompt-research-brief": { "avgDuration": "10s", "recommendedModel": "Claude 3.5" },
+  "ai-prompt-feedback-refiner": { "avgDuration": "6s", "recommendedModel": "GPT-4o mini" }
+}
+

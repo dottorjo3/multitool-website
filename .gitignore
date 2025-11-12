@@ -1,51 +1,95 @@
-# Dependencies
+# ===========================
+# 📦 DEPENDENCIES
+# ===========================
 node_modules/
 */node_modules/
 
-# Environment variables
+# ===========================
+# 🔐 ENVIRONMENT VARIABLES
+# ===========================
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Logs
+# ===========================
+# 🪵 LOGS
+# ===========================
 logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Temporary files
+# ===========================
+# ⚙️ TEMPORARY FILES
+# ===========================
 tmp/
 backend/tmp/
 *.tmp
 
-# Build outputs
+# ===========================
+# 🏗️ BUILD OUTPUTS
+# ===========================
 build/
 dist/
 frontend/build/
 backend/dist/
 
-# IDE
+# ===========================
+# 💻 IDE / EDITOR
+# ===========================
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# ===========================
+# 💽 OS FILES
+# ===========================
 .DS_Store
 Thumbs.db
 
-# Database
+# ===========================
+# 🗃️ DATABASE FILES
+# ===========================
 *.db
 *.sqlite
 
-# Uploads
+# ===========================
+# 📤 UPLOADS & RUNTIME
+# ===========================
 uploads/
 *.upload
-
-# Runtime storage
 var/
 
+# ===========================
+# 🚫 LARGE / BINARY FILES
+# ===========================
+# Evita di caricare file troppo grandi o compilati su GitHub
+vendor/
+*.exe
+*.dll
+*.zip
+*.7z
+*.rar
+*.iso
+*.bak
+*.tar
+*.gz
+
+# Escludi backup e dump locali
+*backup*
+*BACKUP*
+frontend-damaged-backup-*/
+frontend-backup-*.zip
+
+# ===========================
+# 🧠 AI / GENERATED CONTENT
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
