@@ -1,0 +1,17 @@
+{
+  "$id": "math-fibonacci-generator.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": [
+        "string",
+        "number"
+      ],
+      "description": "Input value"
+    }
+  },
+  "required": [
+    "input"
+  ],
+  "additionalProperties": false
+}

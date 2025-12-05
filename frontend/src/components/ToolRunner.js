@@ -1,7 +1,7 @@
 // 🔧 File: frontend/src/components/ToolRunner.js
 // 🔗 Farm Ready — ToolRunner dinamico (compatibile con template duplicabili)
 
-import React, { useState } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 import { toolsAPI } from '../services/api';
@@ -29,7 +29,7 @@ export default function ToolRunner({ definition, toolMeta }) {
   const [result, setResult] = useState(null);
   const [usage, setUsage] = useState(null);
 
-  const handleParamChange = (fieldName, value) => {
+  const handleParamChange = useCallback((fieldName, value) => {
     setState((prev) => ({
       ...prev,
       params: {
@@ -37,9 +37,9 @@ export default function ToolRunner({ definition, toolMeta }) {
         [fieldName]: value,
       },
     }));
-  };
+  }, []);
 
-  const handleFileChange = (field, filesList) => {
+  const handleFileChange = useCallback((field, filesList) => {
     setState((prev) => ({
       ...prev,
       files: {
@@ -47,9 +47,9 @@ export default function ToolRunner({ definition, toolMeta }) {
         [field.name]: field.multiple ? Array.from(filesList) : filesList[0] || null,
       },
     }));
-  };
+  }, []);
 
-  const buildFormData = () => {
+  const buildFormData = useCallback(() => {
     const formData = new FormData();
 
     Object.entries(state.params).forEach(([key, value]) => {
@@ -71,7 +71,7 @@ export default function ToolRunner({ definition, toolMeta }) {
     });
 
     return formData;
-  };
+  }, [state.params, state.files]);
 
   const handleSubmit = async (event) => {
     event.preventDefault();

@@ -1,0 +1,15 @@
+{
+  "$id": "developer-http-headers-parser.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci gli HTTP headers da analizzare"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

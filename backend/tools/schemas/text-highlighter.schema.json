@@ -1,0 +1,29 @@
+{
+  "$id": "text-highlighter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da evidenziare"
+    },
+    "keywords": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci le parole da evidenziare (separate da virgola)"
+    },
+    "highlightType": {
+      "type": "string",
+      "enum": ["mark", "bold", "italic", "underline"],
+      "default": "mark"
+    },
+    "caseSensitive": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["input", "keywords"],
+  "additionalProperties": false
+}
+

@@ -1,0 +1,34 @@
+{
+  "$id": "data-csv-filter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da filtrare"
+    },
+    "column": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Specifica la colonna"
+    },
+    "operator": {
+      "type": "string",
+      "enum": ["equals", "contains", "greater", "less", "startsWith", "endsWith"],
+      "default": "equals"
+    },
+    "value": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il valore per il filtro"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input", "column", "value"],
+  "additionalProperties": false
+}
+
+

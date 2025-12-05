@@ -1,0 +1,14 @@
+{
+  "$id": "text-binary-to-text.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo binario da convertire"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

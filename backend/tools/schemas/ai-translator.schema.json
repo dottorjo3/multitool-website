@@ -1,0 +1,23 @@
+{
+  "$id": "ai-translator.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Inserisci testo da tradurre (almeno 3 caratteri)"
+    },
+    "fromLang": {
+      "type": "string",
+      "default": "auto"
+    },
+    "toLang": {
+      "type": "string",
+      "default": "en"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

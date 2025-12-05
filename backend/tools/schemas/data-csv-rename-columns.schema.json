@@ -1,0 +1,24 @@
+{
+  "$id": "data-csv-rename-columns.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da modificare"
+    },
+    "mappings": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Specifica i mapping (vecchia:nuova,vecchia2:nuova2)"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input", "mappings"],
+  "additionalProperties": false
+}
+
+

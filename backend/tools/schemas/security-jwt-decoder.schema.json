@@ -1,0 +1,15 @@
+{
+  "$id": "security-jwt-decoder.schema.json",
+  "type": "object",
+  "properties": {
+    "token": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci JWT token"
+    }
+  },
+  "required": [
+    "token"
+  ],
+  "additionalProperties": false
+}

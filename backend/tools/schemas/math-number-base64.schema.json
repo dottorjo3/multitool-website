@@ -1,0 +1,17 @@
+{
+  "$id": "math-number-base64.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string"
+    },
+    "direction": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "input",
+    "direction"
+  ],
+  "additionalProperties": false
+}

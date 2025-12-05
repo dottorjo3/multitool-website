@@ -1,0 +1,15 @@
+{
+  "$id": "security-hex-decode.schema.json",
+  "type": "object",
+  "properties": {
+    "hex": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci esadecimale da decodificare"
+    }
+  },
+  "required": [
+    "hex"
+  ],
+  "additionalProperties": false
+}

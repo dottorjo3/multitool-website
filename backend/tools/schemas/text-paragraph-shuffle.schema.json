@@ -1,0 +1,14 @@
+{
+  "$id": "text-paragraph-shuffle.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo con paragrafi da mescolare"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

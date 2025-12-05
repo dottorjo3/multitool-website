@@ -1,0 +1,18 @@
+{
+  "$id": "text-csv-to-json-schema.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da convertire"
+    },
+    "separator": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

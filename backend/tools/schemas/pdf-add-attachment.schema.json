@@ -1,0 +1,9 @@
+{
+  "$id": "pdf-add-attachment.schema.json",
+  "type": "object",
+  "properties": {},
+  "required": [],
+  "additionalProperties": false
+}
+
+

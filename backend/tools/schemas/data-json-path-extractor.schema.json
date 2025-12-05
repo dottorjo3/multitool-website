@@ -1,0 +1,20 @@
+{
+  "$id": "data-json-path-extractor.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del JSON da analizzare"
+    },
+    "path": {
+      "type": "string",
+      "default": "$.*",
+      "errorMessage": "Inserisci un percorso JSONPath (es: $.users[*].name)"
+    }
+  },
+  "required": ["input", "path"],
+  "additionalProperties": false
+}
+
+

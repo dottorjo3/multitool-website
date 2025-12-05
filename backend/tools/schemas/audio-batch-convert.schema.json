@@ -1,0 +1,16 @@
+{
+  "$id": "audio-batch-convert.schema.json",
+  "type": "object",
+  "properties": {
+    "format": {
+      "type": "string"
+    },
+    "bitrate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "bitrate"
+  ],
+  "additionalProperties": false
+}

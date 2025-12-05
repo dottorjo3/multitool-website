@@ -1,0 +1,24 @@
+{
+  "$id": "text-indentation-fix.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da correggere"
+    },
+    "indentType": {
+      "type": "string",
+      "enum": ["spaces", "tabs"],
+      "default": "spaces"
+    },
+    "indentSize": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$",
+      "default": "2"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

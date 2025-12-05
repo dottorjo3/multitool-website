@@ -1,0 +1,15 @@
+{
+  "$id": "developer-json-validator.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del JSON da validare"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

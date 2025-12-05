@@ -1,0 +1,14 @@
+{
+  "$id": "text-base32-encode.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da codificare"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

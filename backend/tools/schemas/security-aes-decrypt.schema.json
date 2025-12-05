@@ -1,0 +1,21 @@
+{
+  "$id": "security-aes-decrypt.schema.json",
+  "type": "object",
+  "properties": {
+    "encrypted": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci testo crittografato"
+    },
+    "password": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci password per decrittografia"
+    }
+  },
+  "required": [
+    "encrypted",
+    "password"
+  ],
+  "additionalProperties": false
+}

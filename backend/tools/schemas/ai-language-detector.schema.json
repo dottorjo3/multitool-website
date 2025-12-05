@@ -1,0 +1,15 @@
+{
+  "$id": "ai-language-detector.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 5,
+      "errorMessage": "Inserisci testo da analizzare (almeno 5 caratteri)"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

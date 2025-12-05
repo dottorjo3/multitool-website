@@ -1,0 +1,25 @@
+{
+  "$id": "data-json-merge.schema.json",
+  "type": "object",
+  "properties": {
+    "json1": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il primo JSON"
+    },
+    "json2": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il secondo JSON"
+    },
+    "mergeStrategy": {
+      "type": "string",
+      "enum": ["deep", "shallow", "replace"],
+      "default": "deep"
+    }
+  },
+  "required": ["json1", "json2"],
+  "additionalProperties": false
+}
+
+

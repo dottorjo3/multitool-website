@@ -1,0 +1,17 @@
+{
+  "$id": "data-excel-to-csv.schema.json",
+  "type": "object",
+  "properties": {
+    "sheetName": {
+      "type": "string"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

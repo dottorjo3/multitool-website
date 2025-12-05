@@ -1,0 +1,24 @@
+{
+  "$id": "security-argon2-hash.schema.json",
+  "type": "object",
+  "properties": {
+    "password": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci password da hashare"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "argon2id",
+        "argon2i",
+        "argon2d"
+      ],
+      "default": "argon2id"
+    }
+  },
+  "required": [
+    "password"
+  ],
+  "additionalProperties": false
+}

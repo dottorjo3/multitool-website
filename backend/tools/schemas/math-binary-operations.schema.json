@@ -1,0 +1,13 @@
+{
+  "$id": "math-binary-operations.schema.json",
+  "type": "object",
+  "properties": {
+    "operation": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "operation"
+  ],
+  "additionalProperties": false
+}

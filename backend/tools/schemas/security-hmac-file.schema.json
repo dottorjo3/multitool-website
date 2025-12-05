@@ -1,0 +1,23 @@
+{
+  "$id": "security-hmac-file.schema.json",
+  "type": "object",
+  "properties": {
+    "secret": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci secret key"
+    },
+    "algorithm": {
+      "type": "string",
+      "enum": [
+        "sha256",
+        "sha512"
+      ],
+      "default": "sha256"
+    }
+  },
+  "required": [
+    "secret"
+  ],
+  "additionalProperties": false
+}

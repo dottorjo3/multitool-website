@@ -1,0 +1,25 @@
+{
+  "$id": "data-json-remove-keys.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del JSON da modificare"
+    },
+    "keys": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Specifica le chiavi da rimuovere (separate da virgola)"
+    },
+    "recursive": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    }
+  },
+  "required": ["input", "keys"],
+  "additionalProperties": false
+}
+
+

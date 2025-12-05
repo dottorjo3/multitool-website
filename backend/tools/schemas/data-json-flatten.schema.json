@@ -1,0 +1,23 @@
+{
+  "$id": "data-json-flatten.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del JSON da appiattire"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": "."
+    },
+    "maxDepth": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

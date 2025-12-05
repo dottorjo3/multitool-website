@@ -1,0 +1,21 @@
+{
+  "$id": "security-bcrypt-verify.schema.json",
+  "type": "object",
+  "properties": {
+    "password": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci password da verificare"
+    },
+    "hash": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci hash bcrypt"
+    }
+  },
+  "required": [
+    "password",
+    "hash"
+  ],
+  "additionalProperties": false
+}

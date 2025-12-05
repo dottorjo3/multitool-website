@@ -1,0 +1,13 @@
+{
+  "$id": "video-extract-frames.schema.json",
+  "type": "object",
+  "properties": {
+    "format": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "format"
+  ],
+  "additionalProperties": false
+}

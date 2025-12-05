@@ -1,0 +1,14 @@
+{
+  "$id": "text-number-to-roman.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci un numero da convertire"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

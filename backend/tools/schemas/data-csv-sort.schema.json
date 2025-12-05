@@ -1,0 +1,29 @@
+{
+  "$id": "data-csv-sort.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da ordinare"
+    },
+    "column": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Specifica la colonna per l'ordinamento"
+    },
+    "order": {
+      "type": "string",
+      "enum": ["asc", "desc"],
+      "default": "asc"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input", "column"],
+  "additionalProperties": false
+}
+
+

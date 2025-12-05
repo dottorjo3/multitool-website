@@ -1,0 +1,20 @@
+{
+  "$id": "ai-text-expander.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 10,
+      "errorMessage": "Inserisci testo da espandere (almeno 10 caratteri)"
+    },
+    "targetLength": {
+      "type": "string",
+      "enum": ["short", "medium", "long"],
+      "default": "medium"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

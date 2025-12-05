@@ -1,0 +1,20 @@
+{
+  "$id": "developer-sql-formatter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci una query SQL da formattare"
+    },
+    "keywordCase": {
+      "type": "string",
+      "enum": ["upper", "lower", "preserve"],
+      "default": "upper"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

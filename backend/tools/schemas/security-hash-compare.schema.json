@@ -1,0 +1,21 @@
+{
+  "$id": "security-hash-compare.schema.json",
+  "type": "object",
+  "properties": {
+    "hash1": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci primo hash"
+    },
+    "hash2": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci secondo hash"
+    }
+  },
+  "required": [
+    "hash1",
+    "hash2"
+  ],
+  "additionalProperties": false
+}

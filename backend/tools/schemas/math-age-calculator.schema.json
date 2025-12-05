@@ -1,0 +1,17 @@
+{
+  "$id": "math-age-calculator.schema.json",
+  "type": "object",
+  "properties": {
+    "birthDate": {
+      "type": "string"
+    },
+    "referenceDate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "birthDate",
+    "referenceDate"
+  ],
+  "additionalProperties": false
+}

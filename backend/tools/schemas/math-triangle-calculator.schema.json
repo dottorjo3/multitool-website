@@ -1,0 +1,13 @@
+{
+  "$id": "math-triangle-calculator.schema.json",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "type"
+  ],
+  "additionalProperties": false
+}

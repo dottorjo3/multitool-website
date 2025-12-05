@@ -1,0 +1,16 @@
+{
+  "$id": "math-lcm-multiple.schema.json",
+  "type": "object",
+  "properties": {
+    "numbers": {
+      "type": [
+        "number",
+        "string"
+      ]
+    }
+  },
+  "required": [
+    "numbers"
+  ],
+  "additionalProperties": false
+}

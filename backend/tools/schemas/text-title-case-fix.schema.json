@@ -1,0 +1,14 @@
+{
+  "$id": "text-title-case-fix.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da correggere"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

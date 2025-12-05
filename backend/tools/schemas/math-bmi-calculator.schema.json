@@ -1,0 +1,13 @@
+{
+  "$id": "math-bmi-calculator.schema.json",
+  "type": "object",
+  "properties": {
+    "unit": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "unit"
+  ],
+  "additionalProperties": false
+}

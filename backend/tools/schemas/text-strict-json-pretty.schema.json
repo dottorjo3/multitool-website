@@ -1,0 +1,19 @@
+{
+  "$id": "text-strict-json-pretty.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del JSON da formattare"
+    },
+    "indent": {
+      "type": "string",
+      "pattern": "^[0-9]+$",
+      "default": "2"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

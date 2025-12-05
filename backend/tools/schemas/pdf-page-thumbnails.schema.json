@@ -1,0 +1,13 @@
+{
+  "$id": "pdf-page-thumbnails.schema.json",
+  "type": "object",
+  "properties": {
+    "size": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "size"
+  ],
+  "additionalProperties": false
+}

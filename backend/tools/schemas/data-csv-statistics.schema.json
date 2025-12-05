@@ -1,0 +1,19 @@
+{
+  "$id": "data-csv-statistics.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da analizzare"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

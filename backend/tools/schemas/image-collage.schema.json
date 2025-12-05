@@ -1,0 +1,21 @@
+{
+  "$id": "image-collage.schema.json",
+  "type": "object",
+  "properties": {
+    "layout": {
+      "type": "string",
+      "enum": ["grid", "horizontal", "vertical"],
+      "default": "grid"
+    },
+    "columns": {
+      "type": "number",
+      "default": 2,
+      "minimum": 1,
+      "maximum": 10
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

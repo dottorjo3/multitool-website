@@ -1,0 +1,19 @@
+{
+  "$id": "text-token-counter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da analizzare"
+    },
+    "method": {
+      "type": "string",
+      "enum": ["words", "characters", "sentences", "paragraphs"],
+      "default": "words"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

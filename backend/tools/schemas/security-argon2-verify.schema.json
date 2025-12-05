@@ -1,0 +1,21 @@
+{
+  "$id": "security-argon2-verify.schema.json",
+  "type": "object",
+  "properties": {
+    "password": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci password da verificare"
+    },
+    "hash": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci hash argon2"
+    }
+  },
+  "required": [
+    "password",
+    "hash"
+  ],
+  "additionalProperties": false
+}

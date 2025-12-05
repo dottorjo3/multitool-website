@@ -1,0 +1,24 @@
+{
+  "$id": "security-bcrypt-hash.schema.json",
+  "type": "object",
+  "properties": {
+    "password": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci password da hashare"
+    },
+    "saltRounds": {
+      "type": [
+        "number",
+        "string"
+      ],
+      "minimum": 4,
+      "maximum": 15,
+      "default": 10
+    }
+  },
+  "required": [
+    "password"
+  ],
+  "additionalProperties": false
+}

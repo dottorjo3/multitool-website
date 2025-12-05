@@ -29,6 +29,16 @@ UPLOAD_DIR=./tmp
 OPENAI_API_KEY=
 HUGGINGFACE_API_KEY=
 
+# AI Tools API Keys (Livello Finale - Budget: 8-10€/mese)
+GROQ_API_KEY=
+DEEPSEEK_API_KEY=
+MISTRAL_API_KEY=
+
+# External Services API Keys
+CURRENCY_API_KEY=  # Per Currency Converter (es. exchangerate-api.com)
+GEOCODING_API_KEY= # Per GPS ↔ Address conversion
+TIMEZONE_API_KEY=  # Per Timezone Converter (opzionale)
+
 # Environment
 NODE_ENV=development
 ```

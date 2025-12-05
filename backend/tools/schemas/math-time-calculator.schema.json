@@ -1,0 +1,21 @@
+{
+  "$id": "math-time-calculator.schema.json",
+  "type": "object",
+  "properties": {
+    "time1": {
+      "type": "string"
+    },
+    "time2": {
+      "type": "string"
+    },
+    "operation": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "time1",
+    "time2",
+    "operation"
+  ],
+  "additionalProperties": false
+}

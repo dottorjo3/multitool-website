@@ -1,0 +1,24 @@
+{
+  "$id": "ai-code-generator.schema.json",
+  "type": "object",
+  "properties": {
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "errorMessage": "Descrivi cosa vuoi che il codice faccia (almeno 10 caratteri)"
+    },
+    "language": {
+      "type": "string",
+      "default": "javascript"
+    },
+    "style": {
+      "type": "string",
+      "enum": ["clean", "commented", "minimal"],
+      "default": "clean"
+    }
+  },
+  "required": ["description"],
+  "additionalProperties": false
+}
+
+

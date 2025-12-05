@@ -1,0 +1,21 @@
+{
+  "$id": "image-format-converter.schema.json",
+  "type": "object",
+  "properties": {
+    "format": {
+      "type": "string",
+      "enum": ["jpg", "jpeg", "png", "webp", "avif", "tiff", "gif"],
+      "default": "jpg"
+    },
+    "quality": {
+      "type": "number",
+      "default": 90,
+      "minimum": 1,
+      "maximum": 100
+    }
+  },
+  "required": ["format"],
+  "additionalProperties": false
+}
+
+

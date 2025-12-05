@@ -1,0 +1,19 @@
+{
+  "$id": "text-number-to-words.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci un numero da convertire"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["en", "it"],
+      "default": "en"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

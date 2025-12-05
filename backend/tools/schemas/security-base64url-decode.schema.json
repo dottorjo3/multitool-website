@@ -1,0 +1,15 @@
+{
+  "$id": "security-base64url-decode.schema.json",
+  "type": "object",
+  "properties": {
+    "base64url": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci Base64URL da decodificare"
+    }
+  },
+  "required": [
+    "base64url"
+  ],
+  "additionalProperties": false
+}

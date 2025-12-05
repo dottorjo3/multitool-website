@@ -1,0 +1,17 @@
+{
+  "$id": "math-percentage-to-decimal.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string"
+    },
+    "direction": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "input",
+    "direction"
+  ],
+  "additionalProperties": false
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
+import ErrorBoundary from './components/ErrorBoundary';
 import Home from './pages/Home';
 import ToolsPage from './pages/ToolsPage';
 import Login from './pages/Login';
@@ -21,11 +22,12 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <Router>
-      <div className='App min-h-screen bg-slate-50 text-slate-900 flex flex-col'>
-        <Navbar />
-        <main className='flex-grow'>
-          <Routes>
+    <ErrorBoundary>
+      <Router>
+        <div className='App min-h-screen bg-slate-50 text-slate-900 flex flex-col'>
+          <Navbar />
+          <main className='flex-grow'>
+            <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/tools' element={<ToolsPage />} />
             <Route path='/tool/:toolId' element={<ToolPage />} />
@@ -45,8 +47,9 @@ function App() {
             <p className='mt-2 text-xs text-slate-400'>{t('footer.subtext')}</p>
           </div>
         </footer>
-      </div>
-    </Router>
+        </div>
+      </Router>
+    </ErrorBoundary>
   );
 }
 

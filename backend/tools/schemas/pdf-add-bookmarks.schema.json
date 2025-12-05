@@ -1,0 +1,14 @@
+{
+  "$id": "pdf-add-bookmarks.schema.json",
+  "type": "object",
+  "properties": {
+    "bookmarks": {
+      "type": "string",
+      "errorMessage": "Inserisci i segnalibri in formato JSON"
+    }
+  },
+  "required": ["bookmarks"],
+  "additionalProperties": false
+}
+
+

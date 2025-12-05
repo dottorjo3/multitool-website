@@ -1,0 +1,20 @@
+{
+  "$id": "data-json-validate-schema.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del JSON da validare"
+    },
+    "schema": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci uno schema JSON Schema"
+    }
+  },
+  "required": ["input", "schema"],
+  "additionalProperties": false
+}
+
+

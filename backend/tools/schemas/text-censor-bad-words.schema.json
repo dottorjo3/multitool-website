@@ -1,0 +1,21 @@
+{
+  "$id": "text-censor-bad-words.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da censurare"
+    },
+    "customWords": {
+      "type": "string"
+    },
+    "replacement": {
+      "type": "string",
+      "default": "*"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

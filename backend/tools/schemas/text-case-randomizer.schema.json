@@ -1,0 +1,14 @@
+{
+  "$id": "text-case-randomizer.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da randomizzare"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "format": {
+      "type": "string",
+      "enum": ["mp3", "wav", "ogg", "aac", "flac", "m4a"],
+      "default": "mp3"
+    },
+    "bitrate": {
+      "type": "integer",
+      "minimum": 64,
+      "maximum": 512,
+      "default": 192
+    }
+  },
+  "required": []
+}
+
+

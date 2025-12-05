@@ -1,0 +1,35 @@
+{
+  "$id": "developer-javascript-formatter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del codice JavaScript da formattare"
+    },
+    "indentSize": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$",
+      "default": "2"
+    },
+    "braceStyle": {
+      "type": "string",
+      "enum": ["collapse", "expand", "end-expand", "none", "preserve-inline"],
+      "default": "collapse"
+    },
+    "preserveNewlines": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "spaceBeforeConditional": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

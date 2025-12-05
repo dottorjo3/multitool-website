@@ -1,0 +1,35 @@
+{
+  "$id": "developer-html-formatter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del codice HTML da formattare"
+    },
+    "indentSize": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$",
+      "default": "2"
+    },
+    "wrapAttributes": {
+      "type": "string",
+      "enum": ["auto", "force", "force-aligned", "force-expand-multiline", "aligned-multiple"],
+      "default": "auto"
+    },
+    "indentInnerHtml": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    },
+    "preserveNewlines": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

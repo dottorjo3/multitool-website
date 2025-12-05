@@ -1,0 +1,19 @@
+{
+  "$id": "text-url-extractor.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da cui estrarre gli URL"
+    },
+    "extractType": {
+      "type": "string",
+      "enum": ["full", "domains", "all"],
+      "default": "full"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

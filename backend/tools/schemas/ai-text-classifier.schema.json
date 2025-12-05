@@ -1,0 +1,19 @@
+{
+  "$id": "ai-text-classifier.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 20,
+      "errorMessage": "Inserisci testo da classificare (almeno 20 caratteri)"
+    },
+    "categories": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

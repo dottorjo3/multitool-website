@@ -12,6 +12,7 @@ const {
   PROJECT_NAME,
 } = require('./core/config');
 const { log } = require('./core/logger');
+const { startCleanup, stopCleanup } = require('./core/cleanup');
 
 const app = express();
 
@@ -40,5 +41,21 @@ app.listen(PORT, () => {
   log('Backend avviato', { port: PORT });
   // eslint-disable-next-line no-console
   console.log(`🚀 ${PROJECT_NAME} backend listening on port ${PORT}`);
+  
+  // Avvia cleanup periodico file temporanei
+  startCleanup();
+});
+
+// Gestione graceful shutdown
+process.on('SIGTERM', () => {
+  log('SIGTERM ricevuto, shutdown graceful...', { level: 'info' });
+  stopCleanup();
+  process.exit(0);
+});
+
+process.on('SIGINT', () => {
+  log('SIGINT ricevuto, shutdown graceful...', { level: 'info' });
+  stopCleanup();
+  process.exit(0);
 });
 

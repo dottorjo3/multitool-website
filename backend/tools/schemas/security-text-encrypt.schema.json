@@ -1,0 +1,28 @@
+{
+  "$id": "security-text-encrypt.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci testo da crittografare"
+    },
+    "password": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci password"
+    },
+    "algorithm": {
+      "type": "string",
+      "enum": [
+        "aes-256-cbc"
+      ],
+      "default": "aes-256-cbc"
+    }
+  },
+  "required": [
+    "text",
+    "password"
+  ],
+  "additionalProperties": false
+}

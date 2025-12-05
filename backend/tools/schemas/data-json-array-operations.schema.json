@@ -1,0 +1,29 @@
+{
+  "$id": "data-json-array-operations.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci un array JSON"
+    },
+    "operation": {
+      "type": "string",
+      "enum": ["unique", "shuffle", "reverse", "slice", "first", "last"],
+      "default": "unique"
+    },
+    "start": {
+      "type": "string"
+    },
+    "end": {
+      "type": "string"
+    },
+    "n": {
+      "type": "string"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

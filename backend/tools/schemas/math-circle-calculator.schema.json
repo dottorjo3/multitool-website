@@ -1,0 +1,13 @@
+{
+  "$id": "math-circle-calculator.schema.json",
+  "type": "object",
+  "properties": {
+    "calculate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "calculate"
+  ],
+  "additionalProperties": false
+}

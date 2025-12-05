@@ -1,0 +1,21 @@
+{
+  "$id": "math-unit-converter.schema.json",
+  "type": "object",
+  "properties": {
+    "fromUnit": {
+      "type": "string"
+    },
+    "toUnit": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "fromUnit",
+    "toUnit",
+    "category"
+  ],
+  "additionalProperties": false
+}

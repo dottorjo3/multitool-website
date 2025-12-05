@@ -1,0 +1,20 @@
+{
+  "$id": "data-xml-to-json.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del XML da convertire"
+    },
+    "compact": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

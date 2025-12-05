@@ -1,0 +1,21 @@
+{
+  "$id": "ai-keyword-extractor.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 20,
+      "errorMessage": "Inserisci testo da analizzare (almeno 20 caratteri)"
+    },
+    "maxKeywords": {
+      "type": ["number", "string"],
+      "minimum": 1,
+      "maximum": 50,
+      "default": 10
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

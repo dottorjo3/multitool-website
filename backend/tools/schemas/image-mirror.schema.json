@@ -1,0 +1,15 @@
+{
+  "$id": "image-mirror.schema.json",
+  "type": "object",
+  "properties": {
+    "direction": {
+      "type": "string",
+      "enum": ["horizontal", "vertical", "both"],
+      "default": "horizontal"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,15 @@
+{
+  "$id": "ai-sentiment-analyzer.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 10,
+      "errorMessage": "Inserisci testo da analizzare (almeno 10 caratteri)"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,20 @@
+{
+  "$id": "ai-text-simplifier.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 20,
+      "errorMessage": "Inserisci testo da semplificare (almeno 20 caratteri)"
+    },
+    "readingLevel": {
+      "type": "string",
+      "enum": ["simple", "intermediate", "easy"],
+      "default": "simple"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

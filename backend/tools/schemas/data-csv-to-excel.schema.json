@@ -1,0 +1,23 @@
+{
+  "$id": "data-csv-to-excel.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da convertire"
+    },
+    "sheetName": {
+      "type": "string",
+      "default": "Sheet1"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

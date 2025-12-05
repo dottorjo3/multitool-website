@@ -1,0 +1,24 @@
+{
+  "$id": "security-scrypt-hash.schema.json",
+  "type": "object",
+  "properties": {
+    "password": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci password da hashare"
+    },
+    "saltRounds": {
+      "type": [
+        "number",
+        "string"
+      ],
+      "minimum": 1000,
+      "maximum": 100000,
+      "default": 16384
+    }
+  },
+  "required": [
+    "password"
+  ],
+  "additionalProperties": false
+}

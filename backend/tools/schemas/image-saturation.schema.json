@@ -1,0 +1,16 @@
+{
+  "$id": "image-saturation.schema.json",
+  "type": "object",
+  "properties": {
+    "saturation": {
+      "type": "number",
+      "default": 1.0,
+      "minimum": 0,
+      "maximum": 2
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

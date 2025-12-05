@@ -1,0 +1,19 @@
+{
+  "$id": "text-sort-paragraphs.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo con paragrafi da ordinare"
+    },
+    "order": {
+      "type": "string",
+      "enum": ["asc", "desc"],
+      "default": "asc"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

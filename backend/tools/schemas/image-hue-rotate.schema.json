@@ -1,0 +1,14 @@
+{
+  "$id": "image-hue-rotate.schema.json",
+  "type": "object",
+  "properties": {
+    "file": {
+      "type": "string",
+      "description": "File to process"
+    }
+  },
+  "required": [
+    "file"
+  ],
+  "additionalProperties": false
+}

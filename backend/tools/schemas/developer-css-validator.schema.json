@@ -1,0 +1,15 @@
+{
+  "$id": "developer-css-validator.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del codice CSS da validare"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

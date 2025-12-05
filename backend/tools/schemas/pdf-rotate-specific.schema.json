@@ -1,0 +1,19 @@
+{
+  "$id": "pdf-rotate-specific.schema.json",
+  "type": "object",
+  "properties": {
+    "pages": {
+      "type": "string",
+      "default": "all"
+    },
+    "angle": {
+      "type": "string",
+      "enum": ["90", "180", "270", "-90"],
+      "default": "90"
+    }
+  },
+  "required": ["angle"],
+  "additionalProperties": false
+}
+
+

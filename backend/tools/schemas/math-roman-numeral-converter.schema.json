@@ -1,0 +1,17 @@
+{
+  "$id": "math-roman-numeral-converter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string"
+    },
+    "direction": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "input",
+    "direction"
+  ],
+  "additionalProperties": false
+}

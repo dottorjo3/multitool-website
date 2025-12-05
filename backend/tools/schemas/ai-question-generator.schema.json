@@ -1,0 +1,26 @@
+{
+  "$id": "ai-question-generator.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 50,
+      "errorMessage": "Inserisci testo da cui generare domande (almeno 50 caratteri)"
+    },
+    "numQuestions": {
+      "type": ["number", "string"],
+      "minimum": 1,
+      "maximum": 20,
+      "default": 5
+    },
+    "questionType": {
+      "type": "string",
+      "enum": ["multiple", "open", "yesno"],
+      "default": "multiple"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

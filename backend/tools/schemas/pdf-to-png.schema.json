@@ -1,0 +1,18 @@
+{
+  "$id": "pdf-to-png.schema.json",
+  "type": "object",
+  "properties": {
+    "maxPages": {
+      "type": "string",
+      "default": "5"
+    },
+    "dpi": {
+      "type": "string",
+      "default": "150"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,69 @@
+# Comandi per Sincronizzare con GitHub
+# Repository: github.com/dottorjo3/multitool-website
+
+# ==========================================
+# PASSO 1: Verifica Stato Attuale
+# ==========================================
+
+cd C:\Users\Intel\Desktop\multitool-website
+git status
+git remote -v
+
+# ==========================================
+# PASSO 2A: Se repository NON inizializzato
+# ==========================================
+
+git init
+git remote add origin https://github.com/dottorjo3/multitool-website.git
+git fetch origin
+git branch -M main
+
+# ==========================================
+# PASSO 2B: Se repository già inizializzato ma remote non configurato
+# ==========================================
+
+git remote add origin https://github.com/dottorjo3/multitool-website.git
+# oppure se già esiste ma URL sbagliato:
+# git remote set-url origin https://github.com/dottorjo3/multitool-website.git
+
+# ==========================================
+# PASSO 3: Aggiungi Tutte le Modifiche
+# ==========================================
+
+git add .
+
+# ==========================================
+# PASSO 4: Crea Commit
+# ==========================================
+
+git commit -m "Completamento 340 tool: backend, schemas e frontend completati
+
+- 426 tool backend implementati (340 originali + extra)
+- 502 schemas JSON creati
+- 426 frontend React component creati
+- Scripts di automazione aggiunti
+- Documentazione completa aggiornata
+- Tutti i 340 tool della lista originale implementati al 100%"
+
+# ==========================================
+# PASSO 5: Push su GitHub
+# ==========================================
+
+# Opzione A: Push normale (se nessun conflitto)
+git push -u origin main
+
+# Opzione B: Se ci sono conflitti, prova prima pull
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+
+# Opzione C: Force push (ATTENZIONE: sovrascrive GitHub)
+# Usa SOLO se sei sicuro di voler sovrascrivere tutto su GitHub
+# git push -u origin main --force
+
+# ==========================================
+# VERIFICA FINALE
+# ==========================================
+
+# Dopo il push, verifica su:
+# https://github.com/dottorjo3/multitool-website
+

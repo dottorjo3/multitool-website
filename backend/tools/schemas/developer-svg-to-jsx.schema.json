@@ -1,0 +1,19 @@
+{
+  "$id": "developer-svg-to-jsx.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del codice SVG da convertire"
+    },
+    "componentName": {
+      "type": "string",
+      "default": "SvgComponent"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

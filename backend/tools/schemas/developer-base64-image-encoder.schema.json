@@ -1,0 +1,24 @@
+{
+  "$id": "developer-base64-image-encoder.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da convertire"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["encode", "decode"],
+      "default": "encode"
+    },
+    "mimeType": {
+      "type": "string",
+      "default": "text/plain"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

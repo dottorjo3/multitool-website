@@ -1,0 +1,26 @@
+{
+  "$id": "security-random-key-generator.schema.json",
+  "type": "object",
+  "properties": {
+    "length": {
+      "type": [
+        "number",
+        "string"
+      ],
+      "minimum": 16,
+      "maximum": 256,
+      "default": 32
+    },
+    "encoding": {
+      "type": "string",
+      "enum": [
+        "hex",
+        "base64",
+        "base64url"
+      ],
+      "default": "hex"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}

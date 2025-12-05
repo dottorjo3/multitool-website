@@ -1,0 +1,21 @@
+{
+  "$id": "data-excel-to-json.schema.json",
+  "type": "object",
+  "properties": {
+    "sheetName": {
+      "type": "string"
+    },
+    "raw": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    },
+    "defval": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

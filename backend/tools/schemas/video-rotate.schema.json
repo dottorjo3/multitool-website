@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "angle": {
+      "type": "integer",
+      "enum": [90, 180, 270],
+      "default": 90
+    }
+  },
+  "required": []
+}
+
+

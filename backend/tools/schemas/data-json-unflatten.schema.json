@@ -1,0 +1,19 @@
+{
+  "$id": "data-json-unflatten.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del JSON appiattito da ricostruire"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": "."
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

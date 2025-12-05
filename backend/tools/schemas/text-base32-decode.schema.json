@@ -1,0 +1,14 @@
+{
+  "$id": "text-base32-decode.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo Base32 da decodificare"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

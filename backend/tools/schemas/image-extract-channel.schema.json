@@ -1,0 +1,13 @@
+{
+  "$id": "image-extract-channel.schema.json",
+  "type": "object",
+  "properties": {
+    "channel": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "channel"
+  ],
+  "additionalProperties": false
+}

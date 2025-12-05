@@ -1,0 +1,14 @@
+{
+  "$id": "text-compress.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da comprimere"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

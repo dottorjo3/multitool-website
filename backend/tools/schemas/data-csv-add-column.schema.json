@@ -1,0 +1,28 @@
+{
+  "$id": "data-csv-add-column.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da modificare"
+    },
+    "columnName": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Specifica il nome della colonna"
+    },
+    "defaultValue": {
+      "type": "string",
+      "default": ""
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input", "columnName"],
+  "additionalProperties": false
+}
+
+

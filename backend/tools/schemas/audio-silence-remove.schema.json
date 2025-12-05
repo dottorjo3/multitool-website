@@ -1,0 +1,17 @@
+{
+  "$id": "audio-silence-remove.schema.json",
+  "type": "object",
+  "properties": {
+    "threshold": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "threshold",
+    "duration"
+  ],
+  "additionalProperties": false
+}

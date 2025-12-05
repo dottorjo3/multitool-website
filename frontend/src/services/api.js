@@ -15,9 +15,12 @@ function getJsonHeaders() {
   };
 }
 
+// 🔧 Timeout per richieste (5 minuti per tool che processano file grandi)
+const DEFAULT_TIMEOUT = 300000; // 5 minuti
+
 async function fetchAPI(endpoint, options = {}) {
   const url = `${API_BASE_URL}${endpoint}`;
-  const { _retry = true, ...restOptions } = options;
+  const { _retry = true, timeout = DEFAULT_TIMEOUT, ...restOptions } = options;
 
   const defaultOptions = {
     headers: {
@@ -40,9 +43,15 @@ async function fetchAPI(endpoint, options = {}) {
     },
   };
 
+  // 🔧 Implementa timeout con AbortController
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeout);
+  config.signal = controller.signal;
+
   try {
     const response = await fetch(url, config);
     const data = await response.json().catch(() => ({}));
+    clearTimeout(timeoutId);
 
     if (!response.ok) {
       const error = new Error(data.error || `HTTP error! status: ${response.status}`);
@@ -73,6 +82,15 @@ async function fetchAPI(endpoint, options = {}) {
 
     return data;
   } catch (error) {
+    clearTimeout(timeoutId);
+    
+    // Gestisci timeout
+    if (error.name === 'AbortError') {
+      const timeoutError = new Error('Richiesta timeout - Il server sta impiegando troppo tempo a rispondere');
+      timeoutError.timeout = true;
+      throw timeoutError;
+    }
+    
     console.error('API Error:', error);
     throw error;
   }
@@ -92,10 +110,11 @@ export const toolsAPI = {
     return fetchAPI(`/tools/${toolId}`);
   },
 
-  // Esegui un tool
+  // Esegui un tool (timeout esteso per file grandi)
   run: async (toolId, formData) => {
     return fetchAPI(`/tools/${toolId}/run`, {
       method: 'POST',
+      timeout: 600000, // 10 minuti per tool che processano file
       headers: {
         // Non impostare Content-Type, lascia che il browser lo faccia per FormData
       },

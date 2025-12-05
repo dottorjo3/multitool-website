@@ -1,0 +1,22 @@
+{
+  "$id": "data-csv-remove-duplicates.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da pulire"
+    },
+    "column": {
+      "type": "string"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

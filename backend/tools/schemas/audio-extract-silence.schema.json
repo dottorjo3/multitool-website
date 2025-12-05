@@ -1,0 +1,17 @@
+{
+  "$id": "audio-extract-silence.schema.json",
+  "type": "object",
+  "properties": {
+    "threshold": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "threshold",
+    "duration"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,37 @@
+{
+  "$id": "data-csv-merge-columns.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da modificare"
+    },
+    "columns": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Specifica le colonne da unire (separate da virgola)"
+    },
+    "newColumnName": {
+      "type": "string",
+      "default": "merged"
+    },
+    "separator": {
+      "type": "string",
+      "default": " "
+    },
+    "removeOriginal": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input", "columns"],
+  "additionalProperties": false
+}
+
+

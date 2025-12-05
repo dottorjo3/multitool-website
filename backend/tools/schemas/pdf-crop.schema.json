@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "x": {
+      "type": "number",
+      "default": 0,
+      "minimum": 0
+    },
+    "y": {
+      "type": "number",
+      "default": 0,
+      "minimum": 0
+    },
+    "width": {
+      "type": "number",
+      "minimum": 1
+    },
+    "height": {
+      "type": "number",
+      "minimum": 1
+    },
+    "pages": {
+      "type": "string",
+      "default": "all"
+    }
+  },
+  "required": ["width", "height"]
+}

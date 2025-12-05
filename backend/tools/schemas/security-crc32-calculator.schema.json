@@ -1,0 +1,15 @@
+{
+  "$id": "security-crc32-calculator.schema.json",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci dati per calcolare CRC32"
+    }
+  },
+  "required": [
+    "data"
+  ],
+  "additionalProperties": false
+}

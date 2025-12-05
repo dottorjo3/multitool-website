@@ -1,0 +1,15 @@
+{
+  "$id": "ai-grammar-checker.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 10,
+      "errorMessage": "Inserisci testo da controllare (almeno 10 caratteri)"
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
+
+

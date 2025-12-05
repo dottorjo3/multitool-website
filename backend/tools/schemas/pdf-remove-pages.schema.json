@@ -1,0 +1,14 @@
+{
+  "$id": "pdf-remove-pages.schema.json",
+  "type": "object",
+  "properties": {
+    "pages": {
+      "type": "string",
+      "errorMessage": "Specifica le pagine da rimuovere (es: 1,3,5 o 1-5)"
+    }
+  },
+  "required": ["pages"],
+  "additionalProperties": false
+}
+
+

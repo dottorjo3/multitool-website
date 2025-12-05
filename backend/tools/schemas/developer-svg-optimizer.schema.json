@@ -1,0 +1,25 @@
+{
+  "$id": "developer-svg-optimizer.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del codice SVG da ottimizzare"
+    },
+    "removeComments": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "removeMetadata": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,13 @@
+{
+  "$id": "audio-waveform.schema.json",
+  "type": "object",
+  "properties": {
+    "color": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "color"
+  ],
+  "additionalProperties": false
+}

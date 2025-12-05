@@ -1,0 +1,14 @@
+{
+  "$id": "text-extract-hashtags.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da cui estrarre gli hashtag"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

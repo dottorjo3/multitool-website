@@ -1,0 +1,21 @@
+{
+  "$id": "image-aspect-ratio.schema.json",
+  "type": "object",
+  "properties": {
+    "ratio": {
+      "type": "string"
+    },
+    "method": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "ratio",
+    "method",
+    "backgroundColor"
+  ],
+  "additionalProperties": false
+}

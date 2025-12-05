@@ -1,0 +1,19 @@
+{
+  "$id": "text-leetify-2.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da convertire"
+    },
+    "level": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "extreme"],
+      "default": "medium"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

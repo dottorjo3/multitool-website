@@ -1,0 +1,18 @@
+{
+  "$id": "security-hash-file.schema.json",
+  "type": "object",
+  "properties": {
+    "algorithm": {
+      "type": "string",
+      "enum": [
+        "md5",
+        "sha1",
+        "sha256",
+        "sha512"
+      ],
+      "default": "sha256"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}

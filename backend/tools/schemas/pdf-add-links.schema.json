@@ -1,0 +1,14 @@
+{
+  "$id": "pdf-add-links.schema.json",
+  "type": "object",
+  "properties": {
+    "links": {
+      "type": "string",
+      "errorMessage": "Inserisci i link in formato JSON"
+    }
+  },
+  "required": ["links"],
+  "additionalProperties": false
+}
+
+

@@ -1,0 +1,21 @@
+{
+  "$id": "security-text-decrypt.schema.json",
+  "type": "object",
+  "properties": {
+    "encrypted": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci testo crittografato"
+    },
+    "password": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci password"
+    }
+  },
+  "required": [
+    "encrypted",
+    "password"
+  ],
+  "additionalProperties": false
+}

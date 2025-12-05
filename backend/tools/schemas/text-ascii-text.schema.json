@@ -1,0 +1,18 @@
+{
+  "$id": "text-ascii-text.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del testo da convertire"
+    },
+    "font": {
+      "type": "string",
+      "default": "standard"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

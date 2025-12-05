@@ -1,0 +1,30 @@
+{
+  "$id": "developer-css-formatter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del codice CSS da formattare"
+    },
+    "indentSize": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$",
+      "default": "2"
+    },
+    "newlineBetweenSelectors": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    },
+    "endWithNewline": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

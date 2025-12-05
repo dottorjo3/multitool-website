@@ -1,0 +1,14 @@
+{
+  "$id": "video-stabilize.schema.json",
+  "type": "object",
+  "properties": {
+    "file": {
+      "type": "string",
+      "description": "File to process"
+    }
+  },
+  "required": [
+    "file"
+  ],
+  "additionalProperties": false
+}

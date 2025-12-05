@@ -1143,84 +1143,6 @@
     "outputType": "file"
   },
   {
-    "id": "pdf-bulk-compressor",
-    "name": "PDF Bulk Compressor",
-    "category": "pdf",
-    "free": false,
-    "description": "Compress large batches of PDFs with presets, automation and QA plan.",
-    "languages": [
-      "en",
-      "it"
-    ],
-    "inputType": "form",
-    "outputType": "json"
-  },
-  {
-    "id": "pdf-metadata-audit",
-    "name": "PDF Metadata Audit",
-    "category": "pdf",
-    "free": true,
-    "description": "Audit and clean PDF metadata, security settings and history trail.",
-    "languages": [
-      "en",
-      "it"
-    ],
-    "inputType": "form",
-    "outputType": "json"
-  },
-  {
-    "id": "pdf-forms-validator",
-    "name": "PDF Forms Validator",
-    "category": "pdf",
-    "free": true,
-    "description": "Define validation rules, QA and automation for interactive PDF forms.",
-    "languages": [
-      "en",
-      "it"
-    ],
-    "inputType": "form",
-    "outputType": "json"
-  },
-  {
-    "id": "pdf-flowchart-exporter",
-    "name": "PDF Flowchart Exporter",
-    "category": "pdf",
-    "free": false,
-    "description": "Convert procedures from PDF into flowcharts with mapping and export tips.",
-    "languages": [
-      "en",
-      "it"
-    ],
-    "inputType": "form",
-    "outputType": "json"
-  },
-  {
-    "id": "pdf-rotate-scheduler",
-    "name": "PDF Rotate Scheduler",
-    "category": "pdf",
-    "free": true,
-    "description": "Plan recurring rotation jobs with detection, commands and audits.",
-    "languages": [
-      "en",
-      "it"
-    ],
-    "inputType": "form",
-    "outputType": "json"
-  },
-  {
-    "id": "pdf-translation-brief",
-    "name": "PDF Translation Brief",
-    "category": "pdf",
-    "free": false,
-    "description": "Create translation briefs with assets, timeline and QC checklists.",
-    "languages": [
-      "en",
-      "it"
-    ],
-    "inputType": "form",
-    "outputType": "json"
-  },
-  {
     "id": "document-summary-blueprint",
     "name": "Document Summary Blueprint",
     "category": "document",
@@ -3267,6 +3189,3373 @@
     "category": "operations",
     "free": true,
     "description": "Definisce policy viaggi con allowances, approvazioni e duty of care.",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "text-extract-emails",
+    "name": "Extract Emails",
+    "category": "text",
+    "free": true,
+    "description": "Extract email addresses from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-extract-urls",
+    "name": "Extract URLs",
+    "category": "text",
+    "free": true,
+    "description": "Extract URLs from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-extract-hashtags",
+    "name": "Extract Hashtags",
+    "category": "text",
+    "free": true,
+    "description": "Extract hashtags (#tag) from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-extract-numbers",
+    "name": "Extract Numbers",
+    "category": "text",
+    "free": true,
+    "description": "Extract numbers from text with statistics",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-extract-ips",
+    "name": "Extract IPs",
+    "category": "text",
+    "free": true,
+    "description": "Extract IPv4 and IPv6 addresses from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-extract-emoji",
+    "name": "Extract Emoji",
+    "category": "text",
+    "free": true,
+    "description": "Extract emoji from text with frequency analysis",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-url-extractor",
+    "name": "URL Extractor",
+    "category": "text",
+    "free": true,
+    "description": "Extract URLs with options (full URLs, domains only, or both)",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-rot13",
+    "name": "ROT13",
+    "category": "text",
+    "free": true,
+    "description": "Encode/decode text using ROT13 cipher",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-base32-encode",
+    "name": "Base32 Encode",
+    "category": "text",
+    "free": true,
+    "description": "Encode text to Base32",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-base32-decode",
+    "name": "Base32 Decode",
+    "category": "text",
+    "free": true,
+    "description": "Decode Base32 to text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-hex-to-text",
+    "name": "Hex to Text",
+    "category": "text",
+    "free": true,
+    "description": "Convert hexadecimal to text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-text-to-binary",
+    "name": "Text to Binary",
+    "category": "text",
+    "free": true,
+    "description": "Convert text to binary",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-binary-to-text",
+    "name": "Binary to Text",
+    "category": "text",
+    "free": true,
+    "description": "Convert binary to text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-leet-speak",
+    "name": "Leet Speak",
+    "category": "text",
+    "free": true,
+    "description": "Convert text to leet speak (1337) or decode it",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-obfuscator-basic",
+    "name": "Text Obfuscator Basic",
+    "category": "text",
+    "free": true,
+    "description": "Basic text obfuscation using similar-looking characters",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-compress",
+    "name": "Text Compress",
+    "category": "text",
+    "free": true,
+    "description": "Compress text using gzip compression",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-decompress",
+    "name": "Text Decompress",
+    "category": "text",
+    "free": true,
+    "description": "Decompress gzip-compressed text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-paragraph-shuffle",
+    "name": "Paragraph Shuffle",
+    "category": "text",
+    "free": true,
+    "description": "Shuffle paragraphs in random order",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-sort-paragraphs",
+    "name": "Sort Paragraphs",
+    "category": "text",
+    "free": true,
+    "description": "Sort paragraphs alphabetically",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-case-randomizer",
+    "name": "Case Randomizer",
+    "category": "text",
+    "free": true,
+    "description": "Randomize uppercase/lowercase characters",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-remove-emoji",
+    "name": "Remove Emoji",
+    "category": "text",
+    "free": true,
+    "description": "Remove emoji from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-strip-html",
+    "name": "Strip HTML",
+    "category": "text",
+    "free": true,
+    "description": "Remove HTML tags and decode HTML entities",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-strip-markdown",
+    "name": "Strip Markdown",
+    "category": "text",
+    "free": true,
+    "description": "Remove Markdown syntax from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-strip-latex",
+    "name": "Strip LaTeX",
+    "category": "text",
+    "free": true,
+    "description": "Remove LaTeX commands from text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-roman-to-number",
+    "name": "Roman to Number",
+    "category": "text",
+    "free": true,
+    "description": "Convert Roman numerals to Arabic numbers",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-number-to-roman",
+    "name": "Number to Roman",
+    "category": "text",
+    "free": true,
+    "description": "Convert Arabic numbers to Roman numerals",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-title-case-fix",
+    "name": "Title Case Fix",
+    "category": "text",
+    "free": true,
+    "description": "Fix and normalize Title Case capitalization",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-indentation-fix",
+    "name": "Indentation Fix",
+    "category": "text",
+    "free": true,
+    "description": "Normalize text indentation (spaces or tabs)",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-prefix-suffix-lines",
+    "name": "Prefix/Suffix Lines",
+    "category": "text",
+    "free": true,
+    "description": "Add prefix and/or suffix to each line",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-number-to-words",
+    "name": "Number to Words",
+    "category": "text",
+    "free": true,
+    "description": "Convert numbers to words (English/Italian)",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-highlighter",
+    "name": "Text Highlighter",
+    "category": "text",
+    "free": true,
+    "description": "Highlight keywords in text with different styles",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-token-counter",
+    "name": "Token Counter",
+    "category": "text",
+    "free": true,
+    "description": "Count tokens (words, characters, sentences, paragraphs) with statistics",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-strict-json-pretty",
+    "name": "Strict JSON Pretty",
+    "category": "text",
+    "free": true,
+    "description": "Format JSON with strict validation and custom indentation",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-diff",
+    "name": "Text Diff",
+    "category": "text",
+    "free": true,
+    "description": "Compare two texts and show differences",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-compare-two-texts",
+    "name": "Compare Two Texts",
+    "category": "text",
+    "free": true,
+    "description": "Compare two texts with detailed statistics",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-keyword-extract-basic",
+    "name": "Keyword Extract Basic",
+    "category": "text",
+    "free": true,
+    "description": "Extract keywords from text based on frequency",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-dup-lines-advanced",
+    "name": "Duplicate Lines Advanced",
+    "category": "text",
+    "free": true,
+    "description": "Find duplicate lines with advanced statistics",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-ascii-text",
+    "name": "ASCII Text",
+    "category": "text",
+    "free": true,
+    "description": "Convert text to ASCII art",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-advanced-lorem",
+    "name": "Advanced Lorem Ipsum",
+    "category": "text",
+    "free": true,
+    "description": "Generate advanced Lorem Ipsum text with customizable options",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "text"
+  },
+  {
+    "id": "text-fake-json",
+    "name": "Fake JSON",
+    "category": "text",
+    "free": true,
+    "description": "Generate fake/example JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "text"
+  },
+  {
+    "id": "text-fake-csv",
+    "name": "Fake CSV",
+    "category": "text",
+    "free": true,
+    "description": "Generate fake/example CSV data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "text"
+  },
+  {
+    "id": "text-sentence-splitter",
+    "name": "Sentence Splitter",
+    "category": "text",
+    "free": true,
+    "description": "Split text into sentences",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-auto-line-break",
+    "name": "Auto Line Break",
+    "category": "text",
+    "free": true,
+    "description": "Add automatic line breaks to text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-censor-bad-words",
+    "name": "Censor Bad Words",
+    "category": "text",
+    "free": true,
+    "description": "Censor inappropriate words in text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-split-by-length",
+    "name": "Split by Length",
+    "category": "text",
+    "free": true,
+    "description": "Split text into parts of specific length",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "text-combine-files",
+    "name": "Combine Files",
+    "category": "text",
+    "free": true,
+    "description": "Combine multiple texts into one",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-csv-to-sentences",
+    "name": "CSV to Sentences",
+    "category": "text",
+    "free": true,
+    "description": "Convert CSV to sentences",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-csv-to-json-schema",
+    "name": "CSV to JSON Schema",
+    "category": "text",
+    "free": true,
+    "description": "Convert CSV to JSON Schema",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-csv-to-markdown-table",
+    "name": "CSV to Markdown Table",
+    "category": "text",
+    "free": true,
+    "description": "Convert CSV to Markdown table",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-leetify-2",
+    "name": "Leetify 2",
+    "category": "text",
+    "free": true,
+    "description": "Advanced leet speak converter",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "text-case-analyzer",
+    "name": "Case Analyzer",
+    "category": "text",
+    "free": true,
+    "description": "Analyze text case distribution",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-html-formatter",
+    "name": "HTML Formatter",
+    "category": "developer",
+    "free": true,
+    "description": "Format and beautify HTML code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-css-formatter",
+    "name": "CSS Formatter",
+    "category": "developer",
+    "free": true,
+    "description": "Format and beautify CSS code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-javascript-formatter",
+    "name": "JavaScript Formatter",
+    "category": "developer",
+    "free": true,
+    "description": "Format and beautify JavaScript code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-xml-formatter",
+    "name": "XML Formatter",
+    "category": "developer",
+    "free": true,
+    "description": "Format and beautify XML code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-sql-formatter",
+    "name": "SQL Formatter",
+    "category": "developer",
+    "free": true,
+    "description": "Format and beautify SQL queries",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-html-minifier",
+    "name": "HTML Minifier",
+    "category": "developer",
+    "free": true,
+    "description": "Minify HTML code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-css-minifier",
+    "name": "CSS Minifier",
+    "category": "developer",
+    "free": true,
+    "description": "Minify CSS code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-javascript-minifier",
+    "name": "JavaScript Minifier",
+    "category": "developer",
+    "free": true,
+    "description": "Minify JavaScript code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-json-validator",
+    "name": "JSON Validator",
+    "category": "developer",
+    "free": true,
+    "description": "Validate JSON code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-xml-validator",
+    "name": "XML Validator",
+    "category": "developer",
+    "free": true,
+    "description": "Validate XML code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-html-validator",
+    "name": "HTML Validator",
+    "category": "developer",
+    "free": true,
+    "description": "Validate HTML code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-css-validator",
+    "name": "CSS Validator",
+    "category": "developer",
+    "free": true,
+    "description": "Validate CSS code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-url-encoder-decoder",
+    "name": "URL Encoder/Decoder",
+    "category": "developer",
+    "free": true,
+    "description": "Encode/decode URL strings",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-http-headers-parser",
+    "name": "HTTP Headers Parser",
+    "category": "developer",
+    "free": true,
+    "description": "Parse and analyze HTTP headers",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-ip-validator",
+    "name": "IP Validator",
+    "category": "developer",
+    "free": true,
+    "description": "Validate IPv4 and IPv6 addresses",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-svg-optimizer",
+    "name": "SVG Optimizer",
+    "category": "developer",
+    "free": true,
+    "description": "Optimize SVG code",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-base64-image-encoder",
+    "name": "Base64 Image Encoder",
+    "category": "developer",
+    "free": true,
+    "description": "Encode/decode Base64 image data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "developer-svg-to-jsx",
+    "name": "SVG to JSX",
+    "category": "developer",
+    "free": true,
+    "description": "Convert SVG to JSX React component",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "text"
+  },
+  {
+    "id": "developer-binary-converter",
+    "name": "Binary Converter",
+    "category": "developer",
+    "free": true,
+    "description": "Convert between binary, octal, hex, decimal",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "text",
+    "outputType": "json"
+  },
+  {
+    "id": "math-basic-calculator",
+    "name": "Basic Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Calculate mathematical expressions",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-percentage-calculator",
+    "name": "Percentage Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Calculate percentages with various operations",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-roman-numeral-converter",
+    "name": "Roman Numeral Converter",
+    "category": "math",
+    "free": true,
+    "description": "Convert between Roman numerals and numbers",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-age-calculator",
+    "name": "Age Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Calculate age from birth date",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-bmi-calculator",
+    "name": "BMI Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Calculate Body Mass Index",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-currency-converter",
+    "name": "Currency Converter",
+    "category": "math",
+    "free": true,
+    "description": "Convert between currencies",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-factorial-calculator",
+    "name": "Factorial Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Calculate factorial of a number",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-prime-checker",
+    "name": "Prime Number Checker",
+    "category": "math",
+    "free": true,
+    "description": "Check if a number is prime",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-random-number-generator",
+    "name": "Random Number Generator",
+    "category": "math",
+    "free": true,
+    "description": "Generate random numbers",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-statistics-calculator",
+    "name": "Statistics Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Calculate statistics from number lists",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-compare",
+    "name": "PDF Compare",
+    "category": "pdf",
+    "free": true,
+    "description": "Compare two PDF files and show differences",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-images-to-pdf",
+    "name": "Images to PDF",
+    "category": "pdf",
+    "free": true,
+    "description": "Create PDF from multiple images",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-crop",
+    "name": "PDF Crop",
+    "category": "pdf",
+    "free": true,
+    "description": "Crop PDF pages",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-flatten",
+    "name": "PDF Flatten",
+    "category": "pdf",
+    "free": true,
+    "description": "Flatten PDF (remove form fields and annotations)",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-saturation",
+    "name": "Image Saturation",
+    "category": "image",
+    "free": true,
+    "description": "Adjust image saturation",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-collage",
+    "name": "Image Collage",
+    "category": "image",
+    "free": true,
+    "description": "Create collage from multiple images",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-qr-generator",
+    "name": "QR Code Generator",
+    "category": "image",
+    "free": true,
+    "description": "Generate QR code images",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "file"
+  },
+  {
+    "id": "image-batch-compress",
+    "name": "Batch Image Compress",
+    "category": "image",
+    "free": true,
+    "description": "Compress multiple images in batch",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-mirror",
+    "name": "Image Mirror",
+    "category": "image",
+    "free": true,
+    "description": "Mirror image horizontally or vertically",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-format-converter",
+    "name": "Image Format Converter",
+    "category": "image",
+    "free": true,
+    "description": "Convert images between formats",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-convert",
+    "name": "Audio Convert",
+    "category": "audio",
+    "free": true,
+    "description": "Convert audio between formats",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-trim",
+    "name": "Audio Trim",
+    "category": "audio",
+    "free": true,
+    "description": "Trim audio files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-merge",
+    "name": "Audio Merge",
+    "category": "audio",
+    "free": true,
+    "description": "Merge multiple audio files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-compress",
+    "name": "Audio Compress",
+    "category": "audio",
+    "free": true,
+    "description": "Compress audio files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-normalize",
+    "name": "Audio Normalize",
+    "category": "audio",
+    "free": true,
+    "description": "Normalize audio volume",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-merge",
+    "name": "Video Merge",
+    "category": "video",
+    "free": true,
+    "description": "Merge multiple video files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-split",
+    "name": "Video Split",
+    "category": "video",
+    "free": true,
+    "description": "Split video into segments",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-rotate",
+    "name": "Video Rotate",
+    "category": "video",
+    "free": true,
+    "description": "Rotate video",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-mute",
+    "name": "Video Mute",
+    "category": "video",
+    "free": true,
+    "description": "Remove audio from video",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "ai-translator",
+    "name": "AI Translator",
+    "category": "ai",
+    "free": false,
+    "description": "Translate text using AI",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "text"
+  },
+  {
+    "id": "ai-code-generator",
+    "name": "AI Code Generator",
+    "category": "ai",
+    "free": false,
+    "description": "Generate code using AI",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "text"
+  },
+  {
+    "id": "security-aes-encrypt",
+    "name": "AES Encrypt",
+    "category": "security",
+    "free": true,
+    "description": "Encrypt text using AES encryption",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-aes-decrypt",
+    "name": "AES Decrypt",
+    "category": "security",
+    "free": true,
+    "description": "Decrypt AES encrypted text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-bcrypt-hash",
+    "name": "BCrypt Hash",
+    "category": "security",
+    "free": true,
+    "description": "Hash password using BCrypt",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-bcrypt-verify",
+    "name": "BCrypt Verify",
+    "category": "security",
+    "free": true,
+    "description": "Verify password against BCrypt hash",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-argon2-hash",
+    "name": "Argon2 Hash",
+    "category": "security",
+    "free": true,
+    "description": "Hash password using Argon2",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-argon2-verify",
+    "name": "Argon2 Verify",
+    "category": "security",
+    "free": true,
+    "description": "Verify password against Argon2 hash",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-pbkdf2-hash",
+    "name": "PBKDF2 Hash",
+    "category": "security",
+    "free": true,
+    "description": "Hash password using PBKDF2",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-scrypt-hash",
+    "name": "Scrypt Hash",
+    "category": "security",
+    "free": true,
+    "description": "Hash password using Scrypt",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-password-strength-checker",
+    "name": "Password Strength Checker",
+    "category": "security",
+    "free": true,
+    "description": "Check password strength and security",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-random-key-generator",
+    "name": "Random Key Generator",
+    "category": "security",
+    "free": true,
+    "description": "Generate secure random keys",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-hash-file",
+    "name": "Hash File",
+    "category": "security",
+    "free": true,
+    "description": "Calculate hash of a file (MD5, SHA256, etc.)",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "json"
+  },
+  {
+    "id": "security-hash-compare",
+    "name": "Hash Compare",
+    "category": "security",
+    "free": true,
+    "description": "Compare two hashes",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-hmac-file",
+    "name": "HMAC File",
+    "category": "security",
+    "free": true,
+    "description": "Generate HMAC for a file",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "json"
+  },
+  {
+    "id": "security-hex-encode",
+    "name": "Hex Encode",
+    "category": "security",
+    "free": true,
+    "description": "Encode text to hexadecimal",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-hex-decode",
+    "name": "Hex Decode",
+    "category": "security",
+    "free": true,
+    "description": "Decode hexadecimal to text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-base64url-encode",
+    "name": "Base64URL Encode",
+    "category": "security",
+    "free": true,
+    "description": "Encode text to Base64URL",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-base64url-decode",
+    "name": "Base64URL Decode",
+    "category": "security",
+    "free": true,
+    "description": "Decode Base64URL to text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-text-encrypt",
+    "name": "Text Encrypt",
+    "category": "security",
+    "free": true,
+    "description": "Encrypt text with various algorithms",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-text-decrypt",
+    "name": "Text Decrypt",
+    "category": "security",
+    "free": true,
+    "description": "Decrypt encrypted text",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-rot13-encoder",
+    "name": "ROT13 Encoder",
+    "category": "security",
+    "free": true,
+    "description": "Encode/decode text with ROT13",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-jwt-decoder",
+    "name": "JWT Decoder",
+    "category": "security",
+    "free": true,
+    "description": "Decode and verify JWT tokens",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "security-crc32-calculator",
+    "name": "CRC32 Calculator",
+    "category": "security",
+    "free": true,
+    "description": "Calculate CRC32 checksum",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-csv-add-column",
+    "name": "CSV Add Column",
+    "category": "data",
+    "free": true,
+    "description": "CSV Add Column - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-filter",
+    "name": "CSV Filter",
+    "category": "data",
+    "free": true,
+    "description": "CSV Filter - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-merge-columns",
+    "name": "CSV Merge Columns",
+    "category": "data",
+    "free": true,
+    "description": "CSV Merge Columns - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-normalize",
+    "name": "CSV Normalize",
+    "category": "data",
+    "free": true,
+    "description": "CSV Normalize - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-remove-column",
+    "name": "CSV Remove Column",
+    "category": "data",
+    "free": true,
+    "description": "CSV Remove Column - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-remove-duplicates",
+    "name": "CSV Remove Duplicates",
+    "category": "data",
+    "free": true,
+    "description": "CSV Remove Duplicates - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-rename-columns",
+    "name": "CSV Rename Columns",
+    "category": "data",
+    "free": true,
+    "description": "CSV Rename Columns - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-sort",
+    "name": "CSV Sort",
+    "category": "data",
+    "free": true,
+    "description": "CSV Sort - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-split-by-column",
+    "name": "CSV Split by Column",
+    "category": "data",
+    "free": true,
+    "description": "CSV Split by Column - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-statistics",
+    "name": "CSV Statistics",
+    "category": "data",
+    "free": true,
+    "description": "CSV Statistics - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "json"
+  },
+  {
+    "id": "data-csv-to-excel",
+    "name": "CSV to Excel",
+    "category": "data",
+    "free": true,
+    "description": "CSV to Excel - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-transpose",
+    "name": "CSV Transpose",
+    "category": "data",
+    "free": true,
+    "description": "CSV Transpose - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-csv-validator",
+    "name": "CSV Validator",
+    "category": "data",
+    "free": true,
+    "description": "CSV Validator - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-data-format-converter",
+    "name": "Data Format Converter",
+    "category": "data",
+    "free": true,
+    "description": "Data Format Converter - Data format conversion tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-excel-to-csv",
+    "name": "Excel to CSV",
+    "category": "data",
+    "free": true,
+    "description": "Excel to CSV - Process and manipulate CSV files",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-excel-to-json",
+    "name": "Excel to JSON",
+    "category": "data",
+    "free": true,
+    "description": "Excel to JSON - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-json-array-operations",
+    "name": "JSON Array Operations",
+    "category": "data",
+    "free": true,
+    "description": "JSON Array Operations - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-compare",
+    "name": "JSON Compare",
+    "category": "data",
+    "free": true,
+    "description": "JSON Compare - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-flatten",
+    "name": "JSON Flatten",
+    "category": "data",
+    "free": true,
+    "description": "JSON Flatten - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-merge",
+    "name": "JSON Merge",
+    "category": "data",
+    "free": true,
+    "description": "JSON Merge - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-path-extractor",
+    "name": "JSON Path Extractor",
+    "category": "data",
+    "free": true,
+    "description": "JSON Path Extractor - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-pick-keys",
+    "name": "JSON Pick Keys",
+    "category": "data",
+    "free": true,
+    "description": "JSON Pick Keys - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-remove-keys",
+    "name": "JSON Remove Keys",
+    "category": "data",
+    "free": true,
+    "description": "JSON Remove Keys - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-sort-keys",
+    "name": "JSON Sort Keys",
+    "category": "data",
+    "free": true,
+    "description": "JSON Sort Keys - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-table-viewer",
+    "name": "JSON Table Viewer",
+    "category": "data",
+    "free": true,
+    "description": "JSON Table Viewer - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-to-excel",
+    "name": "Json To Excel",
+    "category": "data",
+    "free": true,
+    "description": "Data processing tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-json-to-xml",
+    "name": "JSON to XML",
+    "category": "data",
+    "free": true,
+    "description": "JSON to XML - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-json-to-yaml",
+    "name": "JSON to YAML",
+    "category": "data",
+    "free": true,
+    "description": "JSON to YAML - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "data-json-transform",
+    "name": "JSON Transform",
+    "category": "data",
+    "free": true,
+    "description": "JSON Transform - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-unflatten",
+    "name": "JSON Unflatten",
+    "category": "data",
+    "free": true,
+    "description": "JSON Unflatten - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-json-validate-schema",
+    "name": "JSON Validate Schema",
+    "category": "data",
+    "free": true,
+    "description": "JSON Validate Schema - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-xml-to-json",
+    "name": "XML to JSON",
+    "category": "data",
+    "free": true,
+    "description": "XML to JSON - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "data-yaml-to-json",
+    "name": "YAML to JSON",
+    "category": "data",
+    "free": true,
+    "description": "YAML to JSON - Process and manipulate JSON data",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "audio-bandpass",
+    "name": "Bandpass",
+    "category": "audio",
+    "free": true,
+    "description": "Bandpass - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-batch-convert",
+    "name": "Batch Convert",
+    "category": "audio",
+    "free": true,
+    "description": "Batch Convert - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-compressor",
+    "name": "Compressor",
+    "category": "audio",
+    "free": true,
+    "description": "Compressor - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-echo",
+    "name": "Echo",
+    "category": "audio",
+    "free": true,
+    "description": "Echo - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-equalizer",
+    "name": "Equalizer",
+    "category": "audio",
+    "free": true,
+    "description": "Equalizer - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-extract-silence",
+    "name": "Extract Silence",
+    "category": "audio",
+    "free": true,
+    "description": "Extract Silence - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-fade",
+    "name": "Fade",
+    "category": "audio",
+    "free": true,
+    "description": "Fade - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-highpass",
+    "name": "Highpass",
+    "category": "audio",
+    "free": true,
+    "description": "Highpass - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-lowpass",
+    "name": "Lowpass",
+    "category": "audio",
+    "free": true,
+    "description": "Lowpass - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-metadata",
+    "name": "Metadata",
+    "category": "audio",
+    "free": true,
+    "description": "Metadata - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-mix",
+    "name": "Mix",
+    "category": "audio",
+    "free": true,
+    "description": "Mix - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-mono-to-stereo",
+    "name": "Mono To Stereo",
+    "category": "audio",
+    "free": true,
+    "description": "Mono To Stereo - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-noise-reduction",
+    "name": "Noise Reduction",
+    "category": "audio",
+    "free": true,
+    "description": "Noise Reduction - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-pitch",
+    "name": "Pitch",
+    "category": "audio",
+    "free": true,
+    "description": "Pitch - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-reverb",
+    "name": "Reverb",
+    "category": "audio",
+    "free": true,
+    "description": "Reverb - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-reverse",
+    "name": "Reverse",
+    "category": "audio",
+    "free": true,
+    "description": "Reverse - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-silence-remove",
+    "name": "Silence Remove",
+    "category": "audio",
+    "free": true,
+    "description": "Silence Remove - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-spectrogram",
+    "name": "Spectrogram",
+    "category": "audio",
+    "free": true,
+    "description": "Spectrogram - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-speed",
+    "name": "Speed",
+    "category": "audio",
+    "free": true,
+    "description": "Speed - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-split",
+    "name": "Split",
+    "category": "audio",
+    "free": true,
+    "description": "Split - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-stereo-to-mono",
+    "name": "Stereo To Mono",
+    "category": "audio",
+    "free": true,
+    "description": "Stereo To Mono - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-volume",
+    "name": "Volume",
+    "category": "audio",
+    "free": true,
+    "description": "Volume - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "audio-waveform",
+    "name": "Waveform",
+    "category": "audio",
+    "free": true,
+    "description": "Waveform - Audio processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-aspect-ratio",
+    "name": "Aspect Ratio",
+    "category": "image",
+    "free": true,
+    "description": "Aspect Ratio - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-auto-levels",
+    "name": "Auto Levels",
+    "category": "image",
+    "free": true,
+    "description": "Auto Levels - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-blur-background",
+    "name": "Blur Background",
+    "category": "image",
+    "free": true,
+    "description": "Blur Background - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-edge-detect",
+    "name": "Edge Detect",
+    "category": "image",
+    "free": true,
+    "description": "Edge Detect - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-emboss",
+    "name": "Emboss",
+    "category": "image",
+    "free": true,
+    "description": "Emboss - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-exif-extract",
+    "name": "Exif Extract",
+    "category": "image",
+    "free": true,
+    "description": "Exif Extract - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-extract-channel",
+    "name": "Extract Channel",
+    "category": "image",
+    "free": true,
+    "description": "Extract Channel - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-extract-colors",
+    "name": "Extract Colors",
+    "category": "image",
+    "free": true,
+    "description": "Extract Colors - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-face-detection",
+    "name": "Face Detection",
+    "category": "image",
+    "free": true,
+    "description": "Face Detection - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-gamma",
+    "name": "Gamma",
+    "category": "image",
+    "free": true,
+    "description": "Gamma - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-histogram",
+    "name": "Histogram",
+    "category": "image",
+    "free": true,
+    "description": "Histogram - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-hue-rotate",
+    "name": "Hue Rotate",
+    "category": "image",
+    "free": true,
+    "description": "Hue Rotate - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-noise-reduction",
+    "name": "Noise Reduction",
+    "category": "image",
+    "free": true,
+    "description": "Noise Reduction - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-normalize",
+    "name": "Normalize",
+    "category": "image",
+    "free": true,
+    "description": "Normalize - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-resize-smart",
+    "name": "Resize Smart",
+    "category": "image",
+    "free": true,
+    "description": "Resize Smart - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-vignette",
+    "name": "Vignette",
+    "category": "image",
+    "free": true,
+    "description": "Vignette - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "image-white-balance",
+    "name": "White Balance",
+    "category": "image",
+    "free": true,
+    "description": "White Balance - Image processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "math-binary-operations",
+    "name": "Binary Operations",
+    "category": "math",
+    "free": true,
+    "description": "Binary Operations - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-circle-calculator",
+    "name": "Circle Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Circle Calculator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-combination-permutation",
+    "name": "Combination Permutation",
+    "category": "math",
+    "free": true,
+    "description": "Combination Permutation - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-date-difference",
+    "name": "Date Difference",
+    "category": "math",
+    "free": true,
+    "description": "Date Difference - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-fibonacci-generator",
+    "name": "Fibonacci Generator",
+    "category": "math",
+    "free": true,
+    "description": "Fibonacci Generator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-gcd-lcm-calculator",
+    "name": "Gcd Lcm Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Gcd Lcm Calculator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-gcd-multiple",
+    "name": "Gcd Multiple",
+    "category": "math",
+    "free": true,
+    "description": "Gcd Multiple - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-interest-calculator",
+    "name": "Interest Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Interest Calculator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-lcm-multiple",
+    "name": "Lcm Multiple",
+    "category": "math",
+    "free": true,
+    "description": "Lcm Multiple - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-leap-year-checker",
+    "name": "Leap Year Checker",
+    "category": "math",
+    "free": true,
+    "description": "Leap Year Checker - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-loan-calculator",
+    "name": "Loan Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Loan Calculator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-number-base64",
+    "name": "Number Base64",
+    "category": "math",
+    "free": true,
+    "description": "Number Base64 - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-number-formatter",
+    "name": "Number Formatter",
+    "category": "math",
+    "free": true,
+    "description": "Number Formatter - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-number-to-words",
+    "name": "Number To Words",
+    "category": "math",
+    "free": true,
+    "description": "Number To Words - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-percentage-difference",
+    "name": "Percentage Difference",
+    "category": "math",
+    "free": true,
+    "description": "Percentage Difference - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-percentage-of-total",
+    "name": "Percentage Of Total",
+    "category": "math",
+    "free": true,
+    "description": "Percentage Of Total - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-percentage-to-decimal",
+    "name": "Percentage To Decimal",
+    "category": "math",
+    "free": true,
+    "description": "Percentage To Decimal - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-power-calculator",
+    "name": "Power Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Power Calculator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-quadratic-equation",
+    "name": "Quadratic Equation",
+    "category": "math",
+    "free": true,
+    "description": "Quadratic Equation - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-sequence-generator",
+    "name": "Sequence Generator",
+    "category": "math",
+    "free": true,
+    "description": "Sequence Generator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-square-root-calculator",
+    "name": "Square Root Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Square Root Calculator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-time-calculator",
+    "name": "Time Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Time Calculator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-time-zone-converter",
+    "name": "Time Zone Converter",
+    "category": "math",
+    "free": true,
+    "description": "Time Zone Converter - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-triangle-calculator",
+    "name": "Triangle Calculator",
+    "category": "math",
+    "free": true,
+    "description": "Triangle Calculator - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "math-unit-converter",
+    "name": "Unit Converter",
+    "category": "math",
+    "free": true,
+    "description": "Unit Converter - Mathematical calculator or utility",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "pdf-add-attachment",
+    "name": "Add Attachment",
+    "category": "pdf",
+    "free": true,
+    "description": "Add Attachment tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-add-bookmarks",
+    "name": "Add Bookmarks",
+    "category": "pdf",
+    "free": true,
+    "description": "Add Bookmarks tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-add-links",
+    "name": "Add Links",
+    "category": "pdf",
+    "free": true,
+    "description": "Add Links tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-compress-advanced",
+    "name": "Compress Advanced",
+    "category": "pdf",
+    "free": true,
+    "description": "Compress Advanced tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-extract-attachments",
+    "name": "Extract Attachments",
+    "category": "pdf",
+    "free": true,
+    "description": "Extract Attachments tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-extract-pages-range",
+    "name": "Extract Pages Range",
+    "category": "pdf",
+    "free": true,
+    "description": "Extract Pages Range tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-page-thumbnails",
+    "name": "Page Thumbnails",
+    "category": "pdf",
+    "free": true,
+    "description": "Page Thumbnails tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-password-remove",
+    "name": "Password Remove",
+    "category": "pdf",
+    "free": true,
+    "description": "Password Remove tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-remove-pages",
+    "name": "Remove Pages",
+    "category": "pdf",
+    "free": true,
+    "description": "Remove Pages tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-rotate-specific",
+    "name": "Rotate Specific",
+    "category": "pdf",
+    "free": true,
+    "description": "Rotate Specific tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-to-epub",
+    "name": "To Epub",
+    "category": "pdf",
+    "free": true,
+    "description": "To Epub tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "pdf-to-png",
+    "name": "To Png",
+    "category": "pdf",
+    "free": true,
+    "description": "To Png tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-add-audio",
+    "name": "Add Audio",
+    "category": "video",
+    "free": true,
+    "description": "Add Audio - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-brightness",
+    "name": "Brightness",
+    "category": "video",
+    "free": true,
+    "description": "Brightness - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-concatenate",
+    "name": "Concatenate",
+    "category": "video",
+    "free": true,
+    "description": "Concatenate - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-crop",
+    "name": "Crop",
+    "category": "video",
+    "free": true,
+    "description": "Crop - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-extract-frames",
+    "name": "Extract Frames",
+    "category": "video",
+    "free": true,
+    "description": "Extract Frames - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-extract-thumbnails",
+    "name": "Extract Thumbnails",
+    "category": "video",
+    "free": true,
+    "description": "Extract Thumbnails - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-fade",
+    "name": "Fade",
+    "category": "video",
+    "free": true,
+    "description": "Fade - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-grayscale",
+    "name": "Grayscale",
+    "category": "video",
+    "free": true,
+    "description": "Grayscale - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-loop",
+    "name": "Loop",
+    "category": "video",
+    "free": true,
+    "description": "Loop - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-resize",
+    "name": "Resize",
+    "category": "video",
+    "free": true,
+    "description": "Resize - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-reverse",
+    "name": "Reverse",
+    "category": "video",
+    "free": true,
+    "description": "Reverse - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-speed",
+    "name": "Speed",
+    "category": "video",
+    "free": true,
+    "description": "Speed - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-stabilize",
+    "name": "Stabilize",
+    "category": "video",
+    "free": true,
+    "description": "Stabilize - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-subtitles",
+    "name": "Subtitles",
+    "category": "video",
+    "free": true,
+    "description": "Subtitles - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "video-watermark",
+    "name": "Watermark",
+    "category": "video",
+    "free": true,
+    "description": "Watermark - Video processing and manipulation tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "file",
+    "outputType": "file"
+  },
+  {
+    "id": "ai-content-recommender",
+    "name": "Content Recommender",
+    "category": "ai",
+    "free": true,
+    "description": "Content Recommender tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-grammar-checker",
+    "name": "Grammar Checker",
+    "category": "ai",
+    "free": true,
+    "description": "Grammar Checker tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-keyword-extractor",
+    "name": "Keyword Extractor",
+    "category": "ai",
+    "free": true,
+    "description": "Keyword Extractor tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-language-detector",
+    "name": "Language Detector",
+    "category": "ai",
+    "free": true,
+    "description": "Language Detector tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-question-generator",
+    "name": "Question Generator",
+    "category": "ai",
+    "free": true,
+    "description": "Question Generator tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-sentiment-analyzer",
+    "name": "Sentiment Analyzer",
+    "category": "ai",
+    "free": true,
+    "description": "Sentiment Analyzer tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-text-classifier",
+    "name": "Text Classifier",
+    "category": "ai",
+    "free": true,
+    "description": "Text Classifier tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-text-expander",
+    "name": "Text Expander",
+    "category": "ai",
+    "free": true,
+    "description": "Text Expander tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-text-simplifier",
+    "name": "Text Simplifier",
+    "category": "ai",
+    "free": true,
+    "description": "Text Simplifier tool",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-persona-tester",
+    "name": "AI Persona Tester",
+    "category": "ai",
+    "free": true,
+    "description": "Test AI persona prompts against scenarios",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "inputType": "form",
+    "outputType": "json"
+  },
+  {
+    "id": "ai-tone-calibrator",
+    "name": "AI Tone Calibrator",
+    "category": "ai",
+    "free": true,
+    "description": "Calibrate AI tone and style consistency",
     "languages": [
       "en",
       "it"

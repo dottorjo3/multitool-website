@@ -1,0 +1,17 @@
+{
+  "$id": "math-number-formatter.schema.json",
+  "type": "object",
+  "properties": {
+    "format": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "format",
+    "currency"
+  ],
+  "additionalProperties": false
+}

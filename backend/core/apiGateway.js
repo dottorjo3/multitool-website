@@ -63,18 +63,67 @@ const upload = multer({
 const ajv = new Ajv({ allErrors: true, coerceTypes: true });
 addFormats(ajv);
 
+// 🔧 Cache per registry e schemas (evita lettura filesystem ripetuta)
+let registryCache = null;
+let registryCacheTime = 0;
+const REGISTRY_CACHE_TTL = 60000; // 1 minuto
+
+let schemaCache = new Map();
+const SCHEMA_CACHE_TTL = 300000; // 5 minuti
+
 function loadRegistry() {
-  const raw = fs.readFileSync(REGISTRY_PATH, 'utf8');
-  return JSON.parse(raw);
+  const now = Date.now();
+  // Ricarica cache se scaduta o non presente
+  if (!registryCache || (now - registryCacheTime) > REGISTRY_CACHE_TTL) {
+    try {
+      const raw = fs.readFileSync(REGISTRY_PATH, 'utf8');
+      registryCache = JSON.parse(raw);
+      registryCacheTime = now;
+    } catch (error) {
+      // Fallback: ritorna cache esistente se errore lettura
+      if (registryCache) {
+        return registryCache;
+      }
+      throw error;
+    }
+  }
+  return registryCache;
 }
 
 function loadSchema(toolId) {
+  const cached = schemaCache.get(toolId);
+  const now = Date.now();
+  
+  // Ritorna cache se valida
+  if (cached && (now - cached.time) < SCHEMA_CACHE_TTL) {
+    return cached.schema;
+  }
+  
   const schemaPath = path.resolve(SCHEMAS_DIR, `${toolId}.schema.json`);
   if (!fs.existsSync(schemaPath)) {
     return null;
   }
-  const raw = fs.readFileSync(schemaPath, 'utf8');
-  return JSON.parse(raw);
+  
+  try {
+    const raw = fs.readFileSync(schemaPath, 'utf8');
+    const schema = JSON.parse(raw);
+    // Aggiorna cache
+    schemaCache.set(toolId, { schema, time: now });
+    return schema;
+  } catch (error) {
+    // Fallback: ritorna cache esistente se errore
+    if (cached) {
+      return cached.schema;
+    }
+    return null;
+  }
+}
+
+// 🔧 Funzione per invalidare cache (utile per sviluppo)
+function invalidateCache() {
+  registryCache = null;
+  registryCacheTime = 0;
+  schemaCache.clear();
 }
 
 router.get('/', (req, res) => {
@@ -249,4 +298,5 @@ router.post('/:toolId/run', upload.any(), async (req, res) => {
 });
 
 module.exports = router;
+module.exports.invalidateCache = invalidateCache;
 

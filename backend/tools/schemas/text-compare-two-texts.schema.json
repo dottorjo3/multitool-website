@@ -1,0 +1,19 @@
+{
+  "$id": "text-compare-two-texts.schema.json",
+  "type": "object",
+  "properties": {
+    "text1": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il primo testo"
+    },
+    "text2": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci il secondo testo"
+    }
+  },
+  "required": ["text1", "text2"],
+  "additionalProperties": false
+}
+

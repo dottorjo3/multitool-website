@@ -1,0 +1,24 @@
+{
+  "$id": "data-csv-split-by-column.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da dividere"
+    },
+    "column": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Specifica la colonna per la divisione"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    }
+  },
+  "required": ["input", "column"],
+  "additionalProperties": false
+}
+
+

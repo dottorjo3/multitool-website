@@ -1,0 +1,23 @@
+{
+  "$id": "text-combine-files.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci i testi da combinare"
+    },
+    "separator": {
+      "type": "string",
+      "default": "\\n\\n"
+    },
+    "addNumbers": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+

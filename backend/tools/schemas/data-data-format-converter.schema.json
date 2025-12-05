@@ -1,0 +1,25 @@
+{
+  "$id": "data-data-format-converter.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci i dati da convertire"
+    },
+    "fromFormat": {
+      "type": "string",
+      "enum": ["json", "yaml", "csv", "xml"],
+      "default": "json"
+    },
+    "toFormat": {
+      "type": "string",
+      "enum": ["json", "yaml", "csv", "xml"],
+      "default": "csv"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

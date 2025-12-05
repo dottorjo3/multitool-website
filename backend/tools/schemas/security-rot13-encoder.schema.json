@@ -1,0 +1,15 @@
+{
+  "$id": "security-rot13-encoder.schema.json",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci testo da codificare/decodificare"
+    }
+  },
+  "required": [
+    "text"
+  ],
+  "additionalProperties": false
+}

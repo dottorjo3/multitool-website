@@ -1,0 +1,17 @@
+{
+  "$id": "math-currency-converter.schema.json",
+  "type": "object",
+  "properties": {
+    "fromCurrency": {
+      "type": "string"
+    },
+    "toCurrency": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "fromCurrency",
+    "toCurrency"
+  ],
+  "additionalProperties": false
+}

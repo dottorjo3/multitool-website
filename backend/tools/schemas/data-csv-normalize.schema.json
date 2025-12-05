@@ -1,0 +1,29 @@
+{
+  "$id": "data-csv-normalize.schema.json",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "minLength": 1,
+      "errorMessage": "Inserisci del CSV da normalizzare"
+    },
+    "delimiter": {
+      "type": "string",
+      "default": ","
+    },
+    "removeEmptyRows": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    },
+    "trimCells": {
+      "type": "string",
+      "enum": ["true", "false"],
+      "default": "true"
+    }
+  },
+  "required": ["input"],
+  "additionalProperties": false
+}
+
+

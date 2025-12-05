@@ -1,0 +1,23 @@
+{
+  "$id": "pdf-compress-advanced.schema.json",
+  "type": "object",
+  "properties": {
+    "quality": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "default": "medium"
+    },
+    "removeMetadata": {
+      "type": "string",
+      "default": "false"
+    },
+    "optimizeImages": {
+      "type": "string",
+      "default": "true"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

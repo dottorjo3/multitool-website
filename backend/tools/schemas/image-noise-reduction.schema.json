@@ -1,0 +1,16 @@
+{
+  "$id": "image-noise-reduction.schema.json",
+  "type": "object",
+  "properties": {
+    "strength": {
+      "type": "number",
+      "default": 0.5,
+      "minimum": 0,
+      "maximum": 1
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+
+

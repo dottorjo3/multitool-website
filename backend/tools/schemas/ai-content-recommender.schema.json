@@ -1,0 +1,26 @@
+{
+  "$id": "ai-content-recommender.schema.json",
+  "type": "object",
+  "properties": {
+    "topic": {
+      "type": "string",
+      "minLength": 3,
+      "errorMessage": "Inserisci un argomento per le raccomandazioni (almeno 3 caratteri)"
+    },
+    "contentType": {
+      "type": "string",
+      "enum": ["article", "video", "post", "tutorial"],
+      "default": "article"
+    },
+    "numRecommendations": {
+      "type": ["number", "string"],
+      "minimum": 1,
+      "maximum": 10,
+      "default": 5
+    }
+  },
+  "required": ["topic"],
+  "additionalProperties": false
+}
+
+
